@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD4B775E-2DFB-7415-5B9E-EED4B24B0ACC" name="TEACH_PROGRAM">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:49:57 UTC</createdTime>
+<comment><![CDATA[Учебно методический комплекс реализует один из вариантов преподавания дисциплины в образовательной организации.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Confirm_date" id="CD3C544D-CED9-EC21-7B75-EDBE78BB4D29">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:50:45 UTC</createdTime>
+<comment><![CDATA[дата утверждения]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Destination" id="02B0C532-491E-1187-8EBD-F7C75EF779A2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:51:22 UTC</createdTime>
+<comment><![CDATA[предназначение УМК]]></comment>
+<commentInRDBMS><![CDATA[предназначение УМК]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lenght" id="A97BA094-B208-3808-55EA-1AF8A8623D9D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:52:09 UTC</createdTime>
+<comment><![CDATA[продолжительность]]></comment>
+<commentInRDBMS><![CDATA[продолжительность]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>38</dataTypeScale>
+<ownDataTypeParameters>,0,38</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Practice_form" id="FD38CDA4-DE16-449D-7DB9-E7E817578ECE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:53:10 UTC</createdTime>
+<comment><![CDATA[способ проведения практики]]></comment>
+<commentInRDBMS><![CDATA[способ проведения практики]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

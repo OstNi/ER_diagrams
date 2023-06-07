@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEF06CB7-90BC-C89F-2C85-D1F91CDF5177" name="COMPETENTION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:58:38 UTC</createdTime>
+<comment><![CDATA[Компетенции (справочник) разного уровня, как стандартов, так и более детальные (до необходимого с работой УМК уровня декомпонзиции)]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="D95120A4-43CA-3AEA-848A-8A4EF24646A1">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:59:02 UTC</createdTime>
+<comment><![CDATA[формулировка компитенции ]]></comment>
+<commentInRDBMS><![CDATA[формулировка компитенции ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Top_level" id="564D8752-AE81-FCF4-5DFE-7011570EBA1A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:59:38 UTC</createdTime>
+<comment><![CDATA[компитенция верхнего уровня (y/n)]]></comment>
+<commentInRDBMS><![CDATA[компитенция верхнего уровня (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="C14FE8D0-B6EA-E011-FB04-75208F54D36B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:00:48 UTC</createdTime>
+<comment><![CDATA[состояние компитенции (проверрка, утверждение) ]]></comment>
+<commentInRDBMS><![CDATA[состояние компитенции (проверрка, утверждение) ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Info" id="D98D3422-6CA0-778A-C9B2-CA3F8F24649A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:04:40 UTC</createdTime>
+<comment><![CDATA[примечания]]></comment>
+<commentInRDBMS><![CDATA[примечания]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

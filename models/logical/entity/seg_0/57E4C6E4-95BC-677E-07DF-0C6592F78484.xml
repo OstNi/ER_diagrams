@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACD686BB-1CA8-2A52-EAE6-D1279A722F8B" name="TPR_CHAPTER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57E4C6E4-95BC-677E-07DF-0C6592F78484" name="DISCIPLINES">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 14:59:41 UTC</createdTime>
-<comment><![CDATA[Структура разделов учебно-методического комплекса. Рекурсивно связн, то есть преполагается иерархическая структура разделов. Например: тема, подтема, глава, параграф.]]></comment>
+<createdTime>2023-06-07 18:49:54 UTC</createdTime>
+<comment><![CDATA[Справочник дисциплин (наименований дисциплин).]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -17,11 +17,11 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="9985BEE2-10A9-3996-C870-6772E0029B74">
+<Attribute name="Name" id="75F21083-F725-AF85-3A77-D150A9F22A99">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 15:00:29 UTC</createdTime>
-<comment><![CDATA[наименование раздела УМК]]></comment>
-<commentInRDBMS><![CDATA[наименование раздела УМК]]></commentInRDBMS>
+<createdTime>2023-06-07 18:50:37 UTC</createdTime>
+<comment><![CDATA[наименование дисциплины]]></comment>
+<commentInRDBMS><![CDATA[наименование дисциплины]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -32,21 +32,21 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SRT" id="7770F60A-D36D-F138-2843-501634199952">
+<Attribute name="Name_eng" id="F8517709-127F-2BAC-83DF-38AA7F7073E1">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 15:01:07 UTC</createdTime>
-<comment><![CDATA[порядок сортировки]]></comment>
-<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<createdTime>2023-06-07 18:51:32 UTC</createdTime>
+<comment><![CDATA[наименование дисциплины на английском]]></comment>
+<commentInRDBMS><![CDATA[наименование дисциплины на английском]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>0</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

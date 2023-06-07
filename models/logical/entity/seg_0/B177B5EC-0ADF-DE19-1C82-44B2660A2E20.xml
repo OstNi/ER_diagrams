@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B177B5EC-0ADF-DE19-1C82-44B2660A2E20" name="TYPE_OF_COMPETENTION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:20:51 UTC</createdTime>
+<comment><![CDATA[Справочник типов компетенций по требованиям регулятора, например: УК - универсальные компетенции, ОК - общекультурные компетенции, ОПК - общепрофессиональные компетенции, ПК - профессиональные компетенции, ПСК - профессионально специализированные компетенции]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="6B98E960-1373-E131-C91C-A35A11C49284">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:21:09 UTC</createdTime>
+<comment><![CDATA[тип компетенции ]]></comment>
+<commentInRDBMS><![CDATA[тип компетенции ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Short" id="4035676A-4374-42BE-205F-CF5934427DE4">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:22:07 UTC</createdTime>
+<comment><![CDATA[сокращенное обозначение]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SRT" id="683EC005-6B91-C654-BD07-5278BFB3AB90">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:22:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

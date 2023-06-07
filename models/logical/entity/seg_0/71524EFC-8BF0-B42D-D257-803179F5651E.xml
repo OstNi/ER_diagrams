@@ -95,6 +95,7 @@
 <Attribute name="Activity_object" id="600AA655-316A-B42F-0CC4-9C35A326F132">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 16:07:52 UTC</createdTime>
+<comment><![CDATA[объекты профессиональной деятельности выпускников]]></comment>
 <commentInRDBMS><![CDATA[объекты профессиональной деятельности выпускников]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>

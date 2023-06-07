@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE155740-D194-AB60-6807-D258D5AA79AF" name="TPR_ACHIEVEMENT">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:53:28 UTC</createdTime>
+<comment><![CDATA[Достигнутая (выходная) компетенция после завершения изучения УМК, либо требуемая для начала изучения УМК (входная). Каждый УМК покрывает своими компетенциями часть компетенций стандарта. Индивидуальная траектория студента строится из набора учебно-методических комплексов исходя из того, чтоб покрыть полностью компетенции стандарта.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPT_TYPE" id="657DDD88-47B8-69C5-394C-0ECC5DD96241">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:54:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[in | out (на входе | на выходе ) ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>C8D9DA17-C495-5CCB-9273-FC4EB6D5E3BB</domain>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

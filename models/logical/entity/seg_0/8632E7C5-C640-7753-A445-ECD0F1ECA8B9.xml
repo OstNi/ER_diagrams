@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8632E7C5-C640-7753-A445-ECD0F1ECA8B9" name="CPT_IMPLEMENTATION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:12:38 UTC</createdTime>
+<comment><![CDATA[Сущность пересечения, реализация рекурсивной связи многие ко многим (М:М) между Компетенцией. Реализует декомпозицию компетенций, при этом каждая из компетенция может быт описана многими другими, и при этом участвовать описании одной или более компетенции.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SRT" id="1D9EE155-9EBD-1F7D-3885-F87725C1EE91">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:14:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[порядковый номер]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

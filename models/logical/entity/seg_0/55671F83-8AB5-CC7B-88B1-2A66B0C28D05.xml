@@ -1,8 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACD686BB-1CA8-2A52-EAE6-D1279A722F8B" name="TPR_CHAPTER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55671F83-8AB5-CC7B-88B1-2A66B0C28D05" name="COMP_FOR_SE">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 14:59:41 UTC</createdTime>
-<comment><![CDATA[Структура разделов учебно-методического комплекса. Рекурсивно связн, то есть преполагается иерархическая структура разделов. Например: тема, подтема, глава, параграф.]]></comment>
+<createdTime>2023-06-07 17:41:17 UTC</createdTime>
+<comment><![CDATA[Требования к результатам освоения образовательной программы.
+Для каждой регистрационной записи образовательного стандарта формируется перечень компетенций с разделениям по]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -17,26 +18,23 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="9985BEE2-10A9-3996-C870-6772E0029B74">
+<Attribute name="Covernor" id="41597B86-2D13-E9AA-E61C-377BC1350105">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 15:00:29 UTC</createdTime>
-<comment><![CDATA[наименование раздела УМК]]></comment>
-<commentInRDBMS><![CDATA[наименование раздела УМК]]></commentInRDBMS>
+<createdTime>2023-06-07 17:46:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<domain>7B9C0AB3-022F-D700-1249-B70CE669DDEB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SRT" id="7770F60A-D36D-F138-2843-501634199952">
+<Attribute name="SRT" id="1408B29D-5CDC-0B90-BBED-80278E532819">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-07 15:01:07 UTC</createdTime>
-<comment><![CDATA[порядок сортировки]]></comment>
-<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<createdTime>2023-06-07 17:47:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>

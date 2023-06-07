@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2F4ADE2-39B1-3514-C095-A2CEA6EF7990" name="TYPE_OF_TEACH_PROG">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:45:36 UTC</createdTime>
+<comment><![CDATA[Тип учебной программы, например
+“дисциплина”,"курсовая работа”,"производственная практика”,"научно-исследовательская работа"]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="6328C7E3-6D37-86CA-3BA3-93DCFD52F5C6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:45:59 UTC</createdTime>
+<comment><![CDATA[наименование типа учебной программы]]></comment>
+<commentInRDBMS><![CDATA[наименование типа учебной программы]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Short" id="6367504C-1C70-9C0D-0A4E-5026CA53B58F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:46:32 UTC</createdTime>
+<comment><![CDATA[короткое обозначение]]></comment>
+<commentInRDBMS><![CDATA[короткое обозначение]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STR" id="8B1E0E26-F45C-D597-2EC4-416084F41221">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:47:17 UTC</createdTime>
+<comment><![CDATA[сортировка]]></comment>
+<commentInRDBMS><![CDATA[сортировка]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INFO" id="89A0EFDB-420A-80CB-C8C4-C71F0C40C150">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 18:47:59 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

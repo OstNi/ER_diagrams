@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="competention-tpr_achevement" directorySegmentName="seg_0" id="689FB0D0-5F9E-A1F0-2A26-59171433AA86">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 19:07:42 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEF06CB7-90BC-C89F-2C85-D1F91CDF5177</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE155740-D194-AB60-6807-D258D5AA79AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
