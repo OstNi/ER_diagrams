@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCF1EB8C-5066-DA5C-F2F4-5AA701A2E6D6" name="COURSE_OF_OOP">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:25:15 UTC</createdTime>
+<comment><![CDATA[курс, для которого может быть использован элемент]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="F452290A-3D4C-A0E9-599C-6EBEAB92DAC6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:27:18 UTC</createdTime>
+<comment><![CDATA[Номер]]></comment>
+<commentInRDBMS><![CDATA[Номер]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,0,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACD686BB-1CA8-2A52-EAE6-D1279A722F8B" name="TPR_CHAPTER">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:59:41 UTC</createdTime>
+<comment><![CDATA[Структура разделов учебно-методического комплекса. Рекурсивно связн, то есть преполагается иерархическая структура разделов. Например: тема, подтема, глава, параграф.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="9985BEE2-10A9-3996-C870-6772E0029B74">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:00:29 UTC</createdTime>
+<comment><![CDATA[наименование раздела УМК]]></comment>
+<commentInRDBMS><![CDATA[наименование раздела УМК]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SRT" id="7770F60A-D36D-F138-2843-501634199952">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:01:07 UTC</createdTime>
+<comment><![CDATA[порядок сортировки]]></comment>
+<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

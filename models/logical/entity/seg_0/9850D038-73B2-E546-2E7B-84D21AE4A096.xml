@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9850D038-73B2-E546-2E7B-84D21AE4A096" name="IND_PATH_POINT">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:03:06 UTC</createdTime>
+<comment><![CDATA[Точка индивидуальной траектории определяет вхождение УМК в индивидуальную траекторию обучающегося. Указывает, на каком семестре какого курса должна быть изучена дисциплина по УМК.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course" id="5C2663FA-9FFE-D1CA-761C-943DCFEC3950">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:05:16 UTC</createdTime>
+<comment><![CDATA[курс учебного плана (год обучения)]]></comment>
+<commentInRDBMS><![CDATA[курс учебного плана (год обучения)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Term" id="1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:06:06 UTC</createdTime>
+<comment><![CDATA[учебный период курса (осень/весна/лето)]]></comment>
+<commentInRDBMS><![CDATA[учебный период курса (осень/весна/лето)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

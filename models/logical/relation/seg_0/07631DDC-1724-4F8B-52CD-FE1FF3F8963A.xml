@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="edu_form-tp_delivery" directorySegmentName="seg_0" id="07631DDC-1724-4F8B-52CD-FE1FF3F8963A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:10:50 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2869C99D-CBE5-BA0F-2F04-EC09F702FAAA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89B68298-FB61-D44C-0326-F6FED5E7A4E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

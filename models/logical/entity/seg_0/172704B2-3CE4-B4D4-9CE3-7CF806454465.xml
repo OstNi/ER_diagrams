@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="172704B2-3CE4-B4D4-9CE3-7CF806454465" name="EDU_PROGRAM_SE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:06:33 UTC</createdTime>
+<comment><![CDATA[Сущность пересечения между ООП и Образовательным стандартом, позволяет реализовать связь М:М. Так, каждое ООП может соответствовать сразу нескольким образовательным стандартам, а каждый стандарт иметь несколько ООП. Позволяет разрешать ситуацию со сменой поколений стандартов, когда суть не меняется и учебный план остается прежним.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PB" id="2887C2F6-D370-EC27-F528-4E0EDB26AB45">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:08:18 UTC</createdTime>
+<comment><![CDATA[Прикладной бакалавриат (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Прикладной бакалавриат (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

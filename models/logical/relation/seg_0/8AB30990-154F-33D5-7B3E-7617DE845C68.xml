@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ind_course-ind_path_point" directorySegmentName="seg_0" id="8AB30990-154F-33D5-7B3E-7617DE845C68">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:09:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE50BB91-8D95-AAD5-E7DA-3C8DB0D46451</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9850D038-73B2-E546-2E7B-84D21AE4A096</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BDAD237-F7AF-CA75-318A-296ED8BFC03C" name="EDU_PROGRAM_ELEMENT">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:19:01 UTC</createdTime>
+<comment><![CDATA[Элемент ООП - определяет использования (или возможность использования) УМК в рамках образовательной программы. УМК может быть указан, как обязательный к использованию, так и с возможностью выбора. Также могут быть предопределены курс и учебный период курса учебного план, в котором может (или должна) быть освоена УМК.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Mandatory" id="862CB01C-23E1-D993-01D0-ACB5B3693BC4">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:19:54 UTC</createdTime>
+<comment><![CDATA[обязательный элемент (y/n)]]></comment>
+<commentInRDBMS><![CDATA[обязательный элемент (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="58A6A479-9A1D-DE5C-C44A-664E3D7FA860">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 14:20:41 UTC</createdTime>
+<comment><![CDATA[трудоемкость]]></comment>
+<commentInRDBMS><![CDATA[трудоемкость]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

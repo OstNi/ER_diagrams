@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="course_of_oop-term" directorySegmentName="seg_0" id="E9DB3190-4244-D525-475C-09A8CB8AD941">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:59:07 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BCF1EB8C-5066-DA5C-F2F4-5AA701A2E6D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF06C453-9EA8-0914-AE0E-8A75FF893209</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

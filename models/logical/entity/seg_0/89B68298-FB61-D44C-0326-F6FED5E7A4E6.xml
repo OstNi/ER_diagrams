@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89B68298-FB61-D44C-0326-F6FED5E7A4E6" name="TP_DELIVERY">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:03:15 UTC</createdTime>
+<comment><![CDATA[Схема доставки УМК определяет возможные варианты распределения учебной нагрузки при изучении дисциплины (баланс между лекционной/практической/самостоятельной/лабораторной работой), а также точки текущего контроля и формы итоговой отчётности.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="A439D0FB-CD4B-6F28-28FF-18AF0E7AB105">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:03:49 UTC</createdTime>
+<comment><![CDATA[наименование]]></comment>
+<commentInRDBMS><![CDATA[наименование ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Confirm_date" id="5AB3834A-B299-7106-BC16-667D1A137293">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:04:41 UTC</createdTime>
+<comment><![CDATA[дата утверждения схемы]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения схемы]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NMIN" id="3F2118D1-1013-46F2-B80E-30407E41C7B6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 15:05:13 UTC</createdTime>
+<comment><![CDATA[минимальное кол-во баллов на удовлетворительно или зачет]]></comment>
+<commentInRDBMS><![CDATA[минимальное кол-во баллов на удовлетворительно или зачет]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

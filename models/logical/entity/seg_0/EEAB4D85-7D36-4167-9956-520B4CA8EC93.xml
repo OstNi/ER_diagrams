@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEAB4D85-7D36-4167-9956-520B4CA8EC93" name="PERSONAL_RECORD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 12:47:26 UTC</createdTime>
+<comment><![CDATA[Личная запись о обучении студента на факультете.
+Студент поступает на факультет, форму обучения. При поступлении указывается основная образовательная программа. В зависимости от условий приема студент может поступать на направление, либо на укрупненную группу направлений / специальностей. Если студент поступил на УГНС, то направление / специальность определяется его индивидуальной траекторией.
+]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="year" id="16E32701-74A6-E9FB-7CCA-A87357147C9D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 12:49:02 UTC</createdTime>
+<comment><![CDATA[Год создания личной записи (начало обучения) ]]></comment>
+<commentInRDBMS><![CDATA[Год создания личной записи (начало обучения) ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course" id="A4D387D8-A1F9-C01C-BF59-4D0433567348">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 12:50:22 UTC</createdTime>
+<comment><![CDATA[Текущий курс (год обучения)]]></comment>
+<commentInRDBMS><![CDATA[Текущий курс (год обучения)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="term" id="3A5F909E-9478-6BE9-7072-6D744BBDC2B1">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 12:51:14 UTC</createdTime>
+<comment><![CDATA[Учебный период (в пределах года 1-2-3 / осень-весна-лето) ]]></comment>
+<commentInRDBMS><![CDATA[Учебный период (в пределах года 1-2-3 / осень-весна-лето) ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,0,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PB" id="4A45E0B2-F161-B6AD-E56B-F71A78085B80">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 12:54:42 UTC</createdTime>
+<comment><![CDATA[Прикладной бакалавриат y/n]]></comment>
+<commentInRDBMS><![CDATA[Прикладной бакалавриат y/n]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

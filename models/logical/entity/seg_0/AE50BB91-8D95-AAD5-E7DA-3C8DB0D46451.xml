@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE50BB91-8D95-AAD5-E7DA-3C8DB0D46451" name="IND_COURSE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:40:53 UTC</createdTime>
+<comment><![CDATA[Курс (год обучения) индивидуальной траектории обучающегося  Является набором выбранных обучающимся из предложенныз вариантов учебных дисциплин для изучения. Требует утверждения руководителем образовательной программы.]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course" id="B6B16B81-E13F-9B21-DE25-B753BF18B634">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:44:48 UTC</createdTime>
+<comment><![CDATA[курс]]></comment>
+<commentInRDBMS><![CDATA[курс ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Confirm_date" id="660D5405-6F14-33E6-E746-A0193FE2B6BF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:49:25 UTC</createdTime>
+<comment><![CDATA[Дата утверждения индивидуальной траектории ]]></comment>
+<commentInRDBMS><![CDATA[Дата утверждения индивидуальной траектории ]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
