@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="711C4F8B-B845-D743-64BF-D7DF10267B6D" name="STU_GROUP">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:30:03 UTC</createdTime>
+<comment><![CDATA[Группа студентов по изучению конкретной дисцплины]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="3D2CA192-DE46-82E3-56AA-EF7963AD8D04">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:30:51 UTC</createdTime>
+<comment><![CDATA[Название группы]]></comment>
+<commentInRDBMS><![CDATA[Название группы]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DGR_ID" id="AA5148C0-E760-E9FC-899C-9B244BC59B2D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:31:22 UTC</createdTime>
+<comment><![CDATA[DIS_GROUP из ЕТИС]]></comment>
+<commentInRDBMS><![CDATA[DIS_GROUP из ЕТИС]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUP_ID" id="9C72E7A3-C436-E426-6726-67C2BEE20988">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:32:00 UTC</createdTime>
+<comment><![CDATA[SUPER_GROUP из ЕТИС]]></comment>
+<commentInRDBMS><![CDATA[SUPER_GROUP из ЕТИС]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Info" id="80CD54F1-34F3-286E-3BFE-664A6C8B2F33">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:32:31 UTC</createdTime>
+<comment><![CDATA[комментарий]]></comment>
+<commentInRDBMS><![CDATA[комментарий]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

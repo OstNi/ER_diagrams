@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="teach_year-tw_for_year" directorySegmentName="seg_0" id="64ADC70B-1190-4A62-00AD-6F62860C1DC8">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:48:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>have</nameOnSource>
+<nameOnTarget>act for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CDAD2E6-601E-13F6-729D-7418AF7CAC80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A28B2B7F-8CBA-2BEB-ADDE-19CABDD955FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

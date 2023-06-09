@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="version-time_rule" directorySegmentName="seg_0" id="986D5595-A2E5-0C6F-0243-BE18F2A919E5">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:56:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0568A825-9356-7700-AAD6-9E301221C4CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CCF8BB6-7D6F-CB73-6B56-BB68A6C69069</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

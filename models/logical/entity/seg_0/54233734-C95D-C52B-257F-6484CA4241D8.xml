@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54233734-C95D-C52B-257F-6484CA4241D8" name="TC_TIME">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:13:35 UTC</createdTime>
+<comment><![CDATA[трудоемкость по видам работ]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Totc_id" id="97F220AA-B45E-65E8-74AA-D085339B9ECF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:13:51 UTC</createdTime>
+<comment><![CDATA[id записи в "TIME_OF_TPD_CHAPTER" oracle db]]></comment>
+<commentInRDBMS><![CDATA[id записи в "TIME_OF_TPD_CHAPTER" oracle db]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Val" id="1D6D4F68-89FE-00C7-4552-8D4E7B5A3910">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:15:21 UTC</createdTime>
+<comment><![CDATA[трудоемкость (объем работы в часах)]]></comment>
+<commentInRDBMS><![CDATA[трудоемкость (объем работы в часах)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ctl_count" id="17576661-EA24-1052-B71D-7F719B9995B1">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:16:13 UTC</createdTime>
+<comment><![CDATA[количество точек контроля]]></comment>
+<commentInRDBMS><![CDATA[количество точек контроля]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,0,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

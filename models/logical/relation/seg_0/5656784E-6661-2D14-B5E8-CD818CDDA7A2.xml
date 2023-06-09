@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="teach_prog_type-time_rule" directorySegmentName="seg_0" id="5656784E-6661-2D14-B5E8-CD818CDDA7A2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:50:42 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>triggered by</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2F4ADE2-39B1-3514-C095-A2CEA6EF7990</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CCF8BB6-7D6F-CB73-6B56-BB68A6C69069</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

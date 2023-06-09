@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tw_for_year-time_rule" directorySegmentName="seg_0" id="E1E26846-460F-B21C-D22D-0F16A8682A9B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 06:08:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnTarget>in response to</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A28B2B7F-8CBA-2BEB-ADDE-19CABDD955FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2CCF8BB6-7D6F-CB73-6B56-BB68A6C69069</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

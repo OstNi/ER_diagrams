@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CCF8BB6-7D6F-CB73-6B56-BB68A6C69069" name="TIME_RULE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:38:24 UTC</createdTime>
+<comment><![CDATA[Норма времени расчета нагрузки]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Text" id="1DC16BFA-2008-776E-F39A-7E4169C782C3">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:39:11 UTC</createdTime>
+<comment><![CDATA[текстовая формулировка]]></comment>
+<commentInRDBMS><![CDATA[текстовая формулировка]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Info" id="761D1415-A77E-4FEB-000C-DDECCC1BF96C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:39:35 UTC</createdTime>
+<comment><![CDATA[Примечания]]></comment>
+<commentInRDBMS><![CDATA[Примечания]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Value" id="EA60BD9E-D158-A735-DFA9-02DCE77CE7E9">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:40:26 UTC</createdTime>
+<comment><![CDATA[Значение нормы]]></comment>
+<commentInRDBMS><![CDATA[Значение нормы]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,6,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Degree" id="D5BF514F-81B6-8F9E-E432-ACB69C32A678">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:41:36 UTC</createdTime>
+<comment><![CDATA[Порядок, степень 10, на который домножается 'Value']]></comment>
+<commentInRDBMS><![CDATA[Порядок, степень 10, на который домножается 'Value']]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,0,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prorate_ctrl_cnt" id="C4A1C902-65AE-4FB1-0106-64B55721BC6F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:42:53 UTC</createdTime>
+<comment><![CDATA[Пропорционально количеству точек контроля раздела]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prorate_tc_val" id="00861809-29D5-1C1D-60B5-D49C5657445A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:44:20 UTC</createdTime>
+<comment><![CDATA[Пропорционально общей нагрузке отдела]]></comment>
+<commentInRDBMS><![CDATA[Пропорционально общей нагрузке отдела]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prorate_tc_eval" id="ECFE1C0A-2930-50B4-B5D7-546DA1E4987F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:45:05 UTC</createdTime>
+<comment><![CDATA[Пропорционально зачетным часам]]></comment>
+<commentInRDBMS><![CDATA[Пропорционально зачетным часам]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prorate_tc_aud" id="BE046F63-B8E4-9554-C929-671234DFF776">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:45:46 UTC</createdTime>
+<comment><![CDATA[Пропорционально аудиторной нагрузке раздела]]></comment>
+<commentInRDBMS><![CDATA[Пропорционально аудиторной нагрузке раздела]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prorate_st_cnt" id="F6FB51F6-C624-63CB-2827-C8D757518EDA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:46:55 UTC</createdTime>
+<comment><![CDATA[Пропорционально количеству студентов]]></comment>
+<commentInRDBMS><![CDATA[Пропорционально количеству студентов]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

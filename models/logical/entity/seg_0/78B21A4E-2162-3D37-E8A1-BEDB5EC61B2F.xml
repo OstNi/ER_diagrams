@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78B21A4E-2162-3D37-E8A1-BEDB5EC61B2F" name="WORK_TYPE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:17:34 UTC</createdTime>
+<comment><![CDATA[Вид учебной работы]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="1DCAD99D-1F03-D128-D8F9-A41256F74361">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:18:17 UTC</createdTime>
+<comment><![CDATA[Название]]></comment>
+<commentInRDBMS><![CDATA[Название]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Short" id="D9521BE5-C3A8-48FB-18E7-216EC7CE052A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:18:43 UTC</createdTime>
+<comment><![CDATA[Короткое название]]></comment>
+<commentInRDBMS><![CDATA[Короткое название]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Aud" id="02C29A63-CA90-88AC-C828-C133D82E91DF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:20:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Включать аудиторные часы? (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Include_in_tpd" id="CC592139-1E7A-7D4E-20F9-D9C66623CA61">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:21:47 UTC</createdTime>
+<comment><![CDATA[Доступен ли для включения в учебную программу? (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Доступен ли для включения в учебную программу? (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="One_day" id="E869487E-6EDD-F54F-5538-FEE3651A02CF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:22:47 UTC</createdTime>
+<comment><![CDATA[Вся работа в один день (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Вся работа в один день (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SRT" id="368AB85D-769A-BECD-43D6-FD6BB5F76FEC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:23:32 UTC</createdTime>
+<comment><![CDATA[Порядок соортировки]]></comment>
+<commentInRDBMS><![CDATA[Порядок соортировки]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

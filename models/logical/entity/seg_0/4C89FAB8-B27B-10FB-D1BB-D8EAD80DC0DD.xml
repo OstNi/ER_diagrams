@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C89FAB8-B27B-10FB-D1BB-D8EAD80DC0DD" name="TY_PERIOD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:26:25 UTC</createdTime>
+<comment><![CDATA[Учебный период года]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Num" id="D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:27:01 UTC</createdTime>
+<comment><![CDATA[Номер триместра]]></comment>
+<commentInRDBMS><![CDATA[Номер триместра]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_date" id="69A0878A-1D12-4015-67FB-7455A1A73DBA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:27:41 UTC</createdTime>
+<comment><![CDATA[Начало учебного периода по унифицирорванному графику]]></comment>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_date" id="97A0A5D6-A050-B1EB-61ED-854F70A60482">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:28:28 UTC</createdTime>
+<comment><![CDATA[Конец учебного периода по унифицированному графику]]></comment>
+<commentInRDBMS><![CDATA[Конец учебного периода по унифицированному графику]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Period_type" id="78CEADCF-8D44-547E-658F-4DBB2E693CB9">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:29:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[название учебного периода (триместр и семестр)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
