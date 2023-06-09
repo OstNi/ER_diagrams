@@ -9,6 +9,7 @@
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
 <nameOnSource>teaches for</nameOnSource>
+<nameOnTarget>.</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

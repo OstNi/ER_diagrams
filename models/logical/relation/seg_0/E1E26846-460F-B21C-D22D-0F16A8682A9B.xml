@@ -8,6 +8,7 @@
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
+<nameOnSource>.</nameOnSource>
 <nameOnTarget>in response to</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
