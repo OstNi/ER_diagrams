@@ -17,6 +17,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Личная запись</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="year" id="16E32701-74A6-E9FB-7CCA-A87357147C9D">
@@ -79,10 +80,10 @@
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>

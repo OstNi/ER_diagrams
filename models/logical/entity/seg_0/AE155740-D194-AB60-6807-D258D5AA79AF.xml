@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Компетенция программы дисциплины</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="CPT_TYPE" id="657DDD88-47B8-69C5-394C-0ECC5DD96241">
@@ -25,10 +26,10 @@
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<domain>C8D9DA17-C495-5CCB-9273-FC4EB6D5E3BB</domain>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
