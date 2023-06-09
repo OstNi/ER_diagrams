@@ -8,6 +8,7 @@
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
+<nameOnSource>.</nameOnSource>
 <nameOnTarget>initialized by</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
