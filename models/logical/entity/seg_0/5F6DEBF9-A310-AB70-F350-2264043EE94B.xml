@@ -15,5 +15,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Семестр элемента ООП</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 </Entity>
