@@ -1,21 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nr_group-group_join" directorySegmentName="seg_0" id="F9107B11-69A2-5649-6F2E-D0DA9B362C9D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_64" directorySegmentName="seg_0" id="0B174829-45B4-ABF8-1542-88CF1BADCD5D">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-09 06:35:10 UTC</createdTime>
+<createdTime>2023-06-12 06:58:45 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
-<nameOnSource>входит в</nameOnSource>
-<nameOnTarget>включает</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>297E1AAF-3461-4024-EAE2-D5CB11946175</sourceEntity>
+<sourceEntity>1BDAD237-F7AF-CA75-318A-296ED8BFC03C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>FF18F770-1597-6D0B-7731-91075B4516C3</targetEntity>
+<targetEntity>212F3972-EE56-C2E4-CC68-AB2FC226E951</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

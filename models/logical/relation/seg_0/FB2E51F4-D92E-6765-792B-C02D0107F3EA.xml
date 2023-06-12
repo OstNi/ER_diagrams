@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stu_group-group_join" directorySegmentName="seg_0" id="60DB008E-3C98-D038-FD25-C8E580F02A0B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="program-elem_of_oop" directorySegmentName="seg_0" id="FB2E51F4-D92E-6765-792B-C02D0107F3EA">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-09 06:34:41 UTC</createdTime>
+<createdTime>2023-06-12 06:29:57 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -11,9 +11,9 @@
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>711C4F8B-B845-D743-64BF-D7DF10267B6D</sourceEntity>
+<sourceEntity>DD4B775E-2DFB-7415-5B9E-EED4B24B0ACC</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>FF18F770-1597-6D0B-7731-91075B4516C3</targetEntity>
+<targetEntity>1BDAD237-F7AF-CA75-318A-296ED8BFC03C</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

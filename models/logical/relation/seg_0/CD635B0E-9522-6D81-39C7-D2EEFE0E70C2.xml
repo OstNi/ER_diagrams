@@ -1,21 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tp_delivery-tpr_chapter" directorySegmentName="seg_0" id="18A5771C-16AE-78EC-F025-A952D00FFB80">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="delivery-tc_time" directorySegmentName="seg_0" id="CD635B0E-9522-6D81-39C7-D2EEFE0E70C2">
 <createdBy>noone</createdBy>
-<createdTime>2023-06-08 08:45:14 UTC</createdTime>
+<createdTime>2023-06-12 06:42:31 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
-<nameOnSource>.</nameOnSource>
-<nameOnTarget>имеет</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>89B68298-FB61-D44C-0326-F6FED5E7A4E6</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>ACD686BB-1CA8-2A52-EAE6-D1279A722F8B</targetEntity>
+<targetEntity>54233734-C95D-C52B-257F-6484CA4241D8</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
