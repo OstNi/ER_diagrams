@@ -27,10 +27,25 @@
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
+<domain>C8D9DA17-C495-5CCB-9273-FC4EB6D5E3BB</domain>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35E6989C-7188-FBD0-73FD-EE8F54AA9379" name="tpa_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 10:31:09 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>657DDD88-47B8-69C5-394C-0ECC5DD96241,60CFF53F-8D99-2063-73CB-C31AC54E0673,689FB0D0-5F9E-A1F0-2A26-59171433AA86</newElementsIDs>
+<usedAttributes>
+<attributeRef>657DDD88-47B8-69C5-394C-0ECC5DD96241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

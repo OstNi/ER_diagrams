@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B177B5EC-0ADF-DE19-1C82-44B2660A2E20" name="TYPE_OF_COMPETENTION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B177B5EC-0ADF-DE19-1C82-44B2660A2E20" name="TYPE_OF_COMPETENCE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:20:51 UTC</createdTime>
 <comment><![CDATA[Справочник типов компетенций по требованиям регулятора, например: УК - универсальные компетенции, ОК - общекультурные компетенции, ОПК - общепрофессиональные компетенции, ПК - профессиональные компетенции, ПСК - профессионально специализированные компетенции]]></comment>

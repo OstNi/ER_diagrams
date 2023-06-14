@@ -17,4 +17,15 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>Семестр элемента ООП</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6933405F-AEAE-CD8C-9AAD-77DAF79FBA98" name="elem_ter_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 10:48:38 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>1B3A3A1C-5279-B696-21F9-A8F88908D14B,1A3E58E9-DB43-287D-9C74-5470CAFD5BA8</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>

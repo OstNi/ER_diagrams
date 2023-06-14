@@ -51,4 +51,18 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="584DFFD1-B518-4DA5-52B9-F10A9CAEB968" name="compse_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 10:37:18 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>41597B86-2D13-E9AA-E61C-377BC1350105,94B8E0C6-28B0-4ADD-29A4-3648B7E1B89D,11D7CFC0-AE6F-0B9A-6FF0-C12BBA25A409</newElementsIDs>
+<usedAttributes>
+<attributeRef>41597B86-2D13-E9AA-E61C-377BC1350105</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
