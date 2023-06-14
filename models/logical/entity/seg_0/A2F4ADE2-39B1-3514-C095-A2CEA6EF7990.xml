@@ -81,4 +81,30 @@
 <ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="728ABD7F-D2EA-9B63-ABCF-AF76B8C45FDF" name="totp_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 06:10:26 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>6328C7E3-6D37-86CA-3BA3-93DCFD52F5C6</newElementsIDs>
+<usedAttributes>
+<attributeRef>6328C7E3-6D37-86CA-3BA3-93DCFD52F5C6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="175264D4-8680-5A07-AAEA-3F6514021676" name="totp_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 06:12:30 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>6367504C-1C70-9C0D-0A4E-5026CA53B58F</newElementsIDs>
+<usedAttributes>
+<attributeRef>6367504C-1C70-9C0D-0A4E-5026CA53B58F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Правило расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Text" id="1DC16BFA-2008-776E-F39A-7E4169C782C3">

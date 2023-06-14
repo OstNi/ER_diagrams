@@ -64,4 +64,30 @@
 <ownDataTypeParameters>,0,4</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="317C6272-8495-7691-64C5-1B81D552D089" name="edf_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:48:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>CF73848B-4623-7459-BCDF-8606A8591B09</newElementsIDs>
+<usedAttributes>
+<attributeRef>CF73848B-4623-7459-BCDF-8606A8591B09</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3C4063E5-3446-3D23-C68F-B06CBA149E6B" name="edf_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:48:24 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>F7D8268F-6FCB-E3AF-A1DA-D228194DFB50</newElementsIDs>
+<usedAttributes>
+<attributeRef>F7D8268F-6FCB-E3AF-A1DA-D228194DFB50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

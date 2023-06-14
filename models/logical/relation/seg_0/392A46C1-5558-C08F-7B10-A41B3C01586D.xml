@@ -2,12 +2,15 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_65" directorySegmentName="seg_0" id="392A46C1-5558-C08F-7B10-A41B3C01586D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-12 06:58:55 UTC</createdTime>
+<comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную ]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
+<nameOnSource>.</nameOnSource>
+<nameOnTarget>осваивается</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

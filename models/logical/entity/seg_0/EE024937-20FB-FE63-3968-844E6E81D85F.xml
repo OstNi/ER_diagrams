@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Уровень образования</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Name" id="9650610C-FCE7-7C08-85F7-5DDA07163681">
@@ -65,4 +66,30 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A17B611-421B-6E2E-1263-8206A7E1B9C7" name="edl_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:49:56 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>9650610C-FCE7-7C08-85F7-5DDA07163681</newElementsIDs>
+<usedAttributes>
+<attributeRef>9650610C-FCE7-7C08-85F7-5DDA07163681</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="60D6E8AE-A50C-CB5A-8093-533E8B024EAA" name="edl_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:50:17 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>365D946A-7354-8EDB-44AC-1F332D0ADE4B</newElementsIDs>
+<usedAttributes>
+<attributeRef>365D946A-7354-8EDB-44AC-1F332D0ADE4B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

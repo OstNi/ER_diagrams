@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Группа факультета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Stu_count" id="8570D23B-5646-37DD-A73A-81639C933D6F">
@@ -48,4 +49,18 @@
 <ownDataTypeParameters>,0,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81630C74-66BA-B8FA-9C54-B139428EBE3B" name="grf_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:58:27 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>9391FA29-BEA4-C080-B7EC-5408B751BF31,2823AE74-698C-22DE-A7F0-BB2CC8273F6E,940E90BB-D4A4-2035-A96E-CCDBD2A6942E,15144DC5-E3C1-5D0D-AA33-E3189150AF17,50B3A4EC-F615-C691-122C-9C6BCBEC49A7</newElementsIDs>
+<usedAttributes>
+<attributeRef>9391FA29-BEA4-C080-B7EC-5408B751BF31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

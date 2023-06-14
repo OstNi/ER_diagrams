@@ -50,4 +50,18 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0459A308-2C90-77D6-66BE-60241BBA6081" name="tpr_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 06:48:12 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>9985BEE2-10A9-3996-C870-6772E0029B74,C83C3E5B-0AA5-463F-FA54-870025ED90FA</newElementsIDs>
+<usedAttributes>
+<attributeRef>9985BEE2-10A9-3996-C870-6772E0029B74</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

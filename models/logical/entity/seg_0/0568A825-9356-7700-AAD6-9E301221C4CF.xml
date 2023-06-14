@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Версия расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Calc_date" id="1737F4C4-F910-2255-D1AA-B5B36D332AB5">

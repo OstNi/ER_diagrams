@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Трудоемкость</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Totc_id" id="97F220AA-B45E-65E8-74AA-D085339B9ECF">
@@ -67,4 +68,15 @@
 <ownDataTypeParameters>,0,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51288C7F-0F09-86B6-4FA3-A9134CBFD9B4" name="tct_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 06:08:14 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>CD635B0E-9522-6D81-39C7-D2EEFE0E70C2,DE6847BD-D739-0223-F03F-2AD9D821B445,1E74D3DD-4383-649D-B4F6-AA9C76CEA12A</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>

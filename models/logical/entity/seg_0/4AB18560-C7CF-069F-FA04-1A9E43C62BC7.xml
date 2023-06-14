@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Факультет/Кафедра</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Name" id="BC55733C-271D-0708-7F6E-69F24A9A2B82">
@@ -78,4 +79,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="586A985B-6867-6B99-FA6C-39C892C6AABD" name="div_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:44:06 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>BC55733C-271D-0708-7F6E-69F24A9A2B82</newElementsIDs>
+<usedAttributes>
+<attributeRef>BC55733C-271D-0708-7F6E-69F24A9A2B82</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="53498828-2129-7EE1-DED5-9C769D0AADD9" name="div_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:45:44 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>CC6BAF96-778F-F1D0-4290-506BD3EF30B5</newElementsIDs>
+<usedAttributes>
+<attributeRef>CC6BAF96-778F-F1D0-4290-506BD3EF30B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

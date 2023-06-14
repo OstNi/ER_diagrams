@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Тип отчетности</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Name" id="3DEC7811-FB5A-FE62-D27B-9093A46925A3">
@@ -48,4 +49,30 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51A1FD35-D900-0657-BDEE-9E82D6354930" name="ext_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:57:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>3DEC7811-FB5A-FE62-D27B-9093A46925A3</newElementsIDs>
+<usedAttributes>
+<attributeRef>3DEC7811-FB5A-FE62-D27B-9093A46925A3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2E6BB260-B56E-8B8E-9A00-83757E71C56A" name="ext_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:57:23 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>5CD1DF09-B68F-0EF0-C63E-6500EF1D2872</newElementsIDs>
+<usedAttributes>
+<attributeRef>5CD1DF09-B68F-0EF0-C63E-6500EF1D2872</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

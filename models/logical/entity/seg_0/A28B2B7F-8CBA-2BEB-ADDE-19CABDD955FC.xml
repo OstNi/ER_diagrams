@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A28B2B7F-8CBA-2BEB-ADDE-19CABDD955FC" name="TW_FOR_YEAR">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:37:23 UTC</createdTime>
+<comment><![CDATA[Виды работ, по которым нужно расчитать норму в году ]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -14,5 +15,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Вид работы для расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 </Entity>

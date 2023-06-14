@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Учебный период</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="Num" id="D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17">
@@ -77,4 +78,18 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0FCF48E-67CA-AE14-3B0F-4AC53B6B2A92" name="typ_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 06:59:28 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17,A521C057-29AC-64B6-83C2-B63301E94E2F</newElementsIDs>
+<usedAttributes>
+<attributeRef>D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

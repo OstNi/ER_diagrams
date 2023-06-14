@@ -15,5 +15,17 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<synonymToDisplay>Период изучения</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="351CF23B-D002-A56E-E63F-C1F0ADC23CB3" name="dgr_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 05:35:44 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>B5C76796-16B0-AB7C-43E9-965AC0590881,E8E196C2-ABBB-0977-6D6E-4471081ED032,08C0A3C3-CF7E-4A32-358B-92061443058E,C123466C-348A-A80E-D789-5D64AD6B52E8,08C6A8CD-4B59-A456-E486-BDCECBF9EBAA</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>
