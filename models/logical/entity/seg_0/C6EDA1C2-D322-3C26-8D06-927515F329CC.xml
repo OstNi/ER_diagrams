@@ -106,8 +106,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

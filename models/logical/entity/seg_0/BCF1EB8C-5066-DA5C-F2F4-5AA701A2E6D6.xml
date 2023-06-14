@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCF1EB8C-5066-DA5C-F2F4-5AA701A2E6D6" name="COURSE_OF_OOP">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCF1EB8C-5066-DA5C-F2F4-5AA701A2E6D6" name="COURSE_OF_EDP">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:25:15 UTC</createdTime>
 <comment><![CDATA[курс, для которого может быть использован элемент]]></comment>
@@ -35,4 +35,18 @@
 <ownDataTypeParameters>,0,5</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B72AEE-E3C3-A4B7-1BD4-3492565DA26D" name="coe_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 07:22:19 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>F452290A-3D4C-A0E9-599C-6EBEAB92DAC6</newElementsIDs>
+<usedAttributes>
+<attributeRef>F452290A-3D4C-A0E9-599C-6EBEAB92DAC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

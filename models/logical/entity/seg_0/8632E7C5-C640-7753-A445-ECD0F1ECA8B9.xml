@@ -21,6 +21,7 @@
 <Attribute name="SRT" id="1D9EE155-9EBD-1F7D-3885-F87725C1EE91">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:14:12 UTC</createdTime>
+<comment><![CDATA[порядковый номер]]></comment>
 <commentInRDBMS><![CDATA[порядковый номер]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -34,4 +35,15 @@
 <ownDataTypeParameters>,0,4</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7710C49F-641F-5A83-AAB7-6AD1604DC020" name="cpt_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 09:41:23 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>4C59231D-42F5-0D6C-A6E1-57AAC4B480CE,9BF27A45-FECB-8ECD-8CA6-D35391FFC12C</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>

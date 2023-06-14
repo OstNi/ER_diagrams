@@ -22,19 +22,22 @@
 <Attribute name="Covernor" id="41597B86-2D13-E9AA-E61C-377BC1350105">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:46:19 UTC</createdTime>
+<comment><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></comment>
 <commentInRDBMS><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7B9C0AB3-022F-D700-1249-B70CE669DDEB</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SRT" id="1408B29D-5CDC-0B90-BBED-80278E532819">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:47:07 UTC</createdTime>
+<comment><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></comment>
 <commentInRDBMS><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>

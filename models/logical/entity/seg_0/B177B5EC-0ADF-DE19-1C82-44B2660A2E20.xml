@@ -37,6 +37,7 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:22:07 UTC</createdTime>
 <comment><![CDATA[сокращенное обозначение]]></comment>
+<commentInRDBMS><![CDATA[сокращенное обозначение]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -64,4 +65,30 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E093D68-A3B8-04E5-F42A-6A76CE667F94" name="toc_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 09:25:02 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>6B98E960-1373-E131-C91C-A35A11C49284</newElementsIDs>
+<usedAttributes>
+<attributeRef>6B98E960-1373-E131-C91C-A35A11C49284</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CFE333C6-13F1-B5C1-3F98-B691C6F46890" name="toc_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 09:27:00 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>4035676A-4374-42BE-205F-CF5934427DE4</newElementsIDs>
+<usedAttributes>
+<attributeRef>4035676A-4374-42BE-205F-CF5934427DE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

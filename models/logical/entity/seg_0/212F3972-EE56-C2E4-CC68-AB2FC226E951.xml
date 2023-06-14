@@ -17,4 +17,15 @@
 <normalForm>Third</normalForm>
 <synonymToDisplay>Порядок изучения</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4C53E31-06A3-F156-1ECD-FAF0741050D6" name="ros_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 07:26:33 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>0B174829-45B4-ABF8-1542-88CF1BADCD5D,392A46C1-5558-C08F-7B10-A41B3C01586D</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>

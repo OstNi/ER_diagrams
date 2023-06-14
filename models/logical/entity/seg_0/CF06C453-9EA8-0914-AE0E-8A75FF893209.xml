@@ -35,4 +35,18 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5522C0DA-B1FD-751C-77FF-FBE7A089CA25" name="term_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 07:24:31 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>8833E6F5-A39B-8E70-D8F8-77AE3979BCF0,E9DB3190-4244-D525-475C-09A8CB8AD941</newElementsIDs>
+<usedAttributes>
+<attributeRef>8833E6F5-A39B-8E70-D8F8-77AE3979BCF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

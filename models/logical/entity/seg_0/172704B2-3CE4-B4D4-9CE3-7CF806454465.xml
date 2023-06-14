@@ -29,10 +29,25 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04CA5EA7-E7E8-7EBE-D044-49C88AC90752" name="epse_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 09:20:01 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>070695E9-0529-053B-CC12-5235C740B22D,6AE571CC-8392-CF8B-B314-DB68C2881AB3,2887C2F6-D370-EC27-F528-4E0EDB26AB45</newElementsIDs>
+<usedAttributes>
+<attributeRef>2887C2F6-D370-EC27-F528-4E0EDB26AB45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
