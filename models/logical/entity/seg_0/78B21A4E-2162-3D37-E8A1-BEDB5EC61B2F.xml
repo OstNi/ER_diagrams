@@ -58,8 +58,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -74,8 +75,9 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -89,8 +91,9 @@
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -112,4 +115,30 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C988347E-42DF-436B-DAEF-DBDD5895B293" name="wt_name_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 07:11:58 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>1DCAD99D-1F03-D128-D8F9-A41256F74361</newElementsIDs>
+<usedAttributes>
+<attributeRef>1DCAD99D-1F03-D128-D8F9-A41256F74361</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F38E5EDB-DF10-EF7D-82FB-8438B415BC27" name="wt_short_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-14 07:12:13 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>D9521BE5-C3A8-48FB-18E7-216EC7CE052A</newElementsIDs>
+<usedAttributes>
+<attributeRef>D9521BE5-C3A8-48FB-18E7-216EC7CE052A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
