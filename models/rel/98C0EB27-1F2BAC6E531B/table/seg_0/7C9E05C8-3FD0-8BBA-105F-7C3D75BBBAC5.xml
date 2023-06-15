@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C9E05C8-3FD0-8BBA-105F-7C3D75BBBAC5" name="TW_BLOCK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Результат расчета]]></comment>
+<generatorID>739A494D-F961-0DE9-CFCA-F6A977452540</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TWB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VAL" id="2D4FC325-8EC5-DAD6-AF73-4121213AB991">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[объем работы в часах астрономические]]></comment>
+<commentInRDBMS><![CDATA[объем работы в часах астрономические]]></commentInRDBMS>
+<generatorID>D7D6395F-E515-D610-F140-50E80075D53D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,6,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="6A02B37B-3E94-9261-EC5C-770C37899B82">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DGR_ID" id="B2910B75-8DE8-F671-2F26-99884799ADF8">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A531077C-0308-538F-FBAA-4FEA8B5B406C" referredColumn="1EED6F99-8B10-FD0B-2328-3040188310DA"/>
+</associations>
+</Column>
+<Column name="WT_ID" id="9E7AFDD0-85DD-BE55-03B2-2C7D145384EA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="738D4ADF-79A2-4CEE-3DE3-3A7A99F90E8B" referredColumn="5A402563-790C-7210-AAA8-5A5F9A28AD3C"/>
+</associations>
+</Column>
+<Column name="WT_ID2" id="676AA247-6079-2AAD-EE0F-B45B6B43C113">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAA745D4-92FC-11BB-DAC7-B07DAA088631" referredColumn="5A402563-790C-7210-AAA8-5A5F9A28AD3C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE3E7BE2-C0A4-C4EF-E1F8-8FE3FE158580" name="TWB_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6A02B37B-3E94-9261-EC5C-770C37899B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A6E20A7-896C-22A6-B24F-B5E8FDE48533" name="TWB_WT_ID2_DGR_ID_WT_ID_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>A6B754E2-0900-643F-F87D-5F8265DD148C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676AA247-6079-2AAD-EE0F-B45B6B43C113"/>
+<colUsage columnID="B2910B75-8DE8-F671-2F26-99884799ADF8"/>
+<colUsage columnID="9E7AFDD0-85DD-BE55-03B2-2C7D145384EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB20DABF-8BDD-00D5-EB1D-126AC1F353D6" name="TWB_DGR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>06F718B4-7975-DD8B-9DD8-B210271FE6CD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2910B75-8DE8-F671-2F26-99884799ADF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52D2326D-13D7-AB46-0107-FFEF21A0760D" name="TWB_WT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<generatorID>5BC126DD-740A-5681-7A65-90078905628E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E7AFDD0-85DD-BE55-03B2-2C7D145384EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="056ADD6C-1085-8CA0-E70B-8D392D99A1A3" name="TWB_WT_FKv1">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<generatorID>D23276E4-23A8-ECE9-38C2-2A5976D873E8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676AA247-6079-2AAD-EE0F-B45B6B43C113"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

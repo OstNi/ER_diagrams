@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>EDPR</shortName>
 <synonymToDisplay>Образовательная программа</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -61,8 +62,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
 <defaultValue>n</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Protocol_date" id="32BD1F84-9FF5-3677-2406-F1D117F95635">
 <createdBy>noone</createdBy>

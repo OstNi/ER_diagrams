@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30D94F7A-E688-4DF5-52B2-3C7780ED8934" name="WORK_TYPE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Вид учебной работы]]></comment>
+<generatorID>78B21A4E-2162-3D37-E8A1-BEDB5EC61B2F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>WT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="A6526A98-FB62-70ED-A90C-51ED7DB356EC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Название]]></comment>
+<commentInRDBMS><![CDATA[Название]]></commentInRDBMS>
+<generatorID>1DCAD99D-1F03-D128-D8F9-A41256F74361</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT" id="31455AAB-D8A4-0641-9121-AEF232E0C5C8">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Короткое название]]></comment>
+<commentInRDBMS><![CDATA[Короткое название]]></commentInRDBMS>
+<generatorID>D9521BE5-C3A8-48FB-18E7-216EC7CE052A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUD" id="8F60F61D-2B84-9ED9-43DB-9FC2D4219870">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Включать аудиторные часы? (y/n)]]></commentInRDBMS>
+<generatorID>02C29A63-CA90-88AC-C828-C133D82E91DF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCLUDE_IN_TPR" id="A322B543-415F-B95A-288F-B6ABD36AFB8D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Доступен ли для включения в учебную программу? (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Доступен ли для включения в учебную программу? (y/n)]]></commentInRDBMS>
+<generatorID>CC592139-1E7A-7D4E-20F9-D9C66623CA61</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ONE_DAY" id="3404FC6E-BAA6-32A3-D1AF-3440097FE352">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Вся работа в один день (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Вся работа в один день (y/n)]]></commentInRDBMS>
+<generatorID>E869487E-6EDD-F54F-5538-FEE3651A02CF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRT" id="CA1608D6-5B2C-AA86-F3A5-0884478DD2FE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Порядок соортировки]]></comment>
+<commentInRDBMS><![CDATA[Порядок соортировки]]></commentInRDBMS>
+<generatorID>368AB85D-769A-BECD-43D6-FD6BB5F76FEC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="5A402563-790C-7210-AAA8-5A5F9A28AD3C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6D616E8-AD46-452E-731D-F71E87293ED4" name="WT_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5A402563-790C-7210-AAA8-5A5F9A28AD3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87C20670-D976-7E2C-A00E-64FD652BBD73" name="WT_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>C988347E-42DF-436B-DAEF-DBDD5895B293</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6526A98-FB62-70ED-A90C-51ED7DB356EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A146C75-C28E-7CA6-7C7F-6CE84F2450BD" name="WT_SHORT_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>F38E5EDB-DF10-EF7D-82FB-8438B415BC27</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31455AAB-D8A4-0641-9121-AEF232E0C5C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

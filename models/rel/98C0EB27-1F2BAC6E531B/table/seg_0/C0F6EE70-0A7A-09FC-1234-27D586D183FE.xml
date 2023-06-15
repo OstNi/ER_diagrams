@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0F6EE70-0A7A-09FC-1234-27D586D183FE" name="RULE_OF_STUDY">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную. Например, для изучения дифференциальных уравнений нужно сначала освоить мат. анализ]]></comment>
+<generatorID>212F3972-EE56-C2E4-CC68-AB2FC226E951</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>ROS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="102D97E6-FD1B-E8C9-43F0-BFBEC69381B0">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="EPE_ID" id="5B603339-B9C6-F954-EB94-744DA45AA853">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85410CE7-FA56-D60B-0242-B3DED794E720" referredColumn="C7F4D527-979E-ADCF-174B-DDE84608BCFE"/>
+</associations>
+</Column>
+<Column name="EPE_ID2" id="D7DECC8A-D6D6-B038-6BB5-6AEC71B2940A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4BA6B75-228A-7C2D-7103-7EEE81C418E6" referredColumn="C7F4D527-979E-ADCF-174B-DDE84608BCFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0489B51A-1CAB-ABDC-824C-C2389D7A6285" name="ROS_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="102D97E6-FD1B-E8C9-43F0-BFBEC69381B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF49B7A5-A9BD-C037-5A02-D81FA780F17B" name="ROS_EPE_ID_EPE_ID2_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>D4C53E31-06A3-F156-1ECD-FAF0741050D6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B603339-B9C6-F954-EB94-744DA45AA853"/>
+<colUsage columnID="D7DECC8A-D6D6-B038-6BB5-6AEC71B2940A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9932A3D2-38BE-B467-2251-3202148ECC6C" name="ROS_EPE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>0B174829-45B4-ABF8-1542-88CF1BADCD5D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B603339-B9C6-F954-EB94-744DA45AA853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF98C786-5E90-35AD-8614-BD7E20AC9B77" name="ROS_EPE_FKv1">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>392A46C1-5558-C08F-7B10-A41B3C01586D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7DECC8A-D6D6-B038-6BB5-6AEC71B2940A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

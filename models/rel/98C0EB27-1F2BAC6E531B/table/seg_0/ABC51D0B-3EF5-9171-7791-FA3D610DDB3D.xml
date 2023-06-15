@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABC51D0B-3EF5-9171-7791-FA3D610DDB3D" name="COMP_FOR_SE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Требования к результатам освоения образовательной программы.
+Для каждой регистрационной записи образовательного стандарта формируется перечень компетенций с разделениям по]]></comment>
+<generatorID>55671F83-8AB5-CC7B-88B1-2A66B0C28D05</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>CFS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Covernor" id="A45C5043-9F9C-3658-A47E-F2C84E8E81C8">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></comment>
+<commentInRDBMS><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></commentInRDBMS>
+<generatorID>41597B86-2D13-E9AA-E61C-377BC1350105</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7B9C0AB3-022F-D700-1249-B70CE669DDEB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRT" id="21CB5FCC-8727-9B4A-0C85-60E31484EF21">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></comment>
+<commentInRDBMS><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></commentInRDBMS>
+<generatorID>1408B29D-5CDC-0B90-BBED-80278E532819</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="20606148-6E1D-F647-4AF4-304A81B9C28F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CMP_ID" id="A93C8CFC-A69D-2198-74D0-891F2C4832AC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E27327B5-7B3E-6C71-21C9-C9BDB5F17121" referredColumn="29F360DD-33C9-87BC-2A66-36DA7E552E55"/>
+</associations>
+</Column>
+<Column name="SOE_ID" id="09915AC0-0340-2345-7275-4944B4DA2AC2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ED411DA-EAAE-A573-420A-B73AFF4A1481" referredColumn="3E75753E-8AA8-AE36-C8B1-E63E92969AB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DD35CA8-ED72-A4EF-65B4-5FDCB4995D08" name="CFS_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="20606148-6E1D-F647-4AF4-304A81B9C28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA017B2A-E146-6C78-0721-7E78D80D9A31" name="CFS_Covernor_CMP_ID_SOE_ID_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>584DFFD1-B518-4DA5-52B9-F10A9CAEB968</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45C5043-9F9C-3658-A47E-F2C84E8E81C8"/>
+<colUsage columnID="A93C8CFC-A69D-2198-74D0-891F2C4832AC"/>
+<colUsage columnID="09915AC0-0340-2345-7275-4944B4DA2AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F0EBFA-D6D7-1886-432E-8D59BFDF24CA" name="CFS_CMP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>94B8E0C6-28B0-4ADD-29A4-3648B7E1B89D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A93C8CFC-A69D-2198-74D0-891F2C4832AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D953DE1D-B731-D488-50B1-AB6A1F891CEB" name="CFS_SOE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>11D7CFC0-AE6F-0B9A-6FF0-C12BBA25A409</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09915AC0-0340-2345-7275-4944B4DA2AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

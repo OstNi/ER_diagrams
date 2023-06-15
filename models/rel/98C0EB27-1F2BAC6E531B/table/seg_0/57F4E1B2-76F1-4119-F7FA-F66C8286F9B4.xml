@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57F4E1B2-76F1-4119-F7FA-F66C8286F9B4" name="EDU_LEVEL">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Уровень образования (бакалавриат, специалитет, магистратура)]]></comment>
+<generatorID>EE024937-20FB-FE63-3968-844E6E81D85F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>EL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="013C1E81-48D8-37E3-6048-D8454A6FD924">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Название]]></comment>
+<commentInRDBMS><![CDATA[Название]]></commentInRDBMS>
+<generatorID>9650610C-FCE7-7C08-85F7-5DDA07163681</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT" id="10085079-DA0D-72C4-5CAD-A2DCBB9FDF40">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Короткое обозначение]]></comment>
+<commentInRDBMS><![CDATA[Короткое обозначение]]></commentInRDBMS>
+<generatorID>365D946A-7354-8EDB-44AC-1F332D0ADE4B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRT" id="C2BB0396-F89B-FF65-CAD5-B46AEABC4096">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Порядок сортировки]]></commentInRDBMS>
+<generatorID>DD20063C-DD1D-756F-EEBF-17209BD9F189</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="C07A8E9F-3D93-D032-C843-A6142FF4D682">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D3E2F81-8DDA-B7D8-A4B3-A9C774EDDC36" name="EL_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C07A8E9F-3D93-D032-C843-A6142FF4D682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4C2A913-CAF6-F0CC-CD13-4477B5660A40" name="EL_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>4A17B611-421B-6E2E-1263-8206A7E1B9C7</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013C1E81-48D8-37E3-6048-D8454A6FD924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BFA318E-C139-E322-CCB7-745CD81132A0" name="EL_SHORT_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>60D6E8AE-A50C-CB5A-8093-533E8B024EAA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10085079-DA0D-72C4-5CAD-A2DCBB9FDF40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

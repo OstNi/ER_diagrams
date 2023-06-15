@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65E58228-D34B-3CEF-68B9-75AB58FB43CE" name="TERM">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[семестр в рамках года, которого может быть использован элемент]]></comment>
+<generatorID>CF06C453-9EA8-0914-AE0E-8A75FF893209</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F8234394-903A-E6B9-F73F-888E7DCAB308">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Name" id="6BD713B3-90DA-948F-43B9-B66075EC5CB0">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[номер ]]></comment>
+<commentInRDBMS><![CDATA[номер ]]></commentInRDBMS>
+<generatorID>8833E6F5-A39B-8E70-D8F8-77AE3979BCF0</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COE_ID" id="A8A75925-60F7-6D82-5555-E9C42C0A0C9F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14630F81-FD21-4E65-C41C-418E69CF0156" referredColumn="AEC684AA-352C-EA6B-06E3-0C916C2E8521"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17E86652-2251-59FC-0512-95BFA49C4B7B" name="TER_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F8234394-903A-E6B9-F73F-888E7DCAB308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C24A918-75DE-046B-B477-2BA116212D5E" name="TER_Name_COE_ID_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>5522C0DA-B1FD-751C-77FF-FBE7A089CA25</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD713B3-90DA-948F-43B9-B66075EC5CB0"/>
+<colUsage columnID="A8A75925-60F7-6D82-5555-E9C42C0A0C9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFB8124B-3926-3F50-E5A3-555B12B7049E" name="TER_COE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>E9DB3190-4244-D525-475C-09A8CB8AD941</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A75925-60F7-6D82-5555-E9C42C0A0C9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

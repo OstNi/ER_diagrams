@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F14B108-E5A1-28BC-54C7-0FF00A213675" name="COMPETENCE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Компетенции (справочник) разного уровня, как стандартов, так и более детальные (до необходимого с работой УМК уровня декомпонзиции)]]></comment>
+<generatorID>CEF06CB7-90BC-C89F-2C85-D1F91CDF5177</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>CMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="29F360DD-33C9-87BC-2A66-36DA7E552E55">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Name" id="DEE5A825-115C-B743-4429-280BBF301C2F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[формулировка компитенции ]]></comment>
+<commentInRDBMS><![CDATA[формулировка компитенции ]]></commentInRDBMS>
+<generatorID>D95120A4-43CA-3AEA-848A-8A4EF24646A1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Top_level" id="3F72908A-21AB-BDFE-F38C-7C73C77364B5">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[компитенция верхнего уровня (y/n)]]></comment>
+<commentInRDBMS><![CDATA[компитенция верхнего уровня (y/n)]]></commentInRDBMS>
+<generatorID>564D8752-AE81-FCF4-5DFE-7011570EBA1A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="5E774BFC-7CF5-4FAC-7222-530DFDA63876">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[состояние компитенции (проверрка, утверждение) ]]></comment>
+<commentInRDBMS><![CDATA[состояние компитенции (проверрка, утверждение) ]]></commentInRDBMS>
+<generatorID>C14FE8D0-B6EA-E011-FB04-75208F54D36B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Info" id="D81EF94B-AC1F-5B75-B0DD-5E818A3C4C53">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[примечания]]></comment>
+<commentInRDBMS><![CDATA[примечания]]></commentInRDBMS>
+<generatorID>D98D3422-6CA0-778A-C9B2-CA3F8F24649A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCMP_ID" id="11EA5B9E-B045-5C47-BF2C-7BA0648831B7">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D36C0B1-09AE-6692-C50E-B1823109E4B1" referredColumn="D8FAF5BA-C284-5489-523B-E862A7344BCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD3BEA8F-B220-056F-975E-9C96A1D15A46" name="CMP_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="29F360DD-33C9-87BC-2A66-36DA7E552E55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE00A05C-A3E9-0A07-348B-CCFD9073E897" name="CMP_Name_TCMP_ID_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>A0B4A8C2-1437-F68F-34CD-9E340F994AD4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE5A825-115C-B743-4429-280BBF301C2F"/>
+<colUsage columnID="11EA5B9E-B045-5C47-BF2C-7BA0648831B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="867ED794-03EB-6793-DF79-246058DCB7D9" name="CMP_TCMP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<generatorID>0254A1B7-F4AA-FD77-9B1A-41758C9B2939</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EA5B9E-B045-5C47-BF2C-7BA0648831B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

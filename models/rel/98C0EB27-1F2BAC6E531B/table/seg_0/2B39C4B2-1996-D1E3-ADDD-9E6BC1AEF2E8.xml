@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B39C4B2-1996-D1E3-ADDD-9E6BC1AEF2E8" name="IND_COURSE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Курс (год обучения) индивидуальной траектории обучающегося  Является набором выбранных обучающимся из предложенныз вариантов учебных дисциплин для изучения. Требует утверждения руководителем образовательной программы.]]></comment>
+<generatorID>AE50BB91-8D95-AAD5-E7DA-3C8DB0D46451</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>IC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Course" id="5EAB274E-4045-B338-79C4-82D7FC57B6FF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[курс]]></comment>
+<commentInRDBMS><![CDATA[курс ]]></commentInRDBMS>
+<generatorID>B6B16B81-E13F-9B21-DE25-B753BF18B634</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Confirm_date" id="FB6F9679-F5C4-4ABD-4009-DCD3D297F617">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<comment><![CDATA[Дата утверждения индивидуальной траектории ]]></comment>
+<commentInRDBMS><![CDATA[Дата утверждения индивидуальной траектории ]]></commentInRDBMS>
+<generatorID>660D5405-6F14-33E6-E746-A0193FE2B6BF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="4AF5A53A-E947-E45C-3025-99C678864034">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PR_ID" id="DE687D36-0A2F-77CF-F5A5-429E0448B9AD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82B2C05-2AF5-E98C-5777-4F124453916A" referredColumn="46972E3B-FEEE-68B0-87BA-957499E21C08"/>
+</associations>
+</Column>
+<Column name="TY_ID" id="0F89DB5C-644A-F3D8-E25C-BB386112F79E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E4C8E34-5AEE-2A4E-FA96-B8053C89C584" referredColumn="F3434D4E-336E-C96C-C191-C5727651F610"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6CF6D6B-3E65-F4E8-0C95-FD2E3539AD72" name="IC_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4AF5A53A-E947-E45C-3025-99C678864034"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5EE1877-4892-4E5E-AF2B-953E78E0BEB1" name="IC_PR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>900A4019-7206-A649-80E2-9A92BDCBD063</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE687D36-0A2F-77CF-F5A5-429E0448B9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB6FB5E-0A57-6F02-0989-19D9FBE0BDD0" name="IC_TY_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:41 UTC</createdTime>
+<generatorID>75E4EC05-20D2-AD84-DD0E-5B5C2E33C863</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F89DB5C-644A-F3D8-E25C-BB386112F79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

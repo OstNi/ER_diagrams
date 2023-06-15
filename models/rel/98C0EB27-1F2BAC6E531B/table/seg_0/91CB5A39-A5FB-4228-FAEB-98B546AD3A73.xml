@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91CB5A39-A5FB-4228-FAEB-98B546AD3A73" name="DIVISION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[Предстваление, включающее в себя факультеты и кафедры]]></comment>
+<generatorID>4AB18560-C7CF-069F-FA04-1A9E43C62BC7</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>DIV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="AB3FB735-CCF2-6D49-AC5F-1408D8ECB899">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[название подразделения]]></comment>
+<commentInRDBMS><![CDATA[название подразделения]]></commentInRDBMS>
+<generatorID>BC55733C-271D-0708-7F6E-69F24A9A2B82</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT" id="CAADFE56-1FDF-5E6E-AA0F-86B3DBF4780C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[короткое наименование]]></comment>
+<commentInRDBMS><![CDATA[короткое наименование]]></commentInRDBMS>
+<generatorID>CC6BAF96-778F-F1D0-4290-506BD3EF30B5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACULTY" id="2D4497B6-4114-82B3-3FB7-C2DA581828A6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[является факультетом (y/n)]]></comment>
+<commentInRDBMS><![CDATA[является факультетом (y/n)]]></commentInRDBMS>
+<generatorID>74926B6D-D29F-5EE9-8035-A301CF6C3A58</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHAIR" id="70F4E9BB-B13A-E864-8B95-145E63436602">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<comment><![CDATA[является кафедрой (y/n)]]></comment>
+<commentInRDBMS><![CDATA[является кафедрой (y/n)]]></commentInRDBMS>
+<generatorID>59CB6217-7E7C-912A-C3CF-24F27205F4D1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="45E3219D-CAA0-D7E2-5614-914A27539224">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DIV_ID" id="0736D9EC-CF06-7598-9A2A-1C9A32E5D166">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88C92CF8-61FF-20C8-B258-214BBC601C89" referredColumn="45E3219D-CAA0-D7E2-5614-914A27539224"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2D5D05A-4D74-EA14-8F08-FBB7B366CB52" name="DIV_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="45E3219D-CAA0-D7E2-5614-914A27539224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB5C247B-F0B0-3586-C225-F2B09F4B90F5" name="DIV_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>586A985B-6867-6B99-FA6C-39C892C6AABD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3FB735-CCF2-6D49-AC5F-1408D8ECB899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="487EA863-8203-8943-298C-9163297811A9" name="DIV_SHORT_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:39 UTC</createdTime>
+<generatorID>53498828-2129-7EE1-DED5-9C769D0AADD9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAADFE56-1FDF-5E6E-AA0F-86B3DBF4780C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA28A3EB-C1B7-A002-3BF2-794A25D49F48" name="DIV_DIV_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 18:21:40 UTC</createdTime>
+<generatorID>B550082E-FAEB-A0EB-C0B7-BEFFBC7E63B5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0736D9EC-CF06-7598-9A2A-1C9A32E5D166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
