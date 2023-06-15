@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TC</shortName>
 <synonymToDisplay>Раздел программы</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="9985BEE2-10A9-3996-C870-6772E0029B74">
+<Attribute name="NAME" id="9985BEE2-10A9-3996-C870-6772E0029B74">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 15:00:29 UTC</createdTime>
 <comment><![CDATA[наименование раздела УМК]]></comment>
@@ -49,23 +50,6 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tpd_id" id="D536D9A9-4C0C-8A0F-0288-135D9D88CF18">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-14 10:53:59 UTC</createdTime>
-<comment><![CDATA[id записи в таблице 'TPD_CHAPTER' в ЕТИС]]></comment>
-<commentInRDBMS><![CDATA[id записи в таблице 'TPD_CHAPTER' в ЕТИС]]></commentInRDBMS>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>0</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,0,10</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0459A308-2C90-77D6-66BE-60241BBA6081" name="tpr_uniq">
@@ -79,15 +63,6 @@
 <usedAttributes>
 <attributeRef>9985BEE2-10A9-3996-C870-6772E0029B74</attributeRef>
 </usedAttributes>
-</identifier>
-<identifier id="78E67AFC-D4CE-2020-E21F-F4301705FB9C" name="tpr_tpd_uniq">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-14 10:55:33 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
-</engineerTo>
-<newElementsIDs>D536D9A9-4C0C-8A0F-0288-135D9D88CF18</newElementsIDs>
 </identifier>
 </identifiers>
 </Entity>

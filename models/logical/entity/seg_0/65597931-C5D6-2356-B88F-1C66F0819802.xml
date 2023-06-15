@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>ET</shortName>
 <synonymToDisplay>Тип отчетности</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="3DEC7811-FB5A-FE62-D27B-9093A46925A3">
+<Attribute name="NAME" id="3DEC7811-FB5A-FE62-D27B-9093A46925A3">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-08 08:46:19 UTC</createdTime>
 <comment><![CDATA[название типа контрорля (экзамен, зачет)]]></comment>
@@ -33,7 +34,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="5CD1DF09-B68F-0EF0-C63E-6500EF1D2872">
+<Attribute name="SHORT" id="5CD1DF09-B68F-0EF0-C63E-6500EF1D2872">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-08 08:49:14 UTC</createdTime>
 <comment><![CDATA[короткое обозначение ]]></comment>

@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TPR</shortName>
 <synonymToDisplay>Программа дисциплины</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Confirm_date" id="CD3C544D-CED9-EC21-7B75-EDBE78BB4D29">
+<Attribute name="DATE_OF_CONFIRM" id="CD3C544D-CED9-EC21-7B75-EDBE78BB4D29">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:50:45 UTC</createdTime>
 <comment><![CDATA[дата утверждения]]></comment>
@@ -33,7 +34,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Destination" id="02B0C532-491E-1187-8EBD-F7C75EF779A2">
+<Attribute name="DESTINATION" id="02B0C532-491E-1187-8EBD-F7C75EF779A2">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:51:22 UTC</createdTime>
 <comment><![CDATA[предназначение УМК]]></comment>
@@ -48,7 +49,7 @@
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Lenght" id="A97BA094-B208-3808-55EA-1AF8A8623D9D">
+<Attribute name="LENGTH" id="A97BA094-B208-3808-55EA-1AF8A8623D9D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:52:09 UTC</createdTime>
 <comment><![CDATA[продолжительность]]></comment>
@@ -65,7 +66,7 @@
 <dataTypeScale>38</dataTypeScale>
 <ownDataTypeParameters>,0,38</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Practice_form" id="FD38CDA4-DE16-449D-7DB9-E7E817578ECE">
+<Attribute name="FORM_OF_PRACTICE" id="FD38CDA4-DE16-449D-7DB9-E7E817578ECE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:53:10 UTC</createdTime>
 <comment><![CDATA[способ проведения практики]]></comment>

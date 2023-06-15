@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>STU</shortName>
 <synonymToDisplay>Группа дисциплины</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="3D2CA192-DE46-82E3-56AA-EF7963AD8D04">
+<Attribute name="NAME" id="3D2CA192-DE46-82E3-56AA-EF7963AD8D04">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:30:51 UTC</createdTime>
 <comment><![CDATA[Название группы]]></comment>
@@ -67,7 +68,7 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Info" id="80CD54F1-34F3-286E-3BFE-664A6C8B2F33">
+<Attribute name="INFO" id="80CD54F1-34F3-286E-3BFE-664A6C8B2F33">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:32:31 UTC</createdTime>
 <comment><![CDATA[комментарий]]></comment>

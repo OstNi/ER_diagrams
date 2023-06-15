@@ -15,12 +15,29 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>VER</shortName>
 <synonymToDisplay>Версия расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Calc_date" id="1737F4C4-F910-2255-D1AA-B5B36D332AB5">
+<Attribute name="TITLE" id="EF95C424-0200-D6BD-938C-A2901524FAC6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 08:23:04 UTC</createdTime>
+<comment><![CDATA[название расчета]]></comment>
+<commentInRDBMS><![CDATA[название расчета]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALC_DATE" id="1737F4C4-F910-2255-D1AA-B5B36D332AB5">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:53:21 UTC</createdTime>
+<comment><![CDATA[Дата расчета]]></comment>
 <commentInRDBMS><![CDATA[Дата расчета]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -31,9 +48,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Info" id="3F0B1788-1431-8A2B-08BF-67D7E43328BE">
+<Attribute name="INFO" id="3F0B1788-1431-8A2B-08BF-67D7E43328BE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:53:44 UTC</createdTime>
+<comment><![CDATA[Описание]]></comment>
 <commentInRDBMS><![CDATA[Описание]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -47,4 +65,19 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0496E1E0-9D89-11E3-8477-60C0B84CD4F6" name="ver_uniq">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-15 08:24:53 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<newElementsIDs>EF95C424-0200-D6BD-938C-A2901524FAC6,1737F4C4-F910-2255-D1AA-B5B36D332AB5</newElementsIDs>
+<usedAttributes>
+<attributeRef>EF95C424-0200-D6BD-938C-A2901524FAC6</attributeRef>
+<attributeRef>1737F4C4-F910-2255-D1AA-B5B36D332AB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

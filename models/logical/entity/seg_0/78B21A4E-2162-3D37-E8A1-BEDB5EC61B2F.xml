@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>WT</shortName>
 <synonymToDisplay>Вид учебной работы</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="1DCAD99D-1F03-D128-D8F9-A41256F74361">
+<Attribute name="NAME" id="1DCAD99D-1F03-D128-D8F9-A41256F74361">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:18:17 UTC</createdTime>
 <comment><![CDATA[Название]]></comment>
@@ -33,7 +34,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="D9521BE5-C3A8-48FB-18E7-216EC7CE052A">
+<Attribute name="SHORT" id="D9521BE5-C3A8-48FB-18E7-216EC7CE052A">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:18:43 UTC</createdTime>
 <comment><![CDATA[Короткое название]]></comment>
@@ -45,10 +46,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Aud" id="02C29A63-CA90-88AC-C828-C133D82E91DF">
+<Attribute name="AUD" id="02C29A63-CA90-88AC-C828-C133D82E91DF">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:20:48 UTC</createdTime>
 <commentInRDBMS><![CDATA[Включать аудиторные часы? (y/n)]]></commentInRDBMS>
@@ -64,7 +65,7 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Include_in_tpd" id="CC592139-1E7A-7D4E-20F9-D9C66623CA61">
+<Attribute name="INCLUDE_IN_TPR" id="CC592139-1E7A-7D4E-20F9-D9C66623CA61">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:21:47 UTC</createdTime>
 <comment><![CDATA[Доступен ли для включения в учебную программу? (y/n)]]></comment>
@@ -81,7 +82,7 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="One_day" id="E869487E-6EDD-F54F-5538-FEE3651A02CF">
+<Attribute name="ONE_DAY" id="E869487E-6EDD-F54F-5538-FEE3651A02CF">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:22:47 UTC</createdTime>
 <comment><![CDATA[Вся работа в один день (y/n)]]></comment>

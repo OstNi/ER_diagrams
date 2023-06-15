@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>EL</shortName>
 <synonymToDisplay>Уровень образования</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="9650610C-FCE7-7C08-85F7-5DDA07163681">
+<Attribute name="NAME" id="9650610C-FCE7-7C08-85F7-5DDA07163681">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:27:15 UTC</createdTime>
 <comment><![CDATA[Название]]></comment>
@@ -33,7 +34,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="365D946A-7354-8EDB-44AC-1F332D0ADE4B">
+<Attribute name="SHORT" id="365D946A-7354-8EDB-44AC-1F332D0ADE4B">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:27:47 UTC</createdTime>
 <comment><![CDATA[Короткое обозначение]]></comment>
@@ -46,8 +47,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SRT" id="DD20063C-DD1D-756F-EEBF-17209BD9F189">
 <createdBy>noone</createdBy>

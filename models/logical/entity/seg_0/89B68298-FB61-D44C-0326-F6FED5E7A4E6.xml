@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TPDL</shortName>
 <synonymToDisplay>Схема доставки/расчасовка</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="A439D0FB-CD4B-6F28-28FF-18AF0E7AB105">
+<Attribute name="NAME" id="A439D0FB-CD4B-6F28-28FF-18AF0E7AB105">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 15:03:49 UTC</createdTime>
 <comment><![CDATA[наименование]]></comment>
@@ -30,9 +31,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Confirm_date" id="5AB3834A-B299-7106-BC16-667D1A137293">
+<Attribute name="DATE_OF_CONFIRM" id="5AB3834A-B299-7106-BC16-667D1A137293">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 15:04:41 UTC</createdTime>
 <comment><![CDATA[дата утверждения схемы]]></comment>

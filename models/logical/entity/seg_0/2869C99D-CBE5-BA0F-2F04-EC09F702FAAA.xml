@@ -15,12 +15,14 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>EF</shortName>
 <synonymToDisplay>Форма обучения</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="CF73848B-4623-7459-BCDF-8606A8591B09">
+<Attribute name="NAME" id="CF73848B-4623-7459-BCDF-8606A8591B09">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 12:23:34 UTC</createdTime>
+<comment><![CDATA[наименование формы обучения]]></comment>
 <commentInRDBMS><![CDATA[наименование формы обучения]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -32,7 +34,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="F7D8268F-6FCB-E3AF-A1DA-D228194DFB50">
+<Attribute name="SHORT" id="F7D8268F-6FCB-E3AF-A1DA-D228194DFB50">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 12:24:25 UTC</createdTime>
 <comment><![CDATA[краткое обозначение]]></comment>
@@ -44,8 +46,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SRT" id="EFC98A81-6A1B-E6C8-080B-16055E2F6E45">
 <createdBy>noone</createdBy>

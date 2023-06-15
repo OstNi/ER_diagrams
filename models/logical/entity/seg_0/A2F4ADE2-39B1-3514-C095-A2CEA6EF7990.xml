@@ -16,10 +16,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TTP</shortName>
 <synonymToDisplay>Тип программы</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="6328C7E3-6D37-86CA-3BA3-93DCFD52F5C6">
+<Attribute name="NAME" id="6328C7E3-6D37-86CA-3BA3-93DCFD52F5C6">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:45:59 UTC</createdTime>
 <comment><![CDATA[наименование типа учебной программы]]></comment>
@@ -31,10 +32,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="6367504C-1C70-9C0D-0A4E-5026CA53B58F">
+<Attribute name="SHORT" id="6367504C-1C70-9C0D-0A4E-5026CA53B58F">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:46:32 UTC</createdTime>
 <comment><![CDATA[короткое обозначение]]></comment>
@@ -69,6 +70,8 @@
 <Attribute name="INFO" id="89A0EFDB-420A-80CB-C8C4-C71F0C40C150">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:47:59 UTC</createdTime>
+<comment><![CDATA[описание]]></comment>
+<commentInRDBMS><![CDATA[описание]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>

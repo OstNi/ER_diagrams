@@ -15,12 +15,14 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TY</shortName>
 <synonymToDisplay>Учебный год</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="D8293EAA-2CD6-29D3-4052-2F3D4038294C">
+<Attribute name="NAME" id="D8293EAA-2CD6-29D3-4052-2F3D4038294C">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:13:28 UTC</createdTime>
+<comment><![CDATA[наименование учебного года, например 2000/2001]]></comment>
 <commentInRDBMS><![CDATA[наименование учебного года, например 2000/2001]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -32,7 +34,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Start_date" id="5B7DCE18-2684-9F01-7EC4-403A31A8480B">
+<Attribute name="START_DATE" id="5B7DCE18-2684-9F01-7EC4-403A31A8480B">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:14:22 UTC</createdTime>
 <comment><![CDATA[дата начала обучения в учебном году]]></comment>
@@ -46,7 +48,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Stop_date" id="500F8148-DC52-F630-EAB6-9657B25E564C">
+<Attribute name="STOP_DATE" id="500F8148-DC52-F630-EAB6-9657B25E564C">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:15:31 UTC</createdTime>
 <comment><![CDATA[дата окончания в учебном году]]></comment>

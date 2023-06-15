@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TYP</shortName>
 <synonymToDisplay>Учебный период</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Num" id="D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17">
+<Attribute name="NUM" id="D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:27:01 UTC</createdTime>
 <comment><![CDATA[Номер триместра]]></comment>
@@ -34,10 +35,11 @@
 <dataTypeScale>1</dataTypeScale>
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Start_date" id="69A0878A-1D12-4015-67FB-7455A1A73DBA">
+<Attribute name="START_DATE" id="69A0878A-1D12-4015-67FB-7455A1A73DBA">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:27:41 UTC</createdTime>
 <comment><![CDATA[Начало учебного периода по унифицирорванному графику]]></comment>
+<commentInRDBMS><![CDATA[Начало учебного периода по унифицирорванному графику]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
@@ -48,7 +50,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="End_date" id="97A0A5D6-A050-B1EB-61ED-854F70A60482">
+<Attribute name="END_DATE" id="97A0A5D6-A050-B1EB-61ED-854F70A60482">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:28:28 UTC</createdTime>
 <comment><![CDATA[Конец учебного периода по унифицированному графику]]></comment>
@@ -63,9 +65,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Period_type" id="78CEADCF-8D44-547E-658F-4DBB2E693CB9">
+<Attribute name="TYPE_OF_PERIOD" id="78CEADCF-8D44-547E-658F-4DBB2E693CB9">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:29:02 UTC</createdTime>
+<comment><![CDATA[название учебного периода (триместр и семестр)]]></comment>
 <commentInRDBMS><![CDATA[название учебного периода (триместр и семестр)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>

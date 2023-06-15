@@ -15,12 +15,14 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>GRFC</shortName>
 <synonymToDisplay>Группа факультета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Stu_count" id="8570D23B-5646-37DD-A73A-81639C933D6F">
+<Attribute name="STU_COUNT" id="8570D23B-5646-37DD-A73A-81639C933D6F">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:22:44 UTC</createdTime>
+<comment><![CDATA[Количество студентов в группе ]]></comment>
 <commentInRDBMS><![CDATA[Количество студентов в группе ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -33,9 +35,10 @@
 <dataTypeScale>5</dataTypeScale>
 <ownDataTypeParameters>,0,5</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Num_course" id="9391FA29-BEA4-C080-B7EC-5408B751BF31">
+<Attribute name="NUM_COURSE" id="9391FA29-BEA4-C080-B7EC-5408B751BF31">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:23:22 UTC</createdTime>
+<comment><![CDATA[Текущий номер курса]]></comment>
 <commentInRDBMS><![CDATA[Текущий номер курса]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>

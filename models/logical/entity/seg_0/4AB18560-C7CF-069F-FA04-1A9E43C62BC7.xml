@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>DIV</shortName>
 <synonymToDisplay>Факультет/Кафедра</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="BC55733C-271D-0708-7F6E-69F24A9A2B82">
+<Attribute name="NAME" id="BC55733C-271D-0708-7F6E-69F24A9A2B82">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:10:00 UTC</createdTime>
 <comment><![CDATA[название подразделения]]></comment>
@@ -33,7 +34,7 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="CC6BAF96-778F-F1D0-4290-506BD3EF30B5">
+<Attribute name="SHORT" id="CC6BAF96-778F-F1D0-4290-506BD3EF30B5">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:10:34 UTC</createdTime>
 <comment><![CDATA[короткое наименование]]></comment>
@@ -45,10 +46,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Faculty" id="74926B6D-D29F-5EE9-8035-A301CF6C3A58">
+<Attribute name="FACULTY" id="74926B6D-D29F-5EE9-8035-A301CF6C3A58">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:11:26 UTC</createdTime>
 <comment><![CDATA[является факультетом (y/n)]]></comment>
@@ -63,7 +64,7 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Chair" id="59CB6217-7E7C-912A-C3CF-24F27205F4D1">
+<Attribute name="CHAIR" id="59CB6217-7E7C-912A-C3CF-24F27205F4D1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:12:07 UTC</createdTime>
 <comment><![CDATA[является кафедрой (y/n)]]></comment>

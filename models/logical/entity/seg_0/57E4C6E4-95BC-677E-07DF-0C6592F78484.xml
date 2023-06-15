@@ -15,10 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>DIS</shortName>
 <synonymToDisplay>Дисциплина</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="75F21083-F725-AF85-3A77-D150A9F22A99">
+<Attribute name="NAME" id="75F21083-F725-AF85-3A77-D150A9F22A99">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:50:37 UTC</createdTime>
 <comment><![CDATA[наименование дисциплины]]></comment>
@@ -33,7 +34,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Name_eng" id="F8517709-127F-2BAC-83DF-38AA7F7073E1">
+<Attribute name="NAME_ENG" id="F8517709-127F-2BAC-83DF-38AA7F7073E1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:51:32 UTC</createdTime>
 <comment><![CDATA[наименование дисциплины на английском]]></comment>

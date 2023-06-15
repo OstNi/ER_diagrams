@@ -15,6 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>TWFY</shortName>
 <synonymToDisplay>Вид работы для расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
