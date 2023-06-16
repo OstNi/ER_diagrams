@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59F8A291-A7A5-8C51-59C8-BD50EF9899C4" name="DGR_PERIOD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59F8A291-A7A5-8C51-59C8-BD50EF9899C4" name="DGR_PERIODS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Период, в который узучается данная дисциплина]]></comment>
@@ -105,7 +105,7 @@
 <colUsage columnID="D9EFF8CE-A30B-58D9-3296-E460D868A12D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4448575E-2DD2-E3DC-95BF-01D8F699C615" name="DGR__UN">
+<ind_PK_UK id="4448575E-2DD2-E3DC-95BF-01D8F699C615" name="DGR_DGR_VER_ID_DGR_TYP_ID_DGR_DIV_ID_DGR_TPRC_ID_DGR_STU_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>351CF23B-D002-A56E-E63F-C1F0ADC23CB3</generatorID>

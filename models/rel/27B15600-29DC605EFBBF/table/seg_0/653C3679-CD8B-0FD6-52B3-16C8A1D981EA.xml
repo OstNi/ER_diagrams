@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="653C3679-CD8B-0FD6-52B3-16C8A1D981EA" name="TC_TIME">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="653C3679-CD8B-0FD6-52B3-16C8A1D981EA" name="TC_TIMES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[трудоемкость по видам работ]]></comment>
@@ -123,7 +123,7 @@
 <colUsage columnID="82E5E1C5-C1AF-6DBC-12BB-C9AC6D81E60E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FDAB1BB7-71F0-F685-8E83-37C8D8336066" name="TIM__UN">
+<ind_PK_UK id="FDAB1BB7-71F0-F685-8E83-37C8D8336066" name="TIM_TIM_TPDL_ID_TIM_TPRC_ID_TIM_WT_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>51288C7F-0F09-86B6-4FA3-A9134CBFD9B4</generatorID>

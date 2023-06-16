@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3854ED0-7CE3-B14D-5F8C-6CFEA383B52D" name="CPT_IMPLEMENTATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3854ED0-7CE3-B14D-5F8C-6CFEA383B52D" name="CPT_IMPLEMENTATIONS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Сущность пересечения, реализация рекурсивной связи многие ко многим (М:М) между Компетенцией. Реализует декомпозицию компетенций, при этом каждая из компетенция может быт описана многими другими, и при этом участвовать описании одной или более компетенции.]]></comment>
@@ -78,7 +78,7 @@
 <colUsage columnID="CB3F451A-E9E3-4BDD-C697-5A885AE9D60B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1B5FA0E6-AF95-6F50-C082-CB59B08758C3" name="CIMP__UN">
+<ind_PK_UK id="1B5FA0E6-AF95-6F50-C082-CB59B08758C3" name="CIMP_CIMP_CMP_ID2_CIMP_CMP_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>7710C49F-641F-5A83-AAB7-6AD1604DC020</generatorID>
@@ -101,7 +101,7 @@
 <colUsage columnID="0E94480C-BA00-C3E1-E52D-509AEEAF4FE0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1FEF1F57-3CF4-CDC8-0F64-C93366A8D1BE" name="CIMP_CMP_FKv2">
+<ind_PK_UK id="1FEF1F57-3CF4-CDC8-0F64-C93366A8D1BE" name="CIMP_CMP_FKv1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>4C59231D-42F5-0D6C-A6E1-57AAC4B480CE</generatorID>

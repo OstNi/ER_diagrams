@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31EAEC03-AD57-D20D-13B7-EAE2C3C8DF23" name="COMP_FOR_SE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31EAEC03-AD57-D20D-13B7-EAE2C3C8DF23" name="COMP_FOR_SES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Требования к результатам освоения образовательной программы.
@@ -11,7 +11,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CONSTITUTOR" id="9FE97613-AEA3-5A61-DBE4-72DA2DB462FB">
+<Column name="CRAFT" id="9FE97613-AEA3-5A61-DBE4-72DA2DB462FB">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[компетенция установленная вузом/фгос-ом (i/f)]]></comment>
@@ -93,7 +93,7 @@
 <colUsage columnID="F7B59C23-724A-6D5F-4473-BAF845EE4BCF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C8A24910-DB13-58BC-CC6B-DFA99C5FECC9" name="CFS_CONSTITUTOR_UN">
+<ind_PK_UK id="C8A24910-DB13-58BC-CC6B-DFA99C5FECC9" name="CFS_CONSTITUTOR_CFS_CMP_ID_CFS_SOE_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>584DFFD1-B518-4DA5-52B9-F10A9CAEB968</generatorID>

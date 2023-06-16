@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="144D98D8-D13E-1AF9-A480-A6247E25D228" name="GROUP_WORK">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="144D98D8-D13E-1AF9-A480-A6247E25D228" name="GROUP_WORKS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>F5797AEF-B6DE-2B6D-005F-DA8FDB409CFA</generatorID>
@@ -62,7 +62,7 @@
 <colUsage columnID="AE2EA379-4977-CA78-A121-C73D87C51E36"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F81B9957-71F0-09F0-4DCE-7C84B109F7E7" name="GW__UN">
+<ind_PK_UK id="F81B9957-71F0-09F0-4DCE-7C84B109F7E7" name="GW_GW_STU_ID_GW_WT_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>1D3A29A2-2053-0241-5562-D8AF5F233A45</generatorID>

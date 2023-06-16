@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C685BEE-53C5-BB4D-73B6-4BAD87E83670" name="DIVISION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C685BEE-53C5-BB4D-73B6-4BAD87E83670" name="DIVISIONS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Предстваление, включающее в себя факультеты и кафедры]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIV_ID" id="3D1F86E6-CDC5-C1A9-67A5-A9A0AFDE62F7">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="NAME" id="A37966D7-71C2-445B-6F9A-6277C5230EB2">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
@@ -24,7 +37,7 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SHORT" id="7CE0E637-878F-CC8D-DFF9-BC4ADDED3BE6">
+<Column name="SHT" id="7CE0E637-878F-CC8D-DFF9-BC4ADDED3BE6">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[короткое наименование]]></comment>
@@ -65,19 +78,6 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DIV_ID" id="3D1F86E6-CDC5-C1A9-67A5-A9A0AFDE62F7">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:04 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 <Column name="DIV_DIV_ID" id="AD545F5D-62CA-5058-206D-FE905BABE1FA">
 <createdBy>noone</createdBy>

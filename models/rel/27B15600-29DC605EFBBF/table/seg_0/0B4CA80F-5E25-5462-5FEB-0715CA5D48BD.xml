@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B4CA80F-5E25-5462-5FEB-0715CA5D48BD" name="EDU_PROGRAM_SE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B4CA80F-5E25-5462-5FEB-0715CA5D48BD" name="EDU_PROGRAMS_SE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Сущность пересечения между ООП и Образовательным стандартом, позволяет реализовать связь М:М. Так, каждое ООП может соответствовать сразу нескольким образовательным стандартам, а каждый стандарт иметь несколько ООП. Позволяет разрешать ситуацию со сменой поколений стандартов, когда суть не меняется и учебный план остается прежним.]]></comment>
@@ -78,7 +78,7 @@
 <colUsage columnID="6748FEAB-80AA-ED78-0E04-7A785E3C90C2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C87DC9DF-8160-DF11-0EBA-FD4063F269AA" name="EPS_PB_UN">
+<ind_PK_UK id="C87DC9DF-8160-DF11-0EBA-FD4063F269AA" name="EPS_EPS_SOE_ID_EPS_EDPR_ID_PB_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>04CA5EA7-E7E8-7EBE-D044-49C88AC90752</generatorID>

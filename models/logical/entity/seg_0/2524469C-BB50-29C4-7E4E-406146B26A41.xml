@@ -5,7 +5,7 @@
 <comment><![CDATA[Студент проголосовал за изучение электива плана / факультатива, и есть положительное решение УМУ о формировании группы. Либо студент формирует индивидуальную траекторию на следующий учебный год и есть положительное решение руководителя образовательной программы. В обоих случаях студент должен быть назначен в группу изучения дисциплины. Пердполагается возможность формирования групп состоящих из студентов разных курсов. Например возможно формирование группы студентов старших курсов специалитета и студентов магистратуры.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,14 +17,14 @@
 <normalForm>Third</normalForm>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Start_crs" id="1D3AABFB-B6D5-C11A-CD35-A1B6DAFB0C4B">
+<Attribute name="START_CRS" id="1D3AABFB-B6D5-C11A-CD35-A1B6DAFB0C4B">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 09:45:38 UTC</createdTime>
 <comment><![CDATA[Курс, с которого студент начал узучать дисциплину]]></comment>
 <commentInRDBMS><![CDATA[Курс, с которого студент начал узучать дисциплину]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

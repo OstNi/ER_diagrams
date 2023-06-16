@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75F600ED-344C-5B52-9D3A-2C379A90A7A7" containerWithKeyObject="B2F529E7-1F3A-9185-CBD4-D83890316CE8" localFKIndex="2432A4A2-3AC2-79C9-FD27-9C3BD98B0F1C" name="ROS_EPE_FKv2">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75F600ED-344C-5B52-9D3A-2C379A90A7A7" containerWithKeyObject="B2F529E7-1F3A-9185-CBD4-D83890316CE8" localFKIndex="2432A4A2-3AC2-79C9-FD27-9C3BD98B0F1C" name="ROS_EPE_FKv1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:06 UTC</createdTime>
 <comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную ]]></comment>
 <generatorID>392A46C1-5558-C08F-7B10-A41B3C01586D</generatorID>
 <ownerDesignName>models</ownerDesignName>
-<referredTableLongName>EDU_PROGRAM_ELEMENT</referredTableLongName>
+<referredTableLongName>EDU_PROGRAM_ELEMENTS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>4EDC92A9-4496-2801-657D-3E0066C1D7A3</referredTableID>
 <keyObject>200C00D3-6790-F264-7D0D-E507A7154869</keyObject>

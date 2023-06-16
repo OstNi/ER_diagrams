@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E905082-5A73-2742-0426-C351AA9C5CE5" name="TP_DELIVERY">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E905082-5A73-2742-0426-C351AA9C5CE5" name="TP_DELIVERIES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Схема доставки УМК определяет возможные варианты распределения учебной нагрузки при изучении дисциплины (баланс между лекционной/практической/самостоятельной/лабораторной работой), а также точки текущего контроля и формы итоговой отчётности.]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPDL_ID" id="D91D54A1-A89E-AFB0-473F-5CBF0C6DF097">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="NAME" id="3A4C08EC-F2CE-D2ED-BA1A-789F00392D6D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
@@ -53,19 +66,6 @@
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TPDL_ID" id="D91D54A1-A89E-AFB0-473F-5CBF0C6DF097">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:05 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
 <Column name="TPDL_EF_ID" id="98A91F7B-C77F-1AA9-680D-59D507A53C3E">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:06 UTC</createdTime>
@@ -106,7 +106,7 @@
 <colUsage columnID="D91D54A1-A89E-AFB0-473F-5CBF0C6DF097"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="13FD617F-D919-DCDC-62F9-891F0794A96F" name="TPDL_NAME_UN">
+<ind_PK_UK id="13FD617F-D919-DCDC-62F9-891F0794A96F" name="TPDL_NAME_TPDL_TPR_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>45350530-0060-0D95-1C3C-5060B8C2936D</generatorID>

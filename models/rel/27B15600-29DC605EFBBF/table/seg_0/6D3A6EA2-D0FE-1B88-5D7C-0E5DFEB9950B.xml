@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D3A6EA2-D0FE-1B88-5D7C-0E5DFEB9950B" name="TEACH_YEAR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D3A6EA2-D0FE-1B88-5D7C-0E5DFEB9950B" name="TEACH_YEARS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[учебные года (справочник). Учебный год начинается 1 сентября и заканчивается 31 августа]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TY_ID" id="CE005FA6-04AE-E705-9DF5-F0239A69C1C6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="NAME" id="EFEFB675-CDAD-C98F-8D09-A60C33D72BC0">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
@@ -50,19 +63,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TY_ID" id="CE005FA6-04AE-E705-9DF5-F0239A69C1C6">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:05 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

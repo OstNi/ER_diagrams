@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F08998B-0CBD-2B90-003D-D12212ACCA1F" containerWithKeyObject="E3854ED0-7CE3-B14D-5F8C-6CFEA383B52D" localFKIndex="1FEF1F57-3CF4-CDC8-0F64-C93366A8D1BE" name="CIMP_CMP_FKv2">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F08998B-0CBD-2B90-003D-D12212ACCA1F" containerWithKeyObject="E3854ED0-7CE3-B14D-5F8C-6CFEA383B52D" localFKIndex="1FEF1F57-3CF4-CDC8-0F64-C93366A8D1BE" name="CIMP_CMP_FKv1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>4C59231D-42F5-0D6C-A6E1-57AAC4B480CE</generatorID>
 <ownerDesignName>models</ownerDesignName>
-<referredTableLongName>COMPETENCE</referredTableLongName>
+<referredTableLongName>COMPITENCIES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D58E1EDF-7B82-4123-B88F-25C327EAB11D</referredTableID>
 <keyObject>0DDFFA14-6E61-E046-6DBF-40F930161131</keyObject>

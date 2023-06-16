@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2F529E7-1F3A-9185-CBD4-D83890316CE8" name="RULE_OF_STUDY">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2F529E7-1F3A-9185-CBD4-D83890316CE8" name="RULES_OF_STUDY">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную. Например, для изучения дифференциальных уравнений нужно сначала освоить мат. анализ]]></comment>
@@ -63,7 +63,7 @@
 <colUsage columnID="3F42DB7B-8303-EC3F-59B1-7DC4BC800650"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E9615A76-4305-4868-14AC-91CBBD21A32C" name="ROS__UN">
+<ind_PK_UK id="E9615A76-4305-4868-14AC-91CBBD21A32C" name="ROS_ROS_EPE_ID_ROS_EPE_ID2_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>D4C53E31-06A3-F156-1ECD-FAF0741050D6</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="EE5773D0-968E-7317-227C-67D192A0075F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2432A4A2-3AC2-79C9-FD27-9C3BD98B0F1C" name="ROS_EPE_FKv2">
+<ind_PK_UK id="2432A4A2-3AC2-79C9-FD27-9C3BD98B0F1C" name="ROS_EPE_FKv1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:06 UTC</createdTime>
 <generatorID>392A46C1-5558-C08F-7B10-A41B3C01586D</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F1D970-3967-4E7A-4A29-746455263349" name="TPR_ACHIEVEMENT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F1D970-3967-4E7A-4A29-746455263349" name="TPR_ACHIEVEMENTS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Достигнутая (выходная) компетенция после завершения изучения УМК, либо требуемая для начала изучения УМК (входная). Каждый УМК покрывает своими компетенциями часть компетенций стандарта. Индивидуальная траектория студента строится из набора учебно-методических комплексов исходя из того, чтоб покрыть полностью компетенции стандарта.]]></comment>
@@ -77,7 +77,7 @@
 <colUsage columnID="4FF14581-6423-896B-680E-B016341A0DFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB76E057-8DFB-E20B-9570-530A505D3B86" name="TA_CPT_TYPE_UN">
+<ind_PK_UK id="CB76E057-8DFB-E20B-9570-530A505D3B86" name="TA_CPT_TYPE_TA_TPR_ID_TA_CMP_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>35E6989C-7188-FBD0-73FD-EE8F54AA9379</generatorID>

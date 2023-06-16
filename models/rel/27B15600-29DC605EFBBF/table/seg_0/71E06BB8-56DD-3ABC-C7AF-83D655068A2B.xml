@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71E06BB8-56DD-3ABC-C7AF-83D655068A2B" name="PERSONAL_RECORD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71E06BB8-56DD-3ABC-C7AF-83D655068A2B" name="PERSONAL_RECORDS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Личная запись о обучении студента на факультете.
@@ -12,6 +12,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_ID" id="EFD4C988-1FA3-5196-D2AA-5C9F03DFE73D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="YEAR" id="97A473A1-79B7-1EB8-574D-0920B8EA9ECC">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
@@ -43,7 +56,7 @@
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TERM" id="31445F9E-C803-F268-66B7-36A4579021E6">
+<Column name="TER" id="31445F9E-C803-F268-66B7-36A4579021E6">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Учебный период (в пределах года 1-2-3 / осень-весна-лето) ]]></comment>
@@ -75,19 +88,6 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PR_ID" id="EFD4C988-1FA3-5196-D2AA-5C9F03DFE73D">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:05 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 <Column name="PR_EF_ID" id="CDF3B538-CC03-AA54-AA56-B89BD5F6667B">
 <createdBy>noone</createdBy>

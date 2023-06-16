@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A1089A-A7BB-373E-9B6E-6196892F6D8B" name="IND_PATH_POINT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A1089A-A7BB-373E-9B6E-6196892F6D8B" name="IND_PATH_POINTS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Точка индивидуальной траектории определяет вхождение УМК в индивидуальную траекторию обучающегося. Указывает, на каком семестре какого курса должна быть изучена дисциплина по УМК.]]></comment>
@@ -25,7 +25,7 @@
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TERM" id="8262B7B7-2288-024D-1287-9BB96080B99E">
+<Column name="TER" id="8262B7B7-2288-024D-1287-9BB96080B99E">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[учебный период курса (осень/весна/лето)]]></comment>
@@ -93,7 +93,7 @@
 <colUsage columnID="0C6CFB5B-014F-E3E9-A380-6248573A13A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E378D9BC-6D38-B09F-0909-0996E18CD9F2" name="IPP_COURSE_TERM_UN">
+<ind_PK_UK id="E378D9BC-6D38-B09F-0909-0996E18CD9F2" name="IPP_IPP_EPE_ID_COURSE_TERM_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>C6E92D75-DB5E-8893-FE4D-035AB49BBC38</generatorID>

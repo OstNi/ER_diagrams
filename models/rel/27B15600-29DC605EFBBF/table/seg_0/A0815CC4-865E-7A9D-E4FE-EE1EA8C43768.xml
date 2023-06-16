@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0815CC4-865E-7A9D-E4FE-EE1EA8C43768" name="ELEMENT_TERM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0815CC4-865E-7A9D-E4FE-EE1EA8C43768" name="ELEMENTS_TERM">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[семестр элемента ооп]]></comment>
@@ -63,7 +63,7 @@
 <colUsage columnID="6054A5C9-1B7D-238E-E2FF-C9060FE75914"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="88B2DCEE-3183-9404-880D-AF5CEF2B63D7" name="ETER__UN">
+<ind_PK_UK id="88B2DCEE-3183-9404-880D-AF5CEF2B63D7" name="ETER_ETER_EPE_ID_ETER_TER_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>6933405F-AEAE-CD8C-9AAD-77DAF79FBA98</generatorID>

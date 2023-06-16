@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4685A540-8C7A-9BB1-41C6-FB7580D6ACD4" name="TPR_CHAPTER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4685A540-8C7A-9BB1-41C6-FB7580D6ACD4" name="TPR_CHAPTERS">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Структура разделов учебно-методического комплекса. Рекурсивно связн, то есть преполагается иерархическая структура разделов. Например: тема, подтема, глава, параграф.]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPRC_ID" id="8BE1BF92-3DB2-428B-59D2-A34E3E1A94B2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="NAME" id="CE7DA6A3-46FE-82DF-836C-0B82D03D86DA">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
@@ -38,19 +51,6 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TPRC_ID" id="8BE1BF92-3DB2-428B-59D2-A34E3E1A94B2">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:05 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 <Column name="TPRC_EXT_ID" id="9179D060-A251-C5E5-5F01-666919195F38">
 <createdBy>noone</createdBy>
@@ -107,7 +107,7 @@
 <colUsage columnID="8BE1BF92-3DB2-428B-59D2-A34E3E1A94B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A2BDDF0-6F19-1E7E-D3E8-E8D7F178D585" name="TPRC_NAME_UN">
+<ind_PK_UK id="1A2BDDF0-6F19-1E7E-D3E8-E8D7F178D585" name="TPRC_NAME_TPRC_TPR_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <generatorID>0459A308-2C90-77D6-66BE-60241BBA6081</generatorID>

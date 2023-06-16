@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED5C6F8A-7BAA-1DEA-DD9C-36CDFF4DAF74" name="COURSE_OF_EDP">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED5C6F8A-7BAA-1DEA-DD9C-36CDFF4DAF74" name="COURSES_OF_EDP">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[курс, для которого может быть использован элемент]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COE_ID" id="4A27CAB0-202C-5267-90B1-7074E8F3C7C6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="COURSE_NUM" id="1C678D9D-EB2B-698B-8935-C0ECA8DE6C3B">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
@@ -24,19 +37,6 @@
 <dataTypeScale>5</dataTypeScale>
 <ownDataTypeParameters>,0,5</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="COE_ID" id="4A27CAB0-202C-5267-90B1-7074E8F3C7C6">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:04 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 <Column name="COE_EDPR_ID" id="1DF500B1-8598-C496-7A48-4FAB0F1635DE">
 <createdBy>noone</createdBy>
@@ -64,7 +64,7 @@
 <colUsage columnID="4A27CAB0-202C-5267-90B1-7074E8F3C7C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DAC76EAF-198E-0C62-6E13-7D7D59BD099D" name="COE_COURSE_NUM_UN">
+<ind_PK_UK id="DAC76EAF-198E-0C62-6E13-7D7D59BD099D" name="COE_COURSE_NUM_COE_EDPR_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>F6B72AEE-E3C3-A4B7-1BD4-3492565DA26D</generatorID>

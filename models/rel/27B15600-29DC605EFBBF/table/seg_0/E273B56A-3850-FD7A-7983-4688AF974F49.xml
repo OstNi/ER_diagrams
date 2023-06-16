@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E273B56A-3850-FD7A-7983-4688AF974F49" name="TIME_RULE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E273B56A-3850-FD7A-7983-4688AF974F49" name="TIME_RULES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:05 UTC</createdTime>
 <comment><![CDATA[Норма времени расчета нагрузки]]></comment>

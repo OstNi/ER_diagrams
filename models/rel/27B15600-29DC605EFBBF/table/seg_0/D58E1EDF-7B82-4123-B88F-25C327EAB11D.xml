@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D58E1EDF-7B82-4123-B88F-25C327EAB11D" name="COMPETENCE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D58E1EDF-7B82-4123-B88F-25C327EAB11D" name="COMPITENCIES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Компетенции (справочник) разного уровня, как стандартов, так и более детальные (до необходимого с работой УМК уровня декомпонзиции)]]></comment>
@@ -10,6 +10,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CMP_ID" id="EDB83723-50FD-D91A-395A-106BF8C31723">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="NAME" id="6E167340-7A5E-EC12-214A-FA1EFDF2B4D5">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
@@ -68,19 +81,6 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CMP_ID" id="EDB83723-50FD-D91A-395A-106BF8C31723">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-16 06:30:04 UTC</createdTime>
-<ownerDesignName>models</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
 <Column name="CMP_TCMP_ID" id="68C6EDF2-5805-1076-A953-898CD72827E7">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:07 UTC</createdTime>
@@ -107,7 +107,7 @@
 <colUsage columnID="EDB83723-50FD-D91A-395A-106BF8C31723"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="73B34239-E74B-A021-E13D-4EC41FCDB506" name="CMP_NAME_UN">
+<ind_PK_UK id="73B34239-E74B-A021-E13D-4EC41FCDB506" name="CMP_NAME_CMP_TCMP_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>A0B4A8C2-1437-F68F-34CD-9E340F994AD4</generatorID>

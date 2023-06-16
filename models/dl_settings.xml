@@ -292,6 +292,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
+			<glossary_file value="/Users/Shared/OracleGit/ER_diagrams/glossary.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>

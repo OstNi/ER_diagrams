@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F64949C-4AD7-1DC9-AC4C-F0AE2E0FB217" name="GROUP_FACULTY">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F64949C-4AD7-1DC9-AC4C-F0AE2E0FB217" name="GROUP_FACULTIES">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <comment><![CDATA[Группа, изучающая конкретную дисциплину, с определенного факультета]]></comment>
@@ -121,7 +121,7 @@
 <colUsage columnID="5789B6F6-FBFB-20AD-F7DE-B49C8525CAB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6D748D8A-E5B0-77ED-5A2C-5F5B9534500C" name="GRFC_NUM_COURSE_UN">
+<ind_PK_UK id="6D748D8A-E5B0-77ED-5A2C-5F5B9534500C" name="GRFC_NUM_COURSE_GRFC_EL_ID_GRFC_DIV_ID_GRFC_EF_ID_GRFC_STU_ID_UN">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-16 06:30:04 UTC</createdTime>
 <generatorID>81630C74-66BA-B8FA-9C54-B139428EBE3B</generatorID>
