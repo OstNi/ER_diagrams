@@ -28,7 +28,6 @@
 <engineerTo>
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -42,8 +41,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 09:20:01 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>070695E9-0529-053B-CC12-5235C740B22D,6AE571CC-8392-CF8B-B314-DB68C2881AB3,2887C2F6-D370-EC27-F528-4E0EDB26AB45</newElementsIDs>
 <usedAttributes>

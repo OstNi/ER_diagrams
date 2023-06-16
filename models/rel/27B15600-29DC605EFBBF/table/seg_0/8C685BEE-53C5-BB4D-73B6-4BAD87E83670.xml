@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C685BEE-53C5-BB4D-73B6-4BAD87E83670" name="DIVISION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[Предстваление, включающее в себя факультеты и кафедры]]></comment>
+<generatorID>4AB18560-C7CF-069F-FA04-1A9E43C62BC7</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>DIV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="A37966D7-71C2-445B-6F9A-6277C5230EB2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[название подразделения]]></comment>
+<commentInRDBMS><![CDATA[название подразделения]]></commentInRDBMS>
+<generatorID>BC55733C-271D-0708-7F6E-69F24A9A2B82</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT" id="7CE0E637-878F-CC8D-DFF9-BC4ADDED3BE6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[короткое наименование]]></comment>
+<commentInRDBMS><![CDATA[короткое наименование]]></commentInRDBMS>
+<generatorID>CC6BAF96-778F-F1D0-4290-506BD3EF30B5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACULTY" id="AB617CB3-33B8-848C-3F48-28F4C719C274">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[является факультетом (y/n)]]></comment>
+<commentInRDBMS><![CDATA[является факультетом (y/n)]]></commentInRDBMS>
+<generatorID>74926B6D-D29F-5EE9-8035-A301CF6C3A58</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHAIR" id="A2A84DFB-3974-51CF-4FA1-E17FD68C9A9E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[является кафедрой (y/n)]]></comment>
+<commentInRDBMS><![CDATA[является кафедрой (y/n)]]></commentInRDBMS>
+<generatorID>59CB6217-7E7C-912A-C3CF-24F27205F4D1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIV_ID" id="3D1F86E6-CDC5-C1A9-67A5-A9A0AFDE62F7">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DIV_DIV_ID" id="AD545F5D-62CA-5058-206D-FE905BABE1FA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9080402E-CFC7-0203-C772-B7E262F50CEB" referredColumn="3D1F86E6-CDC5-C1A9-67A5-A9A0AFDE62F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C70EFCFD-E665-2B8D-8DE0-607606415AC3" name="DIV_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3D1F86E6-CDC5-C1A9-67A5-A9A0AFDE62F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75C5D83B-894B-66F3-9270-88007CF1E185" name="DIV_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<generatorID>586A985B-6867-6B99-FA6C-39C892C6AABD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A37966D7-71C2-445B-6F9A-6277C5230EB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB6664D0-B202-2578-6A1B-C50640B5518C" name="DIV_SHORT_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<generatorID>53498828-2129-7EE1-DED5-9C769D0AADD9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CE0E637-878F-CC8D-DFF9-BC4ADDED3BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="972A0610-E622-258D-80EE-07D8476CE3A9" name="DIV_DIV_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>B550082E-FAEB-A0EB-C0B7-BEFFBC7E63B5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD545F5D-62CA-5058-206D-FE905BABE1FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

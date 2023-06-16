@@ -19,7 +19,7 @@
 <synonymToDisplay>Элеиент индивидуальной траектории</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Course" id="5C2663FA-9FFE-D1CA-761C-943DCFEC3950">
+<Attribute name="COURSE" id="5C2663FA-9FFE-D1CA-761C-943DCFEC3950">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:05:16 UTC</createdTime>
 <comment><![CDATA[курс учебного плана (год обучения)]]></comment>
@@ -35,7 +35,7 @@
 <dataTypeScale>1</dataTypeScale>
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Term" id="1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0">
+<Attribute name="TERM" id="1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:06:06 UTC</createdTime>
 <comment><![CDATA[учебный период курса (осень/весна/лето)]]></comment>
@@ -57,8 +57,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 08:10:49 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>B24E2360-12CE-5E53-5ED7-7B8C9A82910C,5C2663FA-9FFE-D1CA-761C-943DCFEC3950,1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0</newElementsIDs>
 <usedAttributes>

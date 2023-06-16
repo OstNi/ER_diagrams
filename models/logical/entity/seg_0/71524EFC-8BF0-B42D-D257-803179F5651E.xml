@@ -48,7 +48,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Qualification" id="E3CC9E15-A475-FDFF-EB82-FF2AB9C0BDB1">
+<Attribute name="QUALIFICATION" id="E3CC9E15-A475-FDFF-EB82-FF2AB9C0BDB1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 16:03:30 UTC</createdTime>
 <comment><![CDATA[квалификация по окончании обучения]]></comment>
@@ -63,7 +63,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Application_scope" id="4E17363B-CDCD-87E4-F629-BD8CB48EECCE">
+<Attribute name="APPLICATION_SCOPE" id="4E17363B-CDCD-87E4-F629-BD8CB48EECCE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 16:04:18 UTC</createdTime>
 <comment><![CDATA[область применения стандарта]]></comment>
@@ -78,7 +78,22 @@
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Activity_field" id="4FDB58C9-4117-EEEE-5E33-ABB49CBE67EB">
+<Attribute name="ACTIVITY_OBJECT" id="600AA655-316A-B42F-0CC4-9C35A326F132">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 16:07:52 UTC</createdTime>
+<comment><![CDATA[объекты профессиональной деятельности выпускников]]></comment>
+<commentInRDBMS><![CDATA[объекты профессиональной деятельности выпускников]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACTIVITY_FIELD" id="4FDB58C9-4117-EEEE-5E33-ABB49CBE67EB">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 16:06:41 UTC</createdTime>
 <comment><![CDATA[область профессиональной деятельности выпускников]]></comment>
@@ -88,21 +103,6 @@
 <item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2000</dataTypeSize>
-<ownDataTypeParameters>2000,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Activity_object" id="600AA655-316A-B42F-0CC4-9C35A326F132">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-07 16:07:52 UTC</createdTime>
-<comment><![CDATA[объекты профессиональной деятельности выпускников]]></comment>
-<commentInRDBMS><![CDATA[объекты профессиональной деятельности выпускников]]></commentInRDBMS>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

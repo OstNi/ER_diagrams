@@ -19,7 +19,7 @@
 <synonymToDisplay>Компетенция</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="D95120A4-43CA-3AEA-848A-8A4EF24646A1">
+<Attribute name="NAME" id="D95120A4-43CA-3AEA-848A-8A4EF24646A1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:59:02 UTC</createdTime>
 <comment><![CDATA[формулировка компитенции ]]></comment>
@@ -34,7 +34,7 @@
 <dataTypeSize>2000</dataTypeSize>
 <ownDataTypeParameters>2000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Top_level" id="564D8752-AE81-FCF4-5DFE-7011570EBA1A">
+<Attribute name="TOP_LEVEL" id="564D8752-AE81-FCF4-5DFE-7011570EBA1A">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 18:59:38 UTC</createdTime>
 <comment><![CDATA[компитенция верхнего уровня (y/n)]]></comment>
@@ -50,7 +50,7 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Status" id="C14FE8D0-B6EA-E011-FB04-75208F54D36B">
+<Attribute name="STATUS" id="C14FE8D0-B6EA-E011-FB04-75208F54D36B">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:00:48 UTC</createdTime>
 <comment><![CDATA[состояние компитенции (проверрка, утверждение) ]]></comment>
@@ -65,7 +65,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Info" id="D98D3422-6CA0-778A-C9B2-CA3F8F24649A">
+<Attribute name="INFO" id="D98D3422-6CA0-778A-C9B2-CA3F8F24649A">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:04:40 UTC</createdTime>
 <comment><![CDATA[примечания]]></comment>
@@ -87,8 +87,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 10:34:06 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>D95120A4-43CA-3AEA-848A-8A4EF24646A1,0254A1B7-F4AA-FD77-9B1A-41758C9B2939</newElementsIDs>
 <usedAttributes>

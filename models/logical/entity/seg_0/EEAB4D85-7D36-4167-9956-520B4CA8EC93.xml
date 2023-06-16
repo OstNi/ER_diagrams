@@ -21,7 +21,7 @@
 <synonymToDisplay>Личная запись</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="year" id="16E32701-74A6-E9FB-7CCA-A87357147C9D">
+<Attribute name="YEAR" id="16E32701-74A6-E9FB-7CCA-A87357147C9D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 12:49:02 UTC</createdTime>
 <comment><![CDATA[Год создания личной записи (начало обучения) ]]></comment>
@@ -37,7 +37,7 @@
 <dataTypeScale>4</dataTypeScale>
 <ownDataTypeParameters>,0,4</ownDataTypeParameters>
 </Attribute>
-<Attribute name="course" id="A4D387D8-A1F9-C01C-BF59-4D0433567348">
+<Attribute name="CUR_COURSE" id="A4D387D8-A1F9-C01C-BF59-4D0433567348">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 12:50:22 UTC</createdTime>
 <comment><![CDATA[Текущий курс (год обучения)]]></comment>
@@ -54,7 +54,7 @@
 <dataTypeScale>1</dataTypeScale>
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 </Attribute>
-<Attribute name="term" id="3A5F909E-9478-6BE9-7072-6D744BBDC2B1">
+<Attribute name="TERM" id="3A5F909E-9478-6BE9-7072-6D744BBDC2B1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 12:51:14 UTC</createdTime>
 <comment><![CDATA[Учебный период (в пределах года 1-2-3 / осень-весна-лето) ]]></comment>

@@ -19,7 +19,7 @@
 <synonymToDisplay>Семестр</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="8833E6F5-A39B-8E70-D8F8-77AE3979BCF0">
+<Attribute name="TER_NUM" id="8833E6F5-A39B-8E70-D8F8-77AE3979BCF0">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:58:17 UTC</createdTime>
 <comment><![CDATA[номер ]]></comment>
@@ -41,8 +41,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 07:24:31 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>8833E6F5-A39B-8E70-D8F8-77AE3979BCF0,E9DB3190-4244-D525-475C-09A8CB8AD941</newElementsIDs>
 <usedAttributes>

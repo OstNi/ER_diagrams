@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83709CB1-F146-F8A9-4996-38E89AEEE382" containerWithKeyObject="E273B56A-3850-FD7A-7983-4688AF974F49" localFKIndex="E34FB529-40FA-9F0E-A625-99F4F17F3CAB" name="TR_TWFY_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:07 UTC</createdTime>
+<generatorID>E1E26846-460F-B21C-D22D-0F16A8682A9B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>TW_FOR_YEAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95C1AD8A-9C7D-32AB-60C3-405C1CF069EA</referredTableID>
+<keyObject>D605B34B-1690-964B-A09A-A60E8D9CD660</keyObject>
+<referredKeyID>D605B34B-1690-964B-A09A-A60E8D9CD660</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TWFY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

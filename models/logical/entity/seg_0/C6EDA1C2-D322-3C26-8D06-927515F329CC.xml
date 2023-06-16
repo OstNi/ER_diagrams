@@ -19,22 +19,7 @@
 <synonymToDisplay>Образовательная программа</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Confirm_date" id="E602F832-44F1-A453-3095-6C37C8136A43">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-07 13:30:35 UTC</createdTime>
-<comment><![CDATA[дата утверждения]]></comment>
-<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Short_info" id="F95347A5-73F6-4A6D-5115-2C87AF24ECFB">
+<Attribute name="SHORT_INFO" id="F95347A5-73F6-4A6D-5115-2C87AF24ECFB">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:31:20 UTC</createdTime>
 <comment><![CDATA[аннотация]]></comment>
@@ -49,7 +34,22 @@
 <dataTypeSize>300</dataTypeSize>
 <ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Valid" id="49D0A29B-DF11-EC4E-0F0F-3B69A1AE8BF1">
+<Attribute name="CONFIRM_DATE" id="E602F832-44F1-A453-3095-6C37C8136A43">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 13:30:35 UTC</createdTime>
+<comment><![CDATA[дата утверждения]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALID" id="49D0A29B-DF11-EC4E-0F0F-3B69A1AE8BF1">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:32:29 UTC</createdTime>
 <comment><![CDATA[учебный план проверен и утвержден]]></comment>
@@ -60,13 +60,14 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Protocol_date" id="32BD1F84-9FF5-3677-2406-F1D117F95635">
+<Attribute name="PROTOCOL_DATE" id="32BD1F84-9FF5-3677-2406-F1D117F95635">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:34:26 UTC</createdTime>
 <comment><![CDATA[дата протокола ученного совета университета об утверждении приказа]]></comment>
@@ -81,7 +82,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Protocol_num" id="255FEBBA-C0E7-F4B6-1D74-A051E424206D">
+<Attribute name="PROTOCOL_NUM" id="255FEBBA-C0E7-F4B6-1D74-A051E424206D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:36:17 UTC</createdTime>
 <comment><![CDATA[номер протокола ученого совета университета ооб утверждени плана]]></comment>
@@ -98,7 +99,7 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,0,10</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Mob" id="FC622A1A-2B18-4166-DA1B-01A3C6B217EF">
+<Attribute name="MOB" id="FC622A1A-2B18-4166-DA1B-01A3C6B217EF">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:39:10 UTC</createdTime>
 <commentInRDBMS><![CDATA[Мобилизационный план (y/n)]]></commentInRDBMS>

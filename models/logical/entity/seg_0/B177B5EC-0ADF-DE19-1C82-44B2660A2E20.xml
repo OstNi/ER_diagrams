@@ -19,7 +19,7 @@
 <synonymToDisplay>Тип компетенции</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="6B98E960-1373-E131-C91C-A35A11C49284">
+<Attribute name="NAME" id="6B98E960-1373-E131-C91C-A35A11C49284">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:21:09 UTC</createdTime>
 <comment><![CDATA[тип компетенции ]]></comment>
@@ -34,7 +34,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Short" id="4035676A-4374-42BE-205F-CF5934427DE4">
+<Attribute name="SHORT" id="4035676A-4374-42BE-205F-CF5934427DE4">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:22:07 UTC</createdTime>
 <comment><![CDATA[сокращенное обозначение]]></comment>
@@ -71,8 +71,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 09:25:02 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>6B98E960-1373-E131-C91C-A35A11C49284</newElementsIDs>
 <usedAttributes>
@@ -83,8 +84,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 09:27:00 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>4035676A-4374-42BE-205F-CF5934427DE4</newElementsIDs>
 <usedAttributes>

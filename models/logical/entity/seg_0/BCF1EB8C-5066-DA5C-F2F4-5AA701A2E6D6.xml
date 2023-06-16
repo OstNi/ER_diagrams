@@ -19,7 +19,7 @@
 <synonymToDisplay>Курс ООП</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Name" id="F452290A-3D4C-A0E9-599C-6EBEAB92DAC6">
+<Attribute name="COURSE_NUM" id="F452290A-3D4C-A0E9-599C-6EBEAB92DAC6">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:27:18 UTC</createdTime>
 <comment><![CDATA[Номер]]></comment>
@@ -41,8 +41,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 07:22:19 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>F452290A-3D4C-A0E9-599C-6EBEAB92DAC6,9BB96F73-237A-D9CC-0D62-D3B6010EB9CE</newElementsIDs>
 <usedAttributes>

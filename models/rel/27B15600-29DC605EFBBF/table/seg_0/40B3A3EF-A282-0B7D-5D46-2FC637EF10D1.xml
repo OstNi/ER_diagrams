@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40B3A3EF-A282-0B7D-5D46-2FC637EF10D1" name="STU_GROUP">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[Группа студентов по изучению конкретной дисцплины]]></comment>
+<generatorID>711C4F8B-B845-D743-64BF-D7DF10267B6D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>STU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="451AAA24-E388-010E-0551-F5A8B780E94C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[Название группы]]></comment>
+<commentInRDBMS><![CDATA[Название группы]]></commentInRDBMS>
+<generatorID>3D2CA192-DE46-82E3-56AA-EF7963AD8D04</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DGR_ID" id="F3ABFF8E-E154-A143-916A-5F656F905114">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[DIS_GROUP из ЕТИС]]></comment>
+<commentInRDBMS><![CDATA[DIS_GROUP из ЕТИС]]></commentInRDBMS>
+<generatorID>AA5148C0-E760-E9FC-899C-9B244BC59B2D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_ID" id="28022058-EA1D-3EEC-1532-551617C22D6A">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[SUPER_GROUP из ЕТИС]]></comment>
+<commentInRDBMS><![CDATA[SUPER_GROUP из ЕТИС]]></commentInRDBMS>
+<generatorID>9C72E7A3-C436-E426-6726-67C2BEE20988</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFO" id="064264EF-69DF-EA89-518D-6DD782AB51C3">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[комментарий]]></comment>
+<commentInRDBMS><![CDATA[комментарий]]></commentInRDBMS>
+<generatorID>80CD54F1-34F3-286E-3BFE-664A6C8B2F33</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STU_ID" id="BF93F689-2CFA-D8E8-4790-C740BEA435AF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="STU_DGR_STUDENT_ID" id="67AFFFDF-FC70-0BF5-E5BD-87D13193CCB4">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23AB1606-9A90-92B4-0793-78F83E587E97" referredColumn="8FBF7B29-9C12-B06D-54BB-4F74415021AD"/>
+</associations>
+</Column>
+<Column name="STU_STU_ID" id="9E5CDC69-B838-D4BA-224B-AED6FA4F2E05">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:06 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A017C47-2154-5EC8-1656-18CAF81AD318" referredColumn="BF93F689-2CFA-D8E8-4790-C740BEA435AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="176DFBC3-3FFD-0C1B-6CFB-3C937A77F866" name="STU_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BF93F689-2CFA-D8E8-4790-C740BEA435AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE9CC187-3975-5FE2-A4FF-AC418604AF96" name="STU_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>495A0C3E-DB9B-0274-C654-5D25C775DED4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="451AAA24-E388-010E-0551-F5A8B780E94C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77E5D298-C50D-2CB5-B00F-488B50DE3EF9" name="STU_DGR_STUDENT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>9B00CCA2-4B93-C949-A778-B6F08A682F17</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67AFFFDF-FC70-0BF5-E5BD-87D13193CCB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE79678-3C75-A305-507D-7A16A73CCB7B" name="STU_STU_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:06 UTC</createdTime>
+<generatorID>AA5DCA15-371B-AE52-7518-4BE053D79DF6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E5CDC69-B838-D4BA-224B-AED6FA4F2E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

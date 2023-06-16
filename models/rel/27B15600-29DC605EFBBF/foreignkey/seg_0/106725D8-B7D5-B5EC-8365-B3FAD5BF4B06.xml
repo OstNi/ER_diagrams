@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="106725D8-B7D5-B5EC-8365-B3FAD5BF4B06" containerWithKeyObject="31EAEC03-AD57-D20D-13B7-EAE2C3C8DF23" localFKIndex="FE6BD570-14EA-5A83-2B49-1C71ECDCB33C" name="CFS_CMP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>94B8E0C6-28B0-4ADD-29A4-3648B7E1B89D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>COMPETENCE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D58E1EDF-7B82-4123-B88F-25C327EAB11D</referredTableID>
+<keyObject>0DDFFA14-6E61-E046-6DBF-40F930161131</keyObject>
+<referredKeyID>0DDFFA14-6E61-E046-6DBF-40F930161131</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CMP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

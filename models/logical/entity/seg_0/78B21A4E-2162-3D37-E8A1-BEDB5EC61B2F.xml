@@ -49,9 +49,26 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ONE_DAY" id="E869487E-6EDD-F54F-5538-FEE3651A02CF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-09 05:22:47 UTC</createdTime>
+<comment><![CDATA[Вся работа в один день (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Вся работа в один день (y/n)]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="AUD" id="02C29A63-CA90-88AC-C828-C133D82E91DF">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:20:48 UTC</createdTime>
+<comment><![CDATA[Включать аудиторные часы? (y/n)]]></comment>
 <commentInRDBMS><![CDATA[Включать аудиторные часы? (y/n)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
@@ -82,22 +99,6 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ONE_DAY" id="E869487E-6EDD-F54F-5538-FEE3651A02CF">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-09 05:22:47 UTC</createdTime>
-<comment><![CDATA[Вся работа в один день (y/n)]]></comment>
-<commentInRDBMS><![CDATA[Вся работа в один день (y/n)]]></commentInRDBMS>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
-<defaultValue>n</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="SRT" id="368AB85D-769A-BECD-43D6-FD6BB5F76FEC">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:23:32 UTC</createdTime>
@@ -121,8 +122,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 07:11:58 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>1DCAD99D-1F03-D128-D8F9-A41256F74361</newElementsIDs>
 <usedAttributes>
@@ -133,8 +135,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 07:12:13 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
 </engineerTo>
 <newElementsIDs>D9521BE5-C3A8-48FB-18E7-216EC7CE052A</newElementsIDs>
 <usedAttributes>

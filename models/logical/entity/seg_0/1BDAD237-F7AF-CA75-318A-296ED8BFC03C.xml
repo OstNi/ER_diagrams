@@ -19,7 +19,7 @@
 <synonymToDisplay>Элемент ООП</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Mandatory" id="862CB01C-23E1-D993-01D0-ACB5B3693BC4">
+<Attribute name="MANDATORY" id="862CB01C-23E1-D993-01D0-ACB5B3693BC4">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:19:54 UTC</createdTime>
 <comment><![CDATA[обязательный элемент (y/n)]]></comment>
@@ -35,7 +35,7 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cost" id="58A6A479-9A1D-DE5C-C44A-664E3D7FA860">
+<Attribute name="COST" id="58A6A479-9A1D-DE5C-C44A-664E3D7FA860">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:20:41 UTC</createdTime>
 <comment><![CDATA[трудоемкость]]></comment>

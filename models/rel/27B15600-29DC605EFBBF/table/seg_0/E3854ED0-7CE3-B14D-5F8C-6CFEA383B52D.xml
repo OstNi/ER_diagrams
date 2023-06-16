@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3854ED0-7CE3-B14D-5F8C-6CFEA383B52D" name="CPT_IMPLEMENTATION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[Сущность пересечения, реализация рекурсивной связи многие ко многим (М:М) между Компетенцией. Реализует декомпозицию компетенций, при этом каждая из компетенция может быт описана многими другими, и при этом участвовать описании одной или более компетенции.]]></comment>
+<generatorID>8632E7C5-C640-7753-A445-ECD0F1ECA8B9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>CIMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SRT" id="C4C86436-6DFF-303D-FE1B-FE099D994311">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<comment><![CDATA[порядковый номер]]></comment>
+<commentInRDBMS><![CDATA[порядковый номер]]></commentInRDBMS>
+<generatorID>1D9EE155-9EBD-1F7D-3885-F87725C1EE91</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,0,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIMP_ID" id="CB3F451A-E9E3-4BDD-C697-5A885AE9D60B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CIMP_CMP_ID" id="0E94480C-BA00-C3E1-E52D-509AEEAF4FE0">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0829AFD-614D-5D72-F019-24E7C3B8C3C5" referredColumn="EDB83723-50FD-D91A-395A-106BF8C31723"/>
+</associations>
+</Column>
+<Column name="CIMP_CMP_ID2" id="43CAD0BE-C972-0FC5-135C-178B12893806">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F08998B-0CBD-2B90-003D-D12212ACCA1F" referredColumn="EDB83723-50FD-D91A-395A-106BF8C31723"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="283A618D-632E-9850-BFC0-51F1381D625D" name="CIMP_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CB3F451A-E9E3-4BDD-C697-5A885AE9D60B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B5FA0E6-AF95-6F50-C082-CB59B08758C3" name="CIMP__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:04 UTC</createdTime>
+<generatorID>7710C49F-641F-5A83-AAB7-6AD1604DC020</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43CAD0BE-C972-0FC5-135C-178B12893806"/>
+<colUsage columnID="0E94480C-BA00-C3E1-E52D-509AEEAF4FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C2B9BF-8595-DBAC-DA06-AC4709FEA431" name="CIMP_CMP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>9BF27A45-FECB-8ECD-8CA6-D35391FFC12C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E94480C-BA00-C3E1-E52D-509AEEAF4FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FEF1F57-3CF4-CDC8-0F64-C93366A8D1BE" name="CIMP_CMP_FKv2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>4C59231D-42F5-0D6C-A6E1-57AAC4B480CE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43CAD0BE-C972-0FC5-135C-178B12893806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

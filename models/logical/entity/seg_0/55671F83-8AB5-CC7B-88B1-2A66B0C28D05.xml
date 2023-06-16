@@ -6,7 +6,7 @@
 Для каждой регистрационной записи образовательного стандарта формируется перечень компетенций с разделениям по]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,14 +20,14 @@
 <synonymToDisplay>Компетенция стандарта</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Covernor" id="41597B86-2D13-E9AA-E61C-377BC1350105">
+<Attribute name="CRAFT" id="41597B86-2D13-E9AA-E61C-377BC1350105">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:46:19 UTC</createdTime>
-<comment><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></comment>
-<commentInRDBMS><![CDATA[компетенция установленая вузом/фгос-ом (i/f)]]></commentInRDBMS>
+<comment><![CDATA[компетенция установленная вузом/фгос-ом (i/f)]]></comment>
+<commentInRDBMS><![CDATA[компетенция установленная вузом/фгос-ом (i/f)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -42,7 +42,7 @@
 <commentInRDBMS><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2023-06-14 10:37:18 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>41597B86-2D13-E9AA-E61C-377BC1350105,94B8E0C6-28B0-4ADD-29A4-3648B7E1B89D,11D7CFC0-AE6F-0B9A-6FF0-C12BBA25A409</newElementsIDs>
 <usedAttributes>

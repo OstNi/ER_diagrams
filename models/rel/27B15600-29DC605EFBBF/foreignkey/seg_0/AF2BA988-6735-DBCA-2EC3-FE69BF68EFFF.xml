@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF2BA988-6735-DBCA-2EC3-FE69BF68EFFF" containerWithKeyObject="B2F529E7-1F3A-9185-CBD4-D83890316CE8" localFKIndex="3C719856-7216-04B8-902A-ECC3FCEBDDA1" name="ROS_EPE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:06 UTC</createdTime>
+<generatorID>0B174829-45B4-ABF8-1542-88CF1BADCD5D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>EDU_PROGRAM_ELEMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4EDC92A9-4496-2801-657D-3E0066C1D7A3</referredTableID>
+<keyObject>200C00D3-6790-F264-7D0D-E507A7154869</keyObject>
+<referredKeyID>200C00D3-6790-F264-7D0D-E507A7154869</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -15,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>IC</shortName>
+<shortName>ICRS</shortName>
 <synonymToDisplay>Курс индивидуальной траектории</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Course" id="B6B16B81-E13F-9B21-DE25-B753BF18B634">
+<Attribute name="COURSE" id="B6B16B81-E13F-9B21-DE25-B753BF18B634">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:44:48 UTC</createdTime>
 <comment><![CDATA[курс]]></comment>
@@ -35,7 +35,7 @@
 <dataTypeScale>1</dataTypeScale>
 <ownDataTypeParameters>,0,1</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Confirm_date" id="660D5405-6F14-33E6-E746-A0193FE2B6BF">
+<Attribute name="CONFIRM_DATE" id="660D5405-6F14-33E6-E746-A0193FE2B6BF">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:49:25 UTC</createdTime>
 <comment><![CDATA[Дата утверждения индивидуальной траектории ]]></comment>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9C0113E-1051-34EF-C891-A08B9727FF60" containerWithKeyObject="D6F1D970-3967-4E7A-4A29-746455263349" localFKIndex="C6C06280-CFE2-A35A-F420-059F69554A26" name="TA_TPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:07 UTC</createdTime>
+<generatorID>60CFF53F-8D99-2063-73CB-C31AC54E0673</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>TEACH_PROGRAM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11C7C7FC-D4B8-B000-8849-DC9939376B3C</referredTableID>
+<keyObject>5A3ECC6F-4A32-B4BC-F558-8C776A590473</keyObject>
+<referredKeyID>5A3ECC6F-4A32-B4BC-F558-8C776A590473</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TPR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

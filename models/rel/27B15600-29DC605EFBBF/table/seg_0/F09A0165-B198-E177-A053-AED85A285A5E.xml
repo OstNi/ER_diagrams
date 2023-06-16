@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F09A0165-B198-E177-A053-AED85A285A5E" name="VERSION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[версия расчета]]></comment>
+<generatorID>0568A825-9356-7700-AAD6-9E301221C4CF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>VER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TITLE" id="F3C52CCE-92D9-0FAB-21C0-73F7E427B149">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[название расчета]]></comment>
+<commentInRDBMS><![CDATA[название расчета]]></commentInRDBMS>
+<generatorID>EF95C424-0200-D6BD-938C-A2901524FAC6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALC_DATE" id="53552F24-59AF-CD20-65BB-7D6F445720DD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[Дата расчета]]></comment>
+<commentInRDBMS><![CDATA[Дата расчета]]></commentInRDBMS>
+<generatorID>1737F4C4-F910-2255-D1AA-B5B36D332AB5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFO" id="C73AAC46-8C96-C5F9-AFCC-679D4179419F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<comment><![CDATA[Описание]]></comment>
+<commentInRDBMS><![CDATA[Описание]]></commentInRDBMS>
+<generatorID>3F0B1788-1431-8A2B-08BF-67D7E43328BE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VER_ID" id="64A82305-7846-A9B8-2D97-AFBFC6DE2A42">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2134E53C-E51D-D787-A659-42AD727F913C" name="VER_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="64A82305-7846-A9B8-2D97-AFBFC6DE2A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F6E8146-A222-7ACC-6F8C-FFCBC6EEC10B" name="VER_TITLE_CALC_DATE_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:05 UTC</createdTime>
+<generatorID>0496E1E0-9D89-11E3-8477-60C0B84CD4F6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3C52CCE-92D9-0FAB-21C0-73F7E427B149"/>
+<colUsage columnID="53552F24-59AF-CD20-65BB-7D6F445720DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

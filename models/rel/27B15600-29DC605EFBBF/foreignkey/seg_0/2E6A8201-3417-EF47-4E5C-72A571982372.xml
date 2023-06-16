@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E6A8201-3417-EF47-4E5C-72A571982372" containerWithKeyObject="A0815CC4-865E-7A9D-E4FE-EE1EA8C43768" localFKIndex="BBC820EF-23C1-597C-1174-6830F176CB09" name="ETER_TER_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-16 06:30:07 UTC</createdTime>
+<generatorID>1A3E58E9-DB43-287D-9C74-5470CAFD5BA8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>TERM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64D8D60B-6BAC-8501-4885-45B83EC9D385</referredTableID>
+<keyObject>F113B53B-7C9D-E11B-77B0-DAB232A2D53E</keyObject>
+<referredKeyID>F113B53B-7C9D-E11B-77B0-DAB232A2D53E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
