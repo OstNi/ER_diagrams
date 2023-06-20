@@ -5,7 +5,7 @@
 <comment><![CDATA[Справочник форм обучения (очная, очно-заочная, заочная,…). Примеры значений: наименование - “очная"; краткое обозначение - “О"; порядок вывода - "1"]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,7 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>EF</shortName>
+<shortName>EDF</shortName>
 <synonymToDisplay>Форма обучения</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -26,7 +26,7 @@
 <commentInRDBMS><![CDATA[наименование формы обучения]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <commentInRDBMS><![CDATA[краткое обозначение]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +56,7 @@
 <commentInRDBMS><![CDATA[сортировка, порядок вывода]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,7 +72,7 @@
 <createdTime>2023-06-14 05:48:04 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>CF73848B-4623-7459-BCDF-8606A8591B09</newElementsIDs>
 <usedAttributes>
@@ -84,7 +84,7 @@
 <createdTime>2023-06-14 05:48:24 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>F7D8268F-6FCB-E3AF-A1DA-D228194DFB50</newElementsIDs>
 <usedAttributes>

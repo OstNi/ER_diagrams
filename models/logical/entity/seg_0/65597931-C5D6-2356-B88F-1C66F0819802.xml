@@ -5,7 +5,7 @@
 <comment><![CDATA[тип отчетности]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,11 +22,11 @@
 <Attribute name="NAME" id="3DEC7811-FB5A-FE62-D27B-9093A46925A3">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-08 08:46:19 UTC</createdTime>
-<comment><![CDATA[название типа контрорля (экзамен, зачет)]]></comment>
-<commentInRDBMS><![CDATA[название типа контрорля (экзамен, зачет)]]></commentInRDBMS>
+<comment><![CDATA[название типа контроля (экзамен, зачет)]]></comment>
+<commentInRDBMS><![CDATA[название типа контроля (экзамен, зачет)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <commentInRDBMS><![CDATA[короткое обозначение ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +56,7 @@
 <createdTime>2023-06-14 05:57:04 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>3DEC7811-FB5A-FE62-D27B-9093A46925A3</newElementsIDs>
 <usedAttributes>
@@ -68,7 +68,7 @@
 <createdTime>2023-06-14 05:57:23 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>5CD1DF09-B68F-0EF0-C63E-6500EF1D2872</newElementsIDs>
 <usedAttributes>

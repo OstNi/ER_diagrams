@@ -5,7 +5,7 @@
 <comment><![CDATA[Уровень образования (бакалавриат, специалитет, магистратура)]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,7 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>EL</shortName>
+<shortName>EDL</shortName>
 <synonymToDisplay>Уровень образования</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -26,7 +26,7 @@
 <commentInRDBMS><![CDATA[Название]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <commentInRDBMS><![CDATA[Короткое обозначение]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +56,7 @@
 <commentInRDBMS><![CDATA[Порядок сортировки]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,7 +73,7 @@
 <createdTime>2023-06-14 05:49:56 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>9650610C-FCE7-7C08-85F7-5DDA07163681</newElementsIDs>
 <usedAttributes>
@@ -85,7 +85,7 @@
 <createdTime>2023-06-14 05:50:17 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>365D946A-7354-8EDB-44AC-1F332D0ADE4B</newElementsIDs>
 <usedAttributes>

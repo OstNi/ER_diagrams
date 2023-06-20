@@ -5,7 +5,7 @@
 <comment><![CDATA[Основная образовательная программа]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -26,7 +26,7 @@
 <commentInRDBMS><![CDATA[аннотация]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +56,7 @@
 <commentInRDBMS><![CDATA[учебный план проверен и утвержден]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,11 +70,11 @@
 <Attribute name="PROTOCOL_DATE" id="32BD1F84-9FF5-3677-2406-F1D117F95635">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:34:26 UTC</createdTime>
-<comment><![CDATA[дата протокола ученного совета университета об утверждении приказа]]></comment>
-<commentInRDBMS><![CDATA[дата протокола ученного совета университета об утверждении приказа]]></commentInRDBMS>
+<comment><![CDATA[дата протокола ученого совета университета об утверждении приказа]]></comment>
+<commentInRDBMS><![CDATA[дата протокола ученого совета университета об утверждении приказа]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,11 +85,11 @@
 <Attribute name="PROTOCOL_NUM" id="255FEBBA-C0E7-F4B6-1D74-A051E424206D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:36:17 UTC</createdTime>
-<comment><![CDATA[номер протокола ученого совета университета ооб утверждени плана]]></comment>
-<commentInRDBMS><![CDATA[номер протокола ученого совета университета ооб утверждени плана]]></commentInRDBMS>
+<comment><![CDATA[номер протокола ученого совета университета об утверждении плана]]></comment>
+<commentInRDBMS><![CDATA[номер протокола ученого совета университета об утверждении плана]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,7 +105,7 @@
 <commentInRDBMS><![CDATA[Мобилизационный план (y/n)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

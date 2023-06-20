@@ -2,10 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE50BB91-8D95-AAD5-E7DA-3C8DB0D46451" name="IND_COURSE">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:40:53 UTC</createdTime>
-<comment><![CDATA[Курс (год обучения) индивидуальной траектории обучающегося  Является набором выбранных обучающимся из предложенныз вариантов учебных дисциплин для изучения. Требует утверждения руководителем образовательной программы.]]></comment>
+<comment><![CDATA[Курс (год обучения) индивидуальной траектории обучающегося. Является набором выбранных обучающимся из предложенных вариантов учебных дисциплин для изучения. Требует утверждения руководителем образовательной программы.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -26,7 +26,7 @@
 <commentInRDBMS><![CDATA[курс ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,7 +42,7 @@
 <commentInRDBMS><![CDATA[Дата утверждения индивидуальной траектории ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

@@ -2,10 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A28B2B7F-8CBA-2BEB-ADDE-19CABDD955FC" name="TW_FOR_YEAR">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:37:23 UTC</createdTime>
-<comment><![CDATA[Виды работ, по которым нужно расчитать норму в году ]]></comment>
+<comment><![CDATA[Виды работ, по которым нужно расчитать норму в определенном году]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -24,7 +24,7 @@
 <createdTime>2023-06-14 11:12:27 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>64ADC70B-1190-4A62-00AD-6F62860C1DC8,7E9D230A-D3D9-40FB-9582-348BEF44DC99</newElementsIDs>
 </identifier>

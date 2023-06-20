@@ -5,7 +5,7 @@
 <comment><![CDATA[Точка индивидуальной траектории определяет вхождение УМК в индивидуальную траекторию обучающегося. Указывает, на каком семестре какого курса должна быть изучена дисциплина по УМК.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <shortName>IPP</shortName>
-<synonymToDisplay>Элеиент индивидуальной траектории</synonymToDisplay>
+<synonymToDisplay>Элемент индивидуальной траектории</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="COURSE" id="5C2663FA-9FFE-D1CA-761C-943DCFEC3950">
@@ -26,7 +26,7 @@
 <commentInRDBMS><![CDATA[курс учебного плана (год обучения)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,7 +42,7 @@
 <commentInRDBMS><![CDATA[учебный период курса (осень/весна/лето)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,9 +57,8 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 08:10:49 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>B24E2360-12CE-5E53-5ED7-7B8C9A82910C,5C2663FA-9FFE-D1CA-761C-943DCFEC3950,1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0</newElementsIDs>
 <usedAttributes>

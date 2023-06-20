@@ -2,9 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5797AEF-B6DE-2B6D-005F-DA8FDB409CFA" name="GROUP_WORK">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:01:24 UTC</createdTime>
+<comment><![CDATA[Сущность, которая отображает, какой тип работ применяется к данной группе]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,7 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>GW</shortName>
+<shortName>GRWK</shortName>
 <synonymToDisplay>Работа в группе</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -23,7 +24,7 @@
 <createdTime>2023-06-14 06:03:48 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>86726C0E-5C44-5840-D6CF-CF86DBD8334A,B7D0D36E-CEE0-0DB8-C3E8-EDF58AD97FAD</newElementsIDs>
 </identifier>

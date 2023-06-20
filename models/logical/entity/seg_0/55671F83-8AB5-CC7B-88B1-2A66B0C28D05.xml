@@ -3,7 +3,8 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:41:17 UTC</createdTime>
 <comment><![CDATA[Требования к результатам освоения образовательной программы.
-Для каждой регистрационной записи образовательного стандарта формируется перечень компетенций с разделениям по]]></comment>
+Для каждой регистрационной записи образовательного стандарта формируется перечень компетенций с разделениями по типам компетенций и видам профессиональной деятельности.
+]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
@@ -38,8 +39,8 @@
 <Attribute name="SRT" id="1408B29D-5CDC-0B90-BBED-80278E532819">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:47:07 UTC</createdTime>
-<comment><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></comment>
-<commentInRDBMS><![CDATA[порядок упоминания в программе (используется при форми рований кода компетенции) ]]></commentInRDBMS>
+<comment><![CDATA[порядок упоминания в программе (используется в формированиях  кода компетенции) ]]></comment>
+<commentInRDBMS><![CDATA[порядок упоминания в программе (используется в формированиях  кода компетенции) ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>

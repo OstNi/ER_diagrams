@@ -5,7 +5,7 @@
 <comment><![CDATA[Достигнутая (выходная) компетенция после завершения изучения УМК, либо требуемая для начала изучения УМК (входная). Каждый УМК покрывает своими компетенциями часть компетенций стандарта. Индивидуальная траектория студента строится из набора учебно-методических комплексов исходя из того, чтоб покрыть полностью компетенции стандарта.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,7 +15,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>TA</shortName>
+<shortName>TPAMT</shortName>
 <synonymToDisplay>Компетенция программы дисциплины</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -25,7 +25,7 @@
 <commentInRDBMS><![CDATA[in | out (на входе | на выходе ) ]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -41,7 +41,7 @@
 <createdTime>2023-06-14 10:31:09 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>657DDD88-47B8-69C5-394C-0ECC5DD96241,60CFF53F-8D99-2063-73CB-C31AC54E0673,689FB0D0-5F9E-A1F0-2A26-59171433AA86</newElementsIDs>
 <usedAttributes>

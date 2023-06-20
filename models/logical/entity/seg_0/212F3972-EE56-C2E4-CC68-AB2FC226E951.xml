@@ -2,10 +2,10 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="212F3972-EE56-C2E4-CC68-AB2FC226E951" name="RULE_OF_STUDY">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-12 06:57:41 UTC</createdTime>
-<comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную. Например, для изучения дифференциальных уравнений нужно сначала освоить мат. анализ]]></comment>
+<comment><![CDATA[Последовательность изучения дисциплин, которая определяет, какие дисциплины необходимо освоить для изучения выбранной. Например, для изучения дифференциальных уравнений необходимо сначала освоить математический анализ]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -24,7 +24,7 @@
 <createdTime>2023-06-14 07:26:33 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>0B174829-45B4-ABF8-1542-88CF1BADCD5D,392A46C1-5558-C08F-7B10-A41B3C01586D</newElementsIDs>
 </identifier>
