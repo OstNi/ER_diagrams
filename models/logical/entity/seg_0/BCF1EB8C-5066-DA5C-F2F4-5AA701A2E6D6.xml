@@ -5,7 +5,8 @@
 <comment><![CDATA[курс, для которого может быть использован элемент]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,14 +20,15 @@
 <synonymToDisplay>Курс ООП</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COURSE_NUM" id="F452290A-3D4C-A0E9-599C-6EBEAB92DAC6">
+<Attribute name="COURSE" id="F452290A-3D4C-A0E9-599C-6EBEAB92DAC6">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 13:27:18 UTC</createdTime>
 <comment><![CDATA[Номер]]></comment>
 <commentInRDBMS><![CDATA[Номер]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,9 +43,9 @@
 <createdBy>noone</createdBy>
 <createdTime>2023-06-14 07:22:19 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="false"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>F452290A-3D4C-A0E9-599C-6EBEAB92DAC6,9BB96F73-237A-D9CC-0D62-D3B6010EB9CE</newElementsIDs>
 <usedAttributes>

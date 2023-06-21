@@ -5,6 +5,7 @@
 <comment><![CDATA[трудоемкость по видам работ]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -19,13 +20,14 @@
 <synonymToDisplay>Трудоемкость</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="VALUE" id="1D6D4F68-89FE-00C7-4552-8D4E7B5A3910">
+<Attribute name="WORKLOAD" id="1D6D4F68-89FE-00C7-4552-8D4E7B5A3910">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:15:21 UTC</createdTime>
 <comment><![CDATA[трудоемкость (объем работы в часах)]]></comment>
 <commentInRDBMS><![CDATA[трудоемкость (объем работы в часах)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,6 +44,7 @@
 <commentInRDBMS><![CDATA[количество точек контроля]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,6 +61,7 @@
 <commentInRDBMS><![CDATA[id записи в "TIME_OF_TPD_CHAPTER" oracle db]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -75,6 +79,7 @@
 <createdTime>2023-06-14 06:08:14 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>CD635B0E-9522-6D81-39C7-D2EEFE0E70C2,DE6847BD-D739-0223-F03F-2AD9D821B445,1E74D3DD-4383-649D-B4F6-AA9C76CEA12A</newElementsIDs>
@@ -84,6 +89,7 @@
 <createdTime>2023-06-14 10:51:08 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>97F220AA-B45E-65E8-74AA-D085339B9ECF</newElementsIDs>

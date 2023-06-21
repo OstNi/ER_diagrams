@@ -284,7 +284,7 @@
 			<automatic_idx value="{table abbr}_{column}_IDX"/>
 			<colck value="{table abbr}_{column}_CK"/>
 			<colnnc value="{table abbr}_{column}_NNC"/>
-			<column_foreign_key value="{table abbr}_{ref table abbr}$_{FK role}$_ID"/>
+			<column_foreign_key value="{table abbr}_{ref table abbr}_ID"/>
 			<ui value="{entity} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
@@ -292,7 +292,7 @@
 			<discriminator_col value="{table abbr}_TYPE"/>
 		</constraints>
 		<glossaries>
-			<glossary_file value="/Users/Shared/OracleGit/ER_diagrams/glossary.glossary"/>
+			<glossary_file value="/Users/Shared/OracleGit/gl_plural_alias.glossary"/>
 		</glossaries>
 	</naming_standard_rules>
 	<comparemapping>
@@ -392,13 +392,13 @@
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="27B15600-C4D2-095D-7E66-29DC605EFBBF">
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="128" case_type="2" valid_characters="null" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="128" case_type="2" valid_characters="null" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="128" case_type="2" valid_characters="null" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="128" case_type="2" valid_characters="null" all_valid="true" />
+		<model_options objectid="FEFF3314-B8C2-C853-C121-6DC5E67283B7">
+			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="128" case_type="2" valid_characters="null" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="128" case_type="2" valid_characters="" all_valid="true" />
 		</model_options>
 		<model_options objectid="B4A54B74-A276-5AD5-C060-B653A54E3253">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="" all_valid="true" />
@@ -424,7 +424,7 @@
 		</data_types_model_estimates>
 		<relational_model_estimates>
 			<relational_model_0_estimates>
-				<relational_model_name value="Relation"/>
+				<relational_model_name value="Relational_2"/>
 				<tables value="70"/>
 				<views value="70"/>
 				<foreign_keys value="70"/>

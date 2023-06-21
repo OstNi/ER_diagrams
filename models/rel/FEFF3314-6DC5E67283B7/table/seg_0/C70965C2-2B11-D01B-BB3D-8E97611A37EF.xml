@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C70965C2-2B11-D01B-BB3D-8E97611A37EF" name="EDU_PROGRAM_ELEMENTS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[Элемент ООП - определяет использования (или возможность использования) УМК в рамках образовательной программы. УМК может быть указан, как обязательный к использованию, так и с возможностью выбора. Также могут быть предопределены курс и учебный период курса учебного план, в котором может (или должна) быть освоена УМК.]]></comment>
+<generatorID>1BDAD237-F7AF-CA75-318A-296ED8BFC03C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>EPE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MANDATORY" id="FF4192E1-55E7-9D04-FFA4-4E42CFB81721">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[обязательный элемент (y/n)]]></comment>
+<commentInRDBMS><![CDATA[обязательный элемент (y/n)]]></commentInRDBMS>
+<generatorID>862CB01C-23E1-D993-01D0-ACB5B3693BC4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORKLOAD" id="27BEFA96-2A0D-ADDE-4C16-5406989A4D39">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[трудоемкость]]></comment>
+<commentInRDBMS><![CDATA[трудоемкость]]></commentInRDBMS>
+<generatorID>58A6A479-9A1D-DE5C-C44A-664E3D7FA860</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPE_ID" id="27CE2379-117F-9E0F-A8FA-A8728E906724">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="EPE_EDPR_ID" id="3C9D2162-2C6E-DB65-6B07-B3040344D944">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2912045-D4AE-25EC-C078-CBE9CC9994EA" referredColumn="9B655074-6044-9F13-391E-81A7C9ECBC82"/>
+</associations>
+</Column>
+<Column name="EPE_TPR_ID" id="851E52EE-871B-7412-C1CF-EAF5FEE17F09">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BB581E8-8991-C848-369B-AAA71A1DDFF0" referredColumn="290F4B21-BA6F-6986-6C60-6C44BF28EA22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F8C04E0-FC79-93CD-2244-F7DF9CEEB443" name="EPE_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="27CE2379-117F-9E0F-A8FA-A8728E906724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA641AD-8743-5BA1-F012-8798EC43A039" name="EPE_EDPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<generatorID>AC253E86-47B4-84BC-9DB6-4D94C04D279C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C9D2162-2C6E-DB65-6B07-B3040344D944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A8CF34-AAE6-A0BF-C401-351924AA745D" name="EPE_TPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<generatorID>FB2E51F4-D92E-6765-792B-C02D0107F3EA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851E52EE-871B-7412-C1CF-EAF5FEE17F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

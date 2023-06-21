@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2159998A-6EC5-0782-3D6C-E78D9EA57A72" name="STANDARDS_OF_EDUCATION">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[Внутренний справочник образовательных стандартов. Определяет возможные направления подготовки обучающихся, формы обучения. Позволяет структурировано задать набор формируемых компетенций и сроков обучения для последующего контроля реализации программ обучения и формирования траектории обучения образовательной программы.]]></comment>
+<generatorID>71524EFC-8BF0-B42D-D257-803179F5651E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>SOE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REG_DATE" id="9CCAF117-DBD1-58D1-EDF1-C29C0CD35CAF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[дата утверждения стандарта Министерством образования ]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения стандарта Министерством образования ]]></commentInRDBMS>
+<generatorID>E1022479-6D4B-882E-F1D1-1190C4D5A92B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NUMBER" id="E1F8C307-4789-E105-F04C-3D9EB4CF5123">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[регистрационный номер приказа об утверждении стандарта]]></comment>
+<commentInRDBMS><![CDATA[регистрационный номер приказа об утверждении стандарта]]></commentInRDBMS>
+<generatorID>ADCCB4D7-8C9E-AD9F-240C-420EF23E5FCB</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUALIFICATION" id="EA7F803A-BA3B-8798-4810-92A1351016DE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[квалификация по окончании обучения]]></comment>
+<commentInRDBMS><![CDATA[квалификация по окончании обучения]]></commentInRDBMS>
+<generatorID>E3CC9E15-A475-FDFF-EB82-FF2AB9C0BDB1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPLICATION_SCOPE" id="415205A6-66CE-BF15-A94C-8C70E03B042E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[область применения стандарта]]></comment>
+<commentInRDBMS><![CDATA[область применения стандарта]]></commentInRDBMS>
+<generatorID>4E17363B-CDCD-87E4-F629-BD8CB48EECCE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY_OBJECT" id="A6653494-FD27-2DA1-AC92-B98C1541B23C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[объекты профессиональной деятельности выпускников]]></comment>
+<commentInRDBMS><![CDATA[объекты профессиональной деятельности выпускников]]></commentInRDBMS>
+<generatorID>600AA655-316A-B42F-0CC4-9C35A326F132</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY_FIELD" id="87761E03-CF87-BB1C-C9DB-15618B75DBFB">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[область профессиональной деятельности выпускников]]></comment>
+<commentInRDBMS><![CDATA[область профессиональной деятельности выпускников]]></commentInRDBMS>
+<generatorID>4FDB58C9-4117-EEEE-5E33-ABB49CBE67EB</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOE_ID" id="2BAF83C1-D9CD-4385-58A1-48842B93553F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A33C899C-7A59-65C7-81C3-40394EF7BE99" name="SOE_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2BAF83C1-D9CD-4385-58A1-48842B93553F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

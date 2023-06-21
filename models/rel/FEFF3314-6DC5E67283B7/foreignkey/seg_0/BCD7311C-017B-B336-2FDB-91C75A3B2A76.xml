@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCD7311C-017B-B336-2FDB-91C75A3B2A76" containerWithKeyObject="6928E652-737E-A503-DDDD-B35072A028CB" localFKIndex="EC56BAAB-09E5-3E75-5C3A-00E9FB4CA306" name="EPS_SOE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:05 UTC</createdTime>
+<generatorID>070695E9-0529-053B-CC12-5235C740B22D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>STANDARDS_OF_EDUCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2159998A-6EC5-0782-3D6C-E78D9EA57A72</referredTableID>
+<keyObject>A33C899C-7A59-65C7-81C3-40394EF7BE99</keyObject>
+<referredKeyID>A33C899C-7A59-65C7-81C3-40394EF7BE99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SOE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

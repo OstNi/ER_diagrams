@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C1876C4-FA30-DE13-4043-196F7B2812FD" name="TP_DELIVERIES">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<comment><![CDATA[Схема доставки УМК определяет возможные варианты распределения учебной нагрузки при изучении дисциплины (баланс между лекционной/практической/самостоятельной/лабораторной работой), а также точки текущего контроля и формы итоговой отчётности.]]></comment>
+<generatorID>89B68298-FB61-D44C-0326-F6FED5E7A4E6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TPDL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="B8475A9D-FE50-3CA2-4C2B-D4BD0A5BBB53">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<comment><![CDATA[наименование]]></comment>
+<commentInRDBMS><![CDATA[наименование ]]></commentInRDBMS>
+<generatorID>A439D0FB-CD4B-6F28-28FF-18AF0E7AB105</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NMIN" id="B2B16FFF-228E-E879-D277-84722E66EA20">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<comment><![CDATA[минимальное кол-во баллов на удовлетворительно или зачет]]></comment>
+<commentInRDBMS><![CDATA[минимальное кол-во баллов на удовлетворительно или зачет]]></commentInRDBMS>
+<generatorID>3F2118D1-1013-46F2-B80E-30407E41C7B6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_OF_CONFIRM" id="38558FEE-4D55-5D89-1BBE-8ABC76799282">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<comment><![CDATA[дата утверждения схемы]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения схемы]]></commentInRDBMS>
+<generatorID>5AB3834A-B299-7106-BC16-667D1A137293</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPDL_ID" id="E94A5BB4-E7F4-51C2-C91F-2B3641DF2F64">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TPDL_EDF_ID" id="3D423A02-E531-DE86-34AE-0190E1D70447">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="463C55D1-35D5-BF31-FFF6-B3BA3CCA5892" referredColumn="6B239FD3-116A-D84E-DEDE-B9505DD113EA"/>
+</associations>
+</Column>
+<Column name="TPDL_TPR_ID" id="0E00A5B5-0949-899F-6FE7-4043CD70DE7C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:05 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0342AA5-34ED-9108-859C-B1F20A5D5B0F" referredColumn="290F4B21-BA6F-6986-6C60-6C44BF28EA22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5B0EF9C-BA7C-B7A7-EC57-44236145D586" name="TPDL_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E94A5BB4-E7F4-51C2-C91F-2B3641DF2F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A31A3D9C-A028-11F5-9366-9A1C4ABF58ED" name="TPDL_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<generatorID>45350530-0060-0D95-1C3C-5060B8C2936D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8475A9D-FE50-3CA2-4C2B-D4BD0A5BBB53"/>
+<colUsage columnID="0E00A5B5-0949-899F-6FE7-4043CD70DE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA257B4-7B50-A09F-5D0E-63779C4C24BE" name="TPDL_EDF_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<generatorID>07631DDC-1724-4F8B-52CD-FE1FF3F8963A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D423A02-E531-DE86-34AE-0190E1D70447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CFC3627-F61A-205B-3E5F-1EC9D7EE2A7E" name="TPDL_TPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:05 UTC</createdTime>
+<generatorID>F9FA7113-400B-2E5F-884F-6F1E3B09FE13</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E00A5B5-0949-899F-6FE7-4043CD70DE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

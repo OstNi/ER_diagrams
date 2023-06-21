@@ -5,6 +5,7 @@
 <comment><![CDATA[Норма времени расчета нагрузки]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -26,6 +27,7 @@
 <commentInRDBMS><![CDATA[текстовая формулировка]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -41,6 +43,7 @@
 <commentInRDBMS><![CDATA[Примечание]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -50,13 +53,14 @@
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="VALUE" id="EA60BD9E-D158-A735-DFA9-02DCE77CE7E9">
+<Attribute name="NORM_VALUE" id="EA60BD9E-D158-A735-DFA9-02DCE77CE7E9">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 05:40:26 UTC</createdTime>
 <comment><![CDATA[Значение нормы]]></comment>
 <commentInRDBMS><![CDATA[Значение нормы]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,6 +77,7 @@
 <commentInRDBMS><![CDATA[Порядок, степень 10, на который домножается 'Value']]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -89,6 +94,7 @@
 <comment><![CDATA[Пропорционально количеству точек контроля раздела]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -104,6 +110,7 @@
 <commentInRDBMS><![CDATA[Пропорционально общей нагрузке отдела]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -119,6 +126,7 @@
 <commentInRDBMS><![CDATA[Пропорционально зачетным часам]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -134,6 +142,7 @@
 <commentInRDBMS><![CDATA[Пропорционально аудиторной нагрузке раздела]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <use>0</use>
@@ -149,6 +158,7 @@
 <commentInRDBMS><![CDATA[Пропорционально количеству студентов]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <use>0</use>

@@ -5,6 +5,7 @@
 <comment><![CDATA[Результат расчета]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -19,13 +20,14 @@
 <synonymToDisplay>Результат расчета</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="VAL" id="D7D6395F-E515-D610-F140-50E80075D53D">
+<Attribute name="CALC_WORKLOAD" id="D7D6395F-E515-D610-F140-50E80075D53D">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-09 06:00:16 UTC</createdTime>
 <comment><![CDATA[объем работы в часах астрономические]]></comment>
 <commentInRDBMS><![CDATA[объем работы в часах астрономические]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,6 +44,7 @@
 <createdTime>2023-06-14 06:56:08 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>D23276E4-23A8-ECE9-38C2-2A5976D873E8,06F718B4-7975-DD8B-9DD8-B210271FE6CD,5BC126DD-740A-5681-7A65-90078905628E</newElementsIDs>

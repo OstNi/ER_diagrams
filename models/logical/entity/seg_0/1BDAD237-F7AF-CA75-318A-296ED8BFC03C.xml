@@ -5,7 +5,8 @@
 <comment><![CDATA[Элемент ООП - определяет использования (или возможность использования) УМК в рамках образовательной программы. УМК может быть указан, как обязательный к использованию, так и с возможностью выбора. Также могут быть предопределены курс и учебный период курса учебного план, в котором может (или должна) быть освоена УМК.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -26,7 +27,8 @@
 <commentInRDBMS><![CDATA[обязательный элемент (y/n)]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -35,14 +37,15 @@
 <defaultValue>n</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COST" id="58A6A479-9A1D-DE5C-C44A-664E3D7FA860">
+<Attribute name="WORKLOAD" id="58A6A479-9A1D-DE5C-C44A-664E3D7FA860">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 14:20:41 UTC</createdTime>
 <comment><![CDATA[трудоемкость]]></comment>
 <commentInRDBMS><![CDATA[трудоемкость]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
-<item key="98C0EB27-83D7-EAFA-8B38-1F2BAC6E531B" value="true"/>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

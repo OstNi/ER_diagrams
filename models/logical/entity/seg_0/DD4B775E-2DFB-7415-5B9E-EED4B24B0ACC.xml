@@ -19,21 +19,6 @@
 <synonymToDisplay>Программа дисциплины</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DATE_OF_CONFIRM" id="CD3C544D-CED9-EC21-7B75-EDBE78BB4D29">
-<createdBy>noone</createdBy>
-<createdTime>2023-06-07 17:50:45 UTC</createdTime>
-<comment><![CDATA[дата утверждения]]></comment>
-<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
-<ownerDesignName>models</ownerDesignName>
-<engineerTo>
-<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DESTINATION" id="02B0C532-491E-1187-8EBD-F7C75EF779A2">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 17:51:22 UTC</createdTime>
@@ -48,6 +33,21 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_OF_CONFIRM" id="CD3C544D-CED9-EC21-7B75-EDBE78BB4D29">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-07 17:50:45 UTC</createdTime>
+<comment><![CDATA[дата утверждения]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LENGTH" id="A97BA094-B208-3808-55EA-1AF8A8623D9D">
 <createdBy>noone</createdBy>

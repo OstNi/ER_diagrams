@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8632E7C5-C640-7753-A445-ECD0F1ECA8B9" name="CPT_IMPLEMENTATION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8632E7C5-C640-7753-A445-ECD0F1ECA8B9" name="SPECIFICATION_OF_COMP">
 <createdBy>noone</createdBy>
 <createdTime>2023-06-07 19:12:38 UTC</createdTime>
 <comment><![CDATA[Сущность пересечения, реализация рекурсивной связи многие ко многим (М:М) между Компетенцией. Реализует декомпозицию компетенций, при этом каждая из компетенции может быт описана многими другими, и при этом участвовать описании одной или более компетенции.]]></comment>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,7 +16,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>CIMP</shortName>
+<shortName>SPCMP</shortName>
 <synonymToDisplay>Детализация компетенции</synonymToDisplay>
 <createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
@@ -26,6 +27,7 @@
 <commentInRDBMS><![CDATA[порядковый номер]]></commentInRDBMS>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,6 +44,7 @@
 <createdTime>2023-06-14 09:41:23 UTC</createdTime>
 <ownerDesignName>models</ownerDesignName>
 <engineerTo>
+<item key="73CFB300-D672-D8D8-23D9-3122E482188C" value="true"/>
 <item key="27B15600-C4D2-095D-7E66-29DC605EFBBF" value="true"/>
 </engineerTo>
 <newElementsIDs>4C59231D-42F5-0D6C-A6E1-57AAC4B480CE,9BF27A45-FECB-8ECD-8CA6-D35391FFC12C</newElementsIDs>

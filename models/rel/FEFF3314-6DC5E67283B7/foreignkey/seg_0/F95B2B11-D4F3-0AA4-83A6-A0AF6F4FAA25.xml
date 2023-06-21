@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F95B2B11-D4F3-0AA4-83A6-A0AF6F4FAA25" containerWithKeyObject="3F2DC489-0F65-C038-BE2A-C4785ED4D3FB" localFKIndex="6EFF4BD9-F5F7-8B8F-B277-F2DD3C4CA0EF" name="TPRC_EXT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:04 UTC</createdTime>
+<generatorID>4D27C73F-99E6-0462-FA1C-6FA42FCAFB14</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>EXAM_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1895F584-F471-726F-FA5B-D107A528E6FD</referredTableID>
+<keyObject>BB134397-2482-925E-E7D8-3844484B14CE</keyObject>
+<referredKeyID>BB134397-2482-925E-E7D8-3844484B14CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EXT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

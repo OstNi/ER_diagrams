@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB7D78F1-A5F7-DD2A-82A9-7C517351DB27" name="DISCIPLINES">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[Справочник дисциплин (наименований дисциплин).]]></comment>
+<generatorID>57E4C6E4-95BC-677E-07DF-0C6592F78484</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>DIS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="28F0E9AD-A24E-114B-EDFD-513567AB064E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[наименование дисциплины]]></comment>
+<commentInRDBMS><![CDATA[наименование дисциплины]]></commentInRDBMS>
+<generatorID>75F21083-F725-AF85-3A77-D150A9F22A99</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_ENG" id="F6EB4776-1288-610D-76BF-186C9EF7110D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<comment><![CDATA[наименование дисциплины на английском]]></comment>
+<commentInRDBMS><![CDATA[наименование дисциплины на английском]]></commentInRDBMS>
+<generatorID>F8517709-127F-2BAC-83DF-38AA7F7073E1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIS_ID" id="D0379192-22A7-F04B-4BFA-E80C6E35BCDC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B30C9C9C-67BB-485F-25A5-01E5B4BAC589" name="DIS_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D0379192-22A7-F04B-4BFA-E80C6E35BCDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E2DE58A-906A-E5F9-43DC-D47D42475B59" name="DIS_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<generatorID>A83DE3F8-4184-088D-87E8-DAAAB2AFFD03</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F0E9AD-A24E-114B-EDFD-513567AB064E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58B59828-1909-A8CB-1FC2-926A5C1CAC58" name="DIS_NAME_ENG_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 10:47:03 UTC</createdTime>
+<generatorID>3AE1DAED-212B-5FB4-8447-6EB6F5CE8B89</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6EB4776-1288-610D-76BF-186C9EF7110D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
