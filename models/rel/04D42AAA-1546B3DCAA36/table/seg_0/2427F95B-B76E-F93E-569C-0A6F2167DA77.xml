@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2427F95B-B76E-F93E-569C-0A6F2167DA77" name="TERMS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[семестр в рамках года, которого может быть использован элемент]]></comment>
+<generatorID>CF06C453-9EA8-0914-AE0E-8A75FF893209</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TERM_NUM" id="5ED75008-FF6D-7ADC-8CCE-B450E78AB181">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[номер ]]></comment>
+<commentInRDBMS><![CDATA[номер ]]></commentInRDBMS>
+<generatorID>8833E6F5-A39B-8E70-D8F8-77AE3979BCF0</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TER_ID" id="31FD6C21-7A38-AA9B-47C8-0CE74F6692FC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TER_COE_ID" id="5908CBF7-D2CB-7389-8191-5E861E8E3B16">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0910D0E0-D664-C112-9638-A389BC31400A" referredColumn="9D8EDA7B-61B7-098A-BCE0-EA3749B5EB8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="308977B6-A0B5-CE32-87FE-375486C1D529" name="TER_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="31FD6C21-7A38-AA9B-47C8-0CE74F6692FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="631FA1DD-1C5A-2578-33AE-CEBEE157C718" name="TER_TERM_NUM_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>5522C0DA-B1FD-751C-77FF-FBE7A089CA25</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED75008-FF6D-7ADC-8CCE-B450E78AB181"/>
+<colUsage columnID="5908CBF7-D2CB-7389-8191-5E861E8E3B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C64494BF-A689-4CB1-0113-F350495BD39F" name="TER_COE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>E9DB3190-4244-D525-475C-09A8CB8AD941</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5908CBF7-D2CB-7389-8191-5E861E8E3B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

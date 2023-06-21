@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9098071C-C0DA-1824-8A4A-EB07108BEFA0" name="EDU_PROGRAM_SES">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Сущность пересечения между ООП и Образовательным стандартом, позволяет реализовать связь М:М. Так, каждое ООП может соответствовать сразу нескольким образовательным стандартам, а каждый стандарт иметь несколько ООП. Позволяет разрешать ситуацию со сменой поколений стандартов, когда суть не меняется и учебный план остается прежним.]]></comment>
+<generatorID>172704B2-3CE4-B4D4-9CE3-7CF806454465</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>EPS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PB" id="3F798447-8F8F-5332-5791-330A62D792FF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Прикладной бакалавриат (y/n)]]></comment>
+<commentInRDBMS><![CDATA[Прикладной бакалавриат (y/n)]]></commentInRDBMS>
+<generatorID>2887C2F6-D370-EC27-F528-4E0EDB26AB45</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS_ID" id="3F75D18C-A398-B8FA-092A-EA66DD58F257">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="EPS_EDPR_ID" id="42A3A214-335E-A787-63C5-D8BA594AE28E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64102801-AAD9-87EE-34A2-7BBA385C41D4" referredColumn="23B900D9-4299-C951-EF34-400019F48CDB"/>
+</associations>
+</Column>
+<Column name="EPS_SOE_ID" id="1C7CB656-9700-9397-070E-EE35F2248AFE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEDD2674-210C-4E5A-A1DA-CEA0316CA9A8" referredColumn="92FC63C5-1124-21F1-3683-90FFB5C28C82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86C5B14C-80AC-617C-DDCA-FA9E7530BDC3" name="EPS_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3F75D18C-A398-B8FA-092A-EA66DD58F257"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DFF1942-10D6-7A32-D2EE-E9D4852D82DD" name="EPS_PB_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>04CA5EA7-E7E8-7EBE-D044-49C88AC90752</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7CB656-9700-9397-070E-EE35F2248AFE"/>
+<colUsage columnID="42A3A214-335E-A787-63C5-D8BA594AE28E"/>
+<colUsage columnID="3F798447-8F8F-5332-5791-330A62D792FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E41730DB-9313-5546-5DB7-F34C2324D689" name="EPS_EDPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>6AE571CC-8392-CF8B-B314-DB68C2881AB3</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42A3A214-335E-A787-63C5-D8BA594AE28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="255286E1-7AA4-E8AE-8B39-AAD02969896E" name="EPS_SOE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>070695E9-0529-053B-CC12-5235C740B22D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7CB656-9700-9397-070E-EE35F2248AFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

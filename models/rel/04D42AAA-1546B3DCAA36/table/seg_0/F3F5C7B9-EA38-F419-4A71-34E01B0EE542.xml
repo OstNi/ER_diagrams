@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3F5C7B9-EA38-F419-4A71-34E01B0EE542" name="TY_PERIODS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Учебный период года]]></comment>
+<generatorID>4C89FAB8-B27B-10FB-D1BB-D8EAD80DC0DD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TYP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TERM_NUM" id="19CB805C-C75D-BE35-3F79-6D8AC8D1CC5B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Номер триместра]]></comment>
+<commentInRDBMS><![CDATA[Номер триместра]]></commentInRDBMS>
+<generatorID>D65CA65E-DD75-4CF3-85A9-DEC7EA77FF17</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="D95DD5E9-CBFF-81D6-728A-E9BD41FFE23C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Начало учебного периода по унифицирорванному графику]]></comment>
+<commentInRDBMS><![CDATA[Начало учебного периода по унифицирорванному графику]]></commentInRDBMS>
+<generatorID>69A0878A-1D12-4015-67FB-7455A1A73DBA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="94F18E28-DE64-DD7D-A56A-F3388143826C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Конец учебного периода по унифицированному графику]]></comment>
+<commentInRDBMS><![CDATA[Конец учебного периода по унифицированному графику]]></commentInRDBMS>
+<generatorID>97A0A5D6-A050-B1EB-61ED-854F70A60482</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_OF_PERIOD" id="B398F11E-2629-3404-58A3-03BDCEE4DBCA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[название учебного периода (триместр и семестр)]]></comment>
+<commentInRDBMS><![CDATA[название учебного периода (триместр и семестр)]]></commentInRDBMS>
+<generatorID>78CEADCF-8D44-547E-658F-4DBB2E693CB9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP_ID" id="562AB2AF-EE7B-BC4F-4603-635B4C375C64">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TYP_TY_ID" id="291B015B-7BDD-4C59-F80F-0B572BE5AC2B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC3519E4-A203-8969-8AA6-AC00ECF921F2" referredColumn="954DE048-974A-B5F8-7FCB-54901128D0AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBB9D531-5435-122F-17D5-5CAC1BA29E56" name="TYP_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="562AB2AF-EE7B-BC4F-4603-635B4C375C64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AE95665-92D6-88F4-EA8C-5D8DE3AD13E9" name="TYP_TERM_NUM_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>B0FCF48E-67CA-AE14-3B0F-4AC53B6B2A92</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19CB805C-C75D-BE35-3F79-6D8AC8D1CC5B"/>
+<colUsage columnID="291B015B-7BDD-4C59-F80F-0B572BE5AC2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEB5E9B1-BFD3-34C0-BA36-57AA5E183D25" name="TYP_TY_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>A521C057-29AC-64B6-83C2-B63301E94E2F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="291B015B-7BDD-4C59-F80F-0B572BE5AC2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

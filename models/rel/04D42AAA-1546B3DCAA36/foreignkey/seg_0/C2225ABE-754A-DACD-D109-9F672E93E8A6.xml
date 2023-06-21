@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2225ABE-754A-DACD-D109-9F672E93E8A6" containerWithKeyObject="E8CF3188-63E2-4E27-5F06-8C82D0B86113" localFKIndex="76550AF8-C330-28CF-95D9-7D31351A95FE" name="ROS_EPE_FKv2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<comment><![CDATA[Порядок изучения дисциплин. Показывает: какие дисцпилины нужно освоить, чтобы изучить выбранную ]]></comment>
+<generatorID>392A46C1-5558-C08F-7B10-A41B3C01586D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>EDU_PROGRAM_ELEMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>196556CC-EF82-389D-EA23-A6BE4AA4B7F8</referredTableID>
+<keyObject>907F69CA-8686-0654-CEAD-7673EC26C107</keyObject>
+<referredKeyID>907F69CA-8686-0654-CEAD-7673EC26C107</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

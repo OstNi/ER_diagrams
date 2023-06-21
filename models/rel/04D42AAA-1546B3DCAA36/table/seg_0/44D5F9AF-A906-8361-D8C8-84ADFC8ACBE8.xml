@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44D5F9AF-A906-8361-D8C8-84ADFC8ACBE8" name="EDU_PROGRAMS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Основная образовательная программа]]></comment>
+<generatorID>C6EDA1C2-D322-3C26-8D06-927515F329CC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>EDPR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHORT_INFO" id="AAA0140A-B6C5-9964-F505-8508064339E7">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[аннотация]]></comment>
+<commentInRDBMS><![CDATA[аннотация]]></commentInRDBMS>
+<generatorID>F95347A5-73F6-4A6D-5115-2C87AF24ECFB</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONFIRM_DATE" id="2A64BAC3-E36A-8918-1561-A3CBA4515839">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[дата утверждения]]></comment>
+<commentInRDBMS><![CDATA[дата утверждения]]></commentInRDBMS>
+<generatorID>E602F832-44F1-A453-3095-6C37C8136A43</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALID" id="CE563CF6-DC66-F7E9-DBD9-E6DE9DE0BAEA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[учебный план проверен и утвержден]]></comment>
+<commentInRDBMS><![CDATA[учебный план проверен и утвержден]]></commentInRDBMS>
+<generatorID>49D0A29B-DF11-EC4E-0F0F-3B69A1AE8BF1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROTOCOL_DATE" id="BB2F0A43-9124-7261-67C7-7593E9F43549">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[дата протокола ученого совета университета об утверждении приказа]]></comment>
+<commentInRDBMS><![CDATA[дата протокола ученого совета университета об утверждении приказа]]></commentInRDBMS>
+<generatorID>32BD1F84-9FF5-3677-2406-F1D117F95635</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROTOCOL_NUM" id="B29744B8-15B8-8269-B05F-61402281794E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[номер протокола ученого совета университета об утверждении плана]]></comment>
+<commentInRDBMS><![CDATA[номер протокола ученого совета университета об утверждении плана]]></commentInRDBMS>
+<generatorID>255FEBBA-C0E7-F4B6-1D74-A051E424206D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOB" id="7DD50C14-B563-4967-BF18-D6B102367E71">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Мобилизационный план (y/n)]]></commentInRDBMS>
+<generatorID>FC622A1A-2B18-4166-DA1B-01A3C6B217EF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2D55F32-0A4D-F47D-3998-00C1BDD452A4</domain>
+<defaultValue>n</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EDPR_ID" id="23B900D9-4299-C951-EF34-400019F48CDB">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="EDPR_EDF_ID" id="20A64B3E-D5D9-C3C6-0A86-EF5AB43483D5">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D6349E5-51E3-06D6-D8A7-1A36B7936A55" referredColumn="27E3DF47-ACD5-B9F3-588A-865160679D1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B171FD75-33E5-AAE5-A737-4A3B8F16F0E5" name="EDPR_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="23B900D9-4299-C951-EF34-400019F48CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91C984C9-3327-DD30-4761-493246090B2F" name="EDPR_EDF_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>25F28E9F-2333-A211-F3FE-8A5BC0C49B15</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A64B3E-D5D9-C3C6-0A86-EF5AB43483D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F27F4E7B-8457-666E-DB6F-EBE0423F75AB" name="IND_PATH_POINTS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Точка индивидуальной траектории определяет вхождение УМК в индивидуальную траекторию обучающегося. Указывает, на каком семестре какого курса должна быть изучена дисциплина по УМК.]]></comment>
+<generatorID>9850D038-73B2-E546-2E7B-84D21AE4A096</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>IPP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COURSE" id="46852C79-E637-FCCE-FCFF-4864C1245964">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[курс учебного плана (год обучения)]]></comment>
+<commentInRDBMS><![CDATA[курс учебного плана (год обучения)]]></commentInRDBMS>
+<generatorID>5C2663FA-9FFE-D1CA-761C-943DCFEC3950</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TER" id="4E67183A-B403-B8D5-F628-8E5C03892875">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[учебный период курса (осень/весна/лето)]]></comment>
+<commentInRDBMS><![CDATA[учебный период курса (осень/весна/лето)]]></commentInRDBMS>
+<generatorID>1E0CCA94-8668-B2E7-EC5F-9F082CAC11C0</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,0,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPP_ID" id="82BFA873-8987-0A5D-71DD-236767AD67DA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="IPP_EPE_ID" id="E8389703-3464-D42E-7C56-2C507C9D90E0">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F69CECC5-95FA-D41F-57AE-734F5980376E" referredColumn="4C01E39F-9FC2-C5D2-BCD3-B5732CE779CF"/>
+</associations>
+</Column>
+<Column name="IPP_ICRS_ID" id="F6CC9982-E41C-0EF2-50D1-CC311888B95E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="014CD055-B948-7B15-09F1-BC8499C4A099" referredColumn="85303BD7-EA2D-766D-8098-C91EC740AAF4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9167F21-AA40-C0F6-FF8D-D22B6EE56381" name="IPP_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="82BFA873-8987-0A5D-71DD-236767AD67DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D4D20AA-6311-DAD2-C797-B50022B8B661" name="IPP_COURSE_TER_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>C6E92D75-DB5E-8893-FE4D-035AB49BBC38</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8389703-3464-D42E-7C56-2C507C9D90E0"/>
+<colUsage columnID="46852C79-E637-FCCE-FCFF-4864C1245964"/>
+<colUsage columnID="4E67183A-B403-B8D5-F628-8E5C03892875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10A508F4-1F37-1B13-EF2C-DDE32B82693F" name="IPP_EPE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>B24E2360-12CE-5E53-5ED7-7B8C9A82910C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8389703-3464-D42E-7C56-2C507C9D90E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24E319DD-DF29-9B4A-1BE9-DDE6D836877F" name="IPP_ICRS_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>8AB30990-154F-33D5-7B3E-7617DE845C68</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6CC9982-E41C-0EF2-50D1-CC311888B95E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

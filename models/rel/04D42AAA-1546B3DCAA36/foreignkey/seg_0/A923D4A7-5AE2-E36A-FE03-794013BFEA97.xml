@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A923D4A7-5AE2-E36A-FE03-794013BFEA97" containerWithKeyObject="62D9C60F-12A3-F581-D45A-1B42730B14D1" localFKIndex="024969E0-EA03-A3DF-4BFF-35EEFFDE06A2" name="TMRL_TTP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>5656784E-6661-2D14-B5E8-CD818CDDA7A2</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>TYPES_OF_TEACH_PROG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A75FD31-960F-DAC1-75D3-F25AE779AE3D</referredTableID>
+<keyObject>93BDC0FA-76D1-D79E-D22F-F9AB358A22BA</keyObject>
+<referredKeyID>93BDC0FA-76D1-D79E-D22F-F9AB358A22BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TTP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

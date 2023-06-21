@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="014CD055-B948-7B15-09F1-BC8499C4A099" containerWithKeyObject="F27F4E7B-8457-666E-DB6F-EBE0423F75AB" localFKIndex="24E319DD-DF29-9B4A-1BE9-DDE6D836877F" name="IPP_ICRS_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>8AB30990-154F-33D5-7B3E-7617DE845C68</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>IND_COURSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2FE7755-C71F-B751-1D50-5061A7D40FDE</referredTableID>
+<keyObject>77A073CF-57F5-2838-A44A-D72AC8BD3D51</keyObject>
+<referredKeyID>77A073CF-57F5-2838-A44A-D72AC8BD3D51</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ICRS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

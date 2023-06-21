@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D5200BB7-CF1D-D54E-5F60-A7B9F6151E3E" containerWithKeyObject="FE05FA72-904D-768A-8CB7-5887C9EC7DB6" localFKIndex="C45C2F0B-8DF6-0BCE-C38C-C31D85F3C1B1" name="DGR_DIV_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>08C0A3C3-CF7E-4A32-358B-92061443058E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>DIVISIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AB1CBCD-9CEA-4610-62EC-F857F15C3453</referredTableID>
+<keyObject>FF864922-7018-10F6-5D10-28EBD109DEFB</keyObject>
+<referredKeyID>FF864922-7018-10F6-5D10-28EBD109DEFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DIV_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6853191-D32B-2836-040C-17D1CA42399C" name="TPR_CHAPTERS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Структура разделов учебно-методического комплекса. Рекурсивно связан, то есть предполагается иерархическая структура разделов. Например: тема, подтема, глава, параграф.]]></comment>
+<generatorID>ACD686BB-1CA8-2A52-EAE6-D1279A722F8B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TPRC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="C9EC1474-CCA9-862B-2B17-58BF6AF1B581">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[наименование раздела УМК]]></comment>
+<commentInRDBMS><![CDATA[наименование раздела УМК]]></commentInRDBMS>
+<generatorID>9985BEE2-10A9-3996-C870-6772E0029B74</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRT" id="B12A445F-344B-1360-0FDD-87B683346CBC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[порядок сортировки]]></comment>
+<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<generatorID>7770F60A-D36D-F138-2843-501634199952</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPRC_ID" id="4993BF5C-3B00-DD6A-D20E-9E3D13DD7B3D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TPRC_EXT_ID" id="2620FB9A-2A7A-3493-9CCA-D884EA550A07">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D388542-8B21-5ADB-0B76-9CD95E4494FB" referredColumn="E00EC849-EE75-BB42-865C-B7B6A9F3E867"/>
+</associations>
+</Column>
+<Column name="TPRC_TPR_ID" id="59041C56-20FF-2AAE-05F9-9DB39625B964">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D0F31BD-442B-7B37-75D1-B98528F24363" referredColumn="1604518D-070B-FA0D-F18E-1BF40D67DAB4"/>
+</associations>
+</Column>
+<Column name="TPRC_TPRC_ID" id="7EDA7CA8-A287-1A8C-7B0D-6071AAE4276B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E340E5C-1DBC-A553-3848-DEDAC19DF902" referredColumn="4993BF5C-3B00-DD6A-D20E-9E3D13DD7B3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D06A0B6-2199-EC8B-E28D-BC424DE8E21C" name="TPRC_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4993BF5C-3B00-DD6A-D20E-9E3D13DD7B3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB201932-ECEE-95D6-925C-4E452EF38373" name="TPRC_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>0459A308-2C90-77D6-66BE-60241BBA6081</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9EC1474-CCA9-862B-2B17-58BF6AF1B581"/>
+<colUsage columnID="59041C56-20FF-2AAE-05F9-9DB39625B964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F95A3AD-1F1B-609A-9857-4E8829AB3BB2" name="TPRC_EXT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>4D27C73F-99E6-0462-FA1C-6FA42FCAFB14</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2620FB9A-2A7A-3493-9CCA-D884EA550A07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E01B55D-660F-0ED6-2CC5-E88A4D5B56E0" name="TPRC_TPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>C83C3E5B-0AA5-463F-FA54-870025ED90FA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59041C56-20FF-2AAE-05F9-9DB39625B964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB45657B-2F86-5DD1-73E9-CABC51F1565A" name="TPRC_TPRC_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>C34D3ABC-49A5-4830-10DA-0EC5A6AD9F14</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EDA7CA8-A287-1A8C-7B0D-6071AAE4276B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

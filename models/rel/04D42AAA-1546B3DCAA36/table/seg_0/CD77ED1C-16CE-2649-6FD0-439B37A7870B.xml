@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD77ED1C-16CE-2649-6FD0-439B37A7870B" name="TW_BLOCKS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Результат расчета]]></comment>
+<generatorID>739A494D-F961-0DE9-CFCA-F6A977452540</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TWB</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CALC_WORKLOAD" id="84D1A029-BBD0-F2D8-1E81-4E2B201742B9">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[объем работы в часах астрономические]]></comment>
+<commentInRDBMS><![CDATA[объем работы в часах астрономические]]></commentInRDBMS>
+<generatorID>D7D6395F-E515-D610-F140-50E80075D53D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,6,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TWB_ID" id="88C207EF-B6DD-0024-1328-37699445656B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TWB_DGR_ID" id="98D6F0F2-FF6C-9864-58B3-13D260DC3DA6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48122D98-2E94-12BE-2A14-E30FB485ACA4" referredColumn="EB7620C4-BEC7-A085-194C-D27B1A008B09"/>
+</associations>
+</Column>
+<Column name="TWB_WRKT_FOR_ID" id="2CA30891-4758-E36B-F4A5-B53FAC3B1714">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F12701E9-2D97-716B-44F0-9C485FC9844B" referredColumn="C7A0B53C-DAC3-3EF9-E569-22DE782FA589"/>
+</associations>
+</Column>
+<Column name="TWB_WRKT_INIT_BY_ID" id="06E79706-15B7-DC44-FBF6-06BE6A00A507">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556560E6-C545-4E9C-83A2-A05333698F77" referredColumn="C7A0B53C-DAC3-3EF9-E569-22DE782FA589"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFC39A00-1131-6F66-1715-8CF29348DC8C" name="TWB_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="88C207EF-B6DD-0024-1328-37699445656B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="363DB132-922B-E836-59D1-B5AE7DED1F8F" name="TWB__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>A6B754E2-0900-643F-F87D-5F8265DD148C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E79706-15B7-DC44-FBF6-06BE6A00A507"/>
+<colUsage columnID="98D6F0F2-FF6C-9864-58B3-13D260DC3DA6"/>
+<colUsage columnID="2CA30891-4758-E36B-F4A5-B53FAC3B1714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AFA227D-5315-51CA-E879-F38D26D54DFB" name="TWB_DGR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>06F718B4-7975-DD8B-9DD8-B210271FE6CD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D6F0F2-FF6C-9864-58B3-13D260DC3DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F73A88E-A8B9-A28F-F5E5-D9D3B0396CEB" name="TWB_WRKT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>5BC126DD-740A-5681-7A65-90078905628E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CA30891-4758-E36B-F4A5-B53FAC3B1714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E191560-EC47-CFC7-FA4A-3443CA923A79" name="TWB_WRKT_FKv2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>D23276E4-23A8-ECE9-38C2-2A5976D873E8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E79706-15B7-DC44-FBF6-06BE6A00A507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

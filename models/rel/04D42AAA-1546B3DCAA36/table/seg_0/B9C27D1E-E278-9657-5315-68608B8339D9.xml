@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9C27D1E-E278-9657-5315-68608B8339D9" name="TYPES_OF_COMPETENCE">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Справочник типов компетенций по требованиям регулятора, например: УК - универсальные компетенции, ОК - общекультурные компетенции, ОПК - общепрофессиональные компетенции, ПК - профессиональные компетенции, ПСК - профессионально специализированные компетенции]]></comment>
+<generatorID>B177B5EC-0ADF-DE19-1C82-44B2660A2E20</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TCMP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="DC2680E4-3E5C-0D4D-A96F-B5769EC6E3C6">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[тип компетенции ]]></comment>
+<commentInRDBMS><![CDATA[тип компетенции ]]></commentInRDBMS>
+<generatorID>6B98E960-1373-E131-C91C-A35A11C49284</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORT" id="0FC714B6-59DB-D697-01E9-48119DA3A498">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[сокращенное обозначение]]></comment>
+<commentInRDBMS><![CDATA[сокращенное обозначение]]></commentInRDBMS>
+<generatorID>4035676A-4374-42BE-205F-CF5934427DE4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SRT" id="C7A75736-BEA4-0ECC-4AE4-53F6A232F2D5">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[порядок сортировки]]></commentInRDBMS>
+<generatorID>683EC005-6B91-C654-BD07-5278BFB3AB90</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCMP_ID" id="35711E9D-BF6E-99FB-63F0-DDC8816B12AB">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1859127-4149-1E0B-6406-FF5F119C7074" name="TCMP_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="35711E9D-BF6E-99FB-63F0-DDC8816B12AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="328DFE71-5B52-E62A-F9E0-0934F563AC4A" name="TCMP_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>6E093D68-A3B8-04E5-F42A-6A76CE667F94</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2680E4-3E5C-0D4D-A96F-B5769EC6E3C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5CB306F-278A-BFFA-AD7B-14927B369813" name="TCMP_SHORT_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>CFE333C6-13F1-B5C1-3F98-B691C6F46890</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FC714B6-59DB-D697-01E9-48119DA3A498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

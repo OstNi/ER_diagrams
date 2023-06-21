@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="089E1D2E-DED0-8AC3-5089-0CD28E17125A" name="TEACH_YEARS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[учебные года (справочник). Учебный год начинается 1 сентября и заканчивается 31 августа]]></comment>
+<generatorID>3CDAD2E6-601E-13F6-729D-7418AF7CAC80</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="BBA02686-3B07-40D0-E34B-3C0BFD5476AD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[наименование учебного года, например 2000/2001]]></comment>
+<commentInRDBMS><![CDATA[наименование учебного года, например 2000/2001]]></commentInRDBMS>
+<generatorID>D8293EAA-2CD6-29D3-4052-2F3D4038294C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="ED9CD44C-6E60-C7EF-7617-349D283141FB">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[дата начала обучения в учебном году]]></comment>
+<commentInRDBMS><![CDATA[дата начала обучения в учебном году]]></commentInRDBMS>
+<generatorID>5B7DCE18-2684-9F01-7EC4-403A31A8480B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOP_DATE" id="A46C6A0B-A2AE-9586-37C6-072767AF87D3">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[дата окончания в учебном году]]></comment>
+<commentInRDBMS><![CDATA[дата окончания в учебном году]]></commentInRDBMS>
+<generatorID>500F8148-DC52-F630-EAB6-9657B25E564C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TY_ID" id="954DE048-974A-B5F8-7FCB-54901128D0AF">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE481FBA-5FAF-5BEE-8B53-76D7968E4495" name="TY_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="954DE048-974A-B5F8-7FCB-54901128D0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0395F88D-4809-C99E-F063-03117F6BA095" name="TY_NAME_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>DA6143F4-691F-4C68-A0FA-8627EADC1C64</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA02686-3B07-40D0-E34B-3C0BFD5476AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7693DF9-2309-D59C-915E-8ACE796D8754" name="TY_START_DATE_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>63FD12CC-7821-83C0-0615-CE00E506D4B3</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9CD44C-6E60-C7EF-7617-349D283141FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

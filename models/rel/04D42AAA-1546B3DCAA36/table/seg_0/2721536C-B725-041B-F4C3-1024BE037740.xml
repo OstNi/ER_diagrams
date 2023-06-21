@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2721536C-B725-041B-F4C3-1024BE037740" name="DGR_STUDENTS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Студент проголосовал за изучение электива плана / факультатива, и есть положительное решение УМУ о формировании группы. Либо студент формирует индивидуальную траекторию на следующий учебный год и есть положительное решение руководителя образовательной программы. В обоих случаях студент должен быть назначен в группу изучения дисциплины.  Предполагается возможность формирования групп состоящих из студентов разных курсов. Например, возможно формирование группы студентов старших курсов специалитета и студентов магистратуры.]]></comment>
+<generatorID>2524469C-BB50-29C4-7E4E-406146B26A41</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="START_CRS" id="54030429-614C-509A-29A0-D2D8B85A0274">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Курс, с которого студент начал узучать дисциплину]]></comment>
+<commentInRDBMS><![CDATA[Курс, с которого студент начал узучать дисциплину]]></commentInRDBMS>
+<generatorID>1D3AABFB-B6D5-C11A-CD35-A1B6DAFB0C4B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,0,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DGR_STUDENTS_ID" id="9E767180-4DDB-E2E6-A933-277AEB856AE7">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DGR_STUDENTS_PR_ID" id="C1F88AC1-0B07-8132-3BD4-409A1078592B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AED16F9-C556-BF5C-4AC8-1B4A6C8D5D82" referredColumn="52C0C257-0201-0FED-5BA6-BFC71AC4797D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EF8F3AF-BB4D-D441-D434-1494A1207191" name="DGR_STUDENTS_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9E767180-4DDB-E2E6-A933-277AEB856AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BEA570B-431D-5C60-3331-054F1FF19924" name="DGR_STUDENTS_PR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>43C18FC1-8867-F2F1-A877-B8BA1256B86B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1F88AC1-0B07-8132-3BD4-409A1078592B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

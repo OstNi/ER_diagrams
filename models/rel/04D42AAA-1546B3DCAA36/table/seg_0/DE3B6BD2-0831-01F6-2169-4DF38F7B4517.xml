@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE3B6BD2-0831-01F6-2169-4DF38F7B4517" name="COURSES_OF_EDP">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[курс, для которого может быть использован элемент]]></comment>
+<generatorID>BCF1EB8C-5066-DA5C-F2F4-5AA701A2E6D6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>COE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COURSE" id="3C388A2A-96A9-F689-6CF1-6A5587B212B2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Номер]]></comment>
+<commentInRDBMS><![CDATA[Номер]]></commentInRDBMS>
+<generatorID>F452290A-3D4C-A0E9-599C-6EBEAB92DAC6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,0,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COE_ID" id="9D8EDA7B-61B7-098A-BCE0-EA3749B5EB8E">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="COE_EDPR_ID" id="ACBACDB6-5137-227F-769D-5C5590417623">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="360705F4-FC90-99A2-E225-7E0BEB456B4A" referredColumn="23B900D9-4299-C951-EF34-400019F48CDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34855240-E934-7658-80C6-E1B9568BFD63" name="COE_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9D8EDA7B-61B7-098A-BCE0-EA3749B5EB8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4714E5E-9752-84AA-BB77-288241F56E4B" name="COE_COURSE_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>F6B72AEE-E3C3-A4B7-1BD4-3492565DA26D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C388A2A-96A9-F689-6CF1-6A5587B212B2"/>
+<colUsage columnID="ACBACDB6-5137-227F-769D-5C5590417623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABE76955-D441-F0C5-2030-300760E102A2" name="COE_EDPR_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>9BB96F73-237A-D9CC-0D62-D3B6010EB9CE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACBACDB6-5137-227F-769D-5C5590417623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

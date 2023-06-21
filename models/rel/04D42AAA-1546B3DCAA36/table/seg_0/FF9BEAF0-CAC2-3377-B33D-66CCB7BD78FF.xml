@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF9BEAF0-CAC2-3377-B33D-66CCB7BD78FF" name="TC_TIMES">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[трудоемкость по видам работ]]></comment>
+<generatorID>54233734-C95D-C52B-257F-6484CA4241D8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TCT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WORKLOAD" id="ADDD88E3-BD9E-1778-073F-55B2CB1D6711">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[трудоемкость (объем работы в часах)]]></comment>
+<commentInRDBMS><![CDATA[трудоемкость (объем работы в часах)]]></commentInRDBMS>
+<generatorID>1D6D4F68-89FE-00C7-4552-8D4E7B5A3910</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTL_COUNT" id="B566FE7C-7E2C-409F-22C0-AC3819568349">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[количество точек контроля]]></comment>
+<commentInRDBMS><![CDATA[количество точек контроля]]></commentInRDBMS>
+<generatorID>17576661-EA24-1052-B71D-7F719B9995B1</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,0,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTC_ID" id="85FC7384-7C29-0F57-6722-466675538607">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[id записи в "TIME_OF_TPD_CHAPTER" oracle db]]></comment>
+<commentInRDBMS><![CDATA[id записи в "TIME_OF_TPD_CHAPTER" oracle db]]></commentInRDBMS>
+<generatorID>97F220AA-B45E-65E8-74AA-D085339B9ECF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCT_ID" id="1C39FF89-A687-ACCF-0101-D3CC2BB2E865">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TCT_TPDL_ID" id="7BCBD135-E632-E9A2-E695-22829DB10B26">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7C6B0BB-034E-71A8-DAB1-37E5BF9607FC" referredColumn="14602A30-8AD2-61E7-C927-8C81E72172EF"/>
+</associations>
+</Column>
+<Column name="TCT_TPRC_ID" id="1AE499C3-6240-415E-F5F2-1F2459E5E45D">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AAB153B-52A4-1B79-F225-722FE32842F1" referredColumn="4993BF5C-3B00-DD6A-D20E-9E3D13DD7B3D"/>
+</associations>
+</Column>
+<Column name="TCT_WRKT_ID" id="2FABF314-8247-D703-B978-605FD275C3AC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF6258E3-1B6F-04D3-3BEC-275EBF1677FA" referredColumn="C7A0B53C-DAC3-3EF9-E569-22DE782FA589"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BDCF97C-0085-8F4D-886F-CD06BE8766D2" name="TCT_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1C39FF89-A687-ACCF-0101-D3CC2BB2E865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5886AE5-6B57-4409-8C0B-17E9E6D3C625" name="TCT__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>51288C7F-0F09-86B6-4FA3-A9134CBFD9B4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BCBD135-E632-E9A2-E695-22829DB10B26"/>
+<colUsage columnID="1AE499C3-6240-415E-F5F2-1F2459E5E45D"/>
+<colUsage columnID="2FABF314-8247-D703-B978-605FD275C3AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE962C67-A642-A029-4D53-6FC5FD015053" name="TCT_TOTC_ID_UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>AC01A0CA-5794-3B75-6301-C37C614244C2</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85FC7384-7C29-0F57-6722-466675538607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="773671CB-6AAF-F4E6-59A7-DAD4E0A60A41" name="TCT_TPDL_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>CD635B0E-9522-6D81-39C7-D2EEFE0E70C2</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BCBD135-E632-E9A2-E695-22829DB10B26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC044ECC-DD27-771C-3004-73D0E043EFCF" name="TCT_TPRC_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>DE6847BD-D739-0223-F03F-2AD9D821B445</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE499C3-6240-415E-F5F2-1F2459E5E45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F75DB77A-537A-6B63-88D9-49AB794BAAEC" name="TCT_WRKT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>1E74D3DD-4383-649D-B4F6-AA9C76CEA12A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FABF314-8247-D703-B978-605FD275C3AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

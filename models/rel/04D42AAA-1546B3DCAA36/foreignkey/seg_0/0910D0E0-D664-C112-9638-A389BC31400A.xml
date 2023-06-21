@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0910D0E0-D664-C112-9638-A389BC31400A" containerWithKeyObject="2427F95B-B76E-F93E-569C-0A6F2167DA77" localFKIndex="C64494BF-A689-4CB1-0113-F350495BD39F" name="TER_COE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>E9DB3190-4244-D525-475C-09A8CB8AD941</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>COURSES_OF_EDP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE3B6BD2-0831-01F6-2169-4DF38F7B4517</referredTableID>
+<keyObject>34855240-E934-7658-80C6-E1B9568BFD63</keyObject>
+<referredKeyID>34855240-E934-7658-80C6-E1B9568BFD63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

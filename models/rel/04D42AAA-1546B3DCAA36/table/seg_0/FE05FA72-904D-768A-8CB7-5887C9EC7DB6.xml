@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE05FA72-904D-768A-8CB7-5887C9EC7DB6" name="DGR_PERIODS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Период, в который  изучается данная дисциплина]]></comment>
+<generatorID>46C53FF0-997A-E52C-0515-AA3722A401AC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>DGR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DGR_ID" id="EB7620C4-BEC7-A085-194C-D27B1A008B09">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="DGR_DIV_ID" id="0806551F-49F2-7724-9B20-A95B061D7D81">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5200BB7-CF1D-D54E-5F60-A7B9F6151E3E" referredColumn="EBC37799-17D3-552B-5EEA-2C22D170093A"/>
+</associations>
+</Column>
+<Column name="DGR_STU_ID" id="3F261844-D6A9-281E-3E3E-EE27621B94F5">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD7B3604-2465-7361-6B7A-B568570174CE" referredColumn="3E1B0432-9A1E-42E3-2D31-189D4DD8D58B"/>
+</associations>
+</Column>
+<Column name="DGR_TPRC_ID" id="CB6E63E1-F307-18A7-45D6-9D427A7DE748">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22B6C670-B32F-FE6E-36A4-DE926716AD59" referredColumn="4993BF5C-3B00-DD6A-D20E-9E3D13DD7B3D"/>
+</associations>
+</Column>
+<Column name="DGR_TYP_ID" id="A39E8F4C-E823-DA11-4891-E2650236574C">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC1DDB2-3AD3-FC5A-8C4B-F78C111B40AA" referredColumn="562AB2AF-EE7B-BC4F-4603-635B4C375C64"/>
+</associations>
+</Column>
+<Column name="DGR_VER_ID" id="8287C667-8030-3064-559C-E77CB8BB23DC">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26064F1E-1C15-850B-99AE-9436DC1D2524" referredColumn="8A4052BF-E4EB-E0C5-3271-A87C69D09488"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3FE5153-2D2B-D2CB-8EE0-0C152DA2C8A9" name="DGR_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB7620C4-BEC7-A085-194C-D27B1A008B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C5D7304-E916-875B-A840-EB0A5D64DD08" name="DGR__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>351CF23B-D002-A56E-E63F-C1F0ADC23CB3</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8287C667-8030-3064-559C-E77CB8BB23DC"/>
+<colUsage columnID="A39E8F4C-E823-DA11-4891-E2650236574C"/>
+<colUsage columnID="0806551F-49F2-7724-9B20-A95B061D7D81"/>
+<colUsage columnID="CB6E63E1-F307-18A7-45D6-9D427A7DE748"/>
+<colUsage columnID="3F261844-D6A9-281E-3E3E-EE27621B94F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45C2F0B-8DF6-0BCE-C38C-C31D85F3C1B1" name="DGR_DIV_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>08C0A3C3-CF7E-4A32-358B-92061443058E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0806551F-49F2-7724-9B20-A95B061D7D81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D88CDE18-FBBF-F387-59CE-89FA0FD0D342" name="DGR_STU_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>08C6A8CD-4B59-A456-E486-BDCECBF9EBAA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F261844-D6A9-281E-3E3E-EE27621B94F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81169F3A-CE63-901F-8C9A-05C5189EC0E1" name="DGR_TPRC_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>C123466C-348A-A80E-D789-5D64AD6B52E8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6E63E1-F307-18A7-45D6-9D427A7DE748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9908D2E8-EDC8-F4B3-3D0D-89AC06FA2DB0" name="DGR_TYP_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>E8E196C2-ABBB-0977-6D6E-4471081ED032</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A39E8F4C-E823-DA11-4891-E2650236574C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F07D8D12-A9A5-ED83-E1FE-ABDC899AC4C9" name="DGR_VER_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>B5C76796-16B0-AB7C-43E9-965AC0590881</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8287C667-8030-3064-559C-E77CB8BB23DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

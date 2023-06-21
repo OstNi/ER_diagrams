@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF0FA95F-D59B-FC1E-9870-E2881D26C65D" name="GROUP_WORKS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Сущность, которая отображает, какой тип работ применяется к данной группе]]></comment>
+<generatorID>F5797AEF-B6DE-2B6D-005F-DA8FDB409CFA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>GRWK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRWK_ID" id="13E695BB-B8B3-9E3C-001C-361745BF8F1B">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="GRWK_STU_ID" id="D0AA6E51-2B17-E815-84B2-1495972AEE2F">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75AF473D-E69A-922C-37F3-7085FF476613" referredColumn="3E1B0432-9A1E-42E3-2D31-189D4DD8D58B"/>
+</associations>
+</Column>
+<Column name="GRWK_WRKT_ID" id="3948A6B1-1CD0-97E9-86CB-04D1244CB350">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB6FAAC-5F7A-C4CC-7F2C-ADBAE1ECD4FD" referredColumn="C7A0B53C-DAC3-3EF9-E569-22DE782FA589"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E2A921-3BF3-057F-07D6-94C0F8A536C6" name="GRWK_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="13E695BB-B8B3-9E3C-001C-361745BF8F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EACD704D-1E54-D5D2-6983-079FED4EDEC2" name="GRWK__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>1D3A29A2-2053-0241-5562-D8AF5F233A45</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AA6E51-2B17-E815-84B2-1495972AEE2F"/>
+<colUsage columnID="3948A6B1-1CD0-97E9-86CB-04D1244CB350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66104D56-8727-E53E-AE0B-83DF1EB95083" name="GRWK_STU_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>86726C0E-5C44-5840-D6CF-CF86DBD8334A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0AA6E51-2B17-E815-84B2-1495972AEE2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D48E28-B83E-455E-B7FE-004B7B7E46A5" name="GRWK_WRKT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>B7D0D36E-CEE0-0DB8-C3E8-EDF58AD97FAD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3948A6B1-1CD0-97E9-86CB-04D1244CB350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

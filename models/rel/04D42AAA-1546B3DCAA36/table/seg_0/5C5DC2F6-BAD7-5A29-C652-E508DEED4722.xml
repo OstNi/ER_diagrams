@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C5DC2F6-BAD7-5A29-C652-E508DEED4722" name="ELEMENT_TERMS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[семестр элемента ооп]]></comment>
+<generatorID>5F6DEBF9-A310-AB70-F350-2264043EE94B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>ETER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ETER_ID" id="8B101B6D-F93B-7859-998B-FB2BE835B9CD">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ETER_EPE_ID" id="0AA10CB1-B4B1-2A5A-E53C-BCEC5319D9DA">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70715E11-3F0A-9CEA-956A-33207940907C" referredColumn="4C01E39F-9FC2-C5D2-BCD3-B5732CE779CF"/>
+</associations>
+</Column>
+<Column name="ETER_TER_ID" id="DDF87B47-5AB3-02CD-02DE-1197938F61B3">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3230D3A0-70E6-8D87-CCC0-1DF7D3AAA08D" referredColumn="31FD6C21-7A38-AA9B-47C8-0CE74F6692FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4755100-B69B-D5D6-FC88-22DA35E9C353" name="ETER_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8B101B6D-F93B-7859-998B-FB2BE835B9CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D160F39-C126-E9EB-D12F-41158B6A3AE7" name="ETER__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>6933405F-AEAE-CD8C-9AAD-77DAF79FBA98</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AA10CB1-B4B1-2A5A-E53C-BCEC5319D9DA"/>
+<colUsage columnID="DDF87B47-5AB3-02CD-02DE-1197938F61B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAE9CA77-C0CE-5B68-40D2-FF1C8E2445B9" name="ETER_EPE_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>1B3A3A1C-5279-B696-21F9-A8F88908D14B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AA10CB1-B4B1-2A5A-E53C-BCEC5319D9DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83CA6D5E-5C57-91E7-A7F7-F251378FD8D0" name="ETER_TER_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>1A3E58E9-DB43-287D-9C74-5470CAFD5BA8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDF87B47-5AB3-02CD-02DE-1197938F61B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

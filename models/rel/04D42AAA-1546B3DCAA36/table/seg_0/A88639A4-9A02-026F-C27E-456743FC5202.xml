@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A88639A4-9A02-026F-C27E-456743FC5202" name="TW_FOR_YEARS">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<comment><![CDATA[Виды работ, по которым нужно расчитать норму в определенном году]]></comment>
+<generatorID>A28B2B7F-8CBA-2BEB-ADDE-19CABDD955FC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<abbreviation>TWFY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TWFY_ID" id="017A7963-8C2D-1DB3-BBDF-0E8E58F73E00">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="TWFY_TY_ID" id="0ACD0B75-0325-DAF6-0E74-42C54F630098">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD8DCE9-9926-1565-6B9C-A04E088D3AE4" referredColumn="954DE048-974A-B5F8-7FCB-54901128D0AF"/>
+</associations>
+</Column>
+<Column name="TWFY_WRKT_ID" id="B6428BC0-AF7D-4507-8853-FBACE8EB6DF2">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="849DE87F-5762-D160-AB99-E432A48623AC" referredColumn="C7A0B53C-DAC3-3EF9-E569-22DE782FA589"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DF09440-B74D-08DB-28A4-C0616AECB56D" name="TWFY_PK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="017A7963-8C2D-1DB3-BBDF-0E8E58F73E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E689A32E-5529-8527-17E1-1C961929816C" name="TWFY__UN">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:48 UTC</createdTime>
+<generatorID>B3C95F38-062A-2302-6E4A-92A21DCB96C3</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ACD0B75-0325-DAF6-0E74-42C54F630098"/>
+<colUsage columnID="B6428BC0-AF7D-4507-8853-FBACE8EB6DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4566E00-5ABD-D152-2521-3C7DE363B4B6" name="TWFY_TY_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>64ADC70B-1190-4A62-00AD-6F62860C1DC8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ACD0B75-0325-DAF6-0E74-42C54F630098"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB12797C-CBB4-65C0-CCAC-3D8B33DDFE49" name="TWFY_WRKT_FK">
+<createdBy>noone</createdBy>
+<createdTime>2023-06-21 11:03:49 UTC</createdTime>
+<generatorID>7E9D230A-D3D9-40FB-9582-348BEF44DC99</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6428BC0-AF7D-4507-8853-FBACE8EB6DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
